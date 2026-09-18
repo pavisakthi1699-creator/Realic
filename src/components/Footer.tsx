@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
               Ready to discover your next residence?
             </h3>
             <p className="text-primary-fixed-dim text-sm mt-1">
-              Connect with senior property counsel in Patna or Bangalore for private tours and verified title documentation.
+              Connect with senior property counsel in Patna for private tours and verified title documentation.
             </p>
           </div>
           <div className="flex items-center gap-3">
@@ -63,23 +63,23 @@ export const Footer: React.FC = () => {
           <h4 className="text-xs font-bold uppercase tracking-wider text-white">Properties</h4>
           <ul className="space-y-2 text-sm text-primary-fixed-dim">
             <li>
-              <Link href="/properties?city=Patna" className="hover:text-white transition-colors">
-                Patna Luxury Residences
+              <Link href="/properties?q=Digha" className="hover:text-white transition-colors">
+                AIIMS-Digha Elevated Corridor
               </Link>
             </li>
             <li>
-              <Link href="/properties?city=Bangalore" className="hover:text-white transition-colors">
-                Bangalore Waterfront Villas
+              <Link href="/properties?q=Atal" className="hover:text-white transition-colors">
+                100-Ft Atal Path Expressway
               </Link>
             </li>
             <li>
-              <Link href="/properties?type=Penthouse" className="hover:text-white transition-colors">
-                Sky Penthouses
+              <Link href="/properties?q=Danapur" className="hover:text-white transition-colors">
+                Danapur & AIIMS Enclaves
               </Link>
             </li>
             <li>
-              <Link href="/properties?type=Villa" className="hover:text-white transition-colors">
-                Gated Contemporary Villas
+              <Link href="/properties?q=Marine" className="hover:text-white transition-colors">
+                JP Ganga Path / Marine Drive
               </Link>
             </li>
             <li>
@@ -143,9 +143,9 @@ export const Footer: React.FC = () => {
               <p className="text-secondary-container mt-0.5">+91 94310 98765</p>
             </div>
             <div className="pt-2">
-              <p className="font-semibold text-white">Bangalore Advisory Suite:</p>
-              <p>Tower 4, Prestige Lakeside Habitat, Varthur, Bangalore 560087</p>
-              <p className="text-secondary-container mt-0.5">+91 98450 12345</p>
+              <p className="font-semibold text-white">Branch Office:</p>
+              <p>Digha Link Road, Near Patliputra Junction, Patna 800012</p>
+              <p className="text-secondary-container mt-0.5">+91 94312 34567</p>
             </div>
           </div>
         </div>

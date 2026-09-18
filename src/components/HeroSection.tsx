@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const HeroSection: React.FC = () => {
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState<'Buy' | 'Rent' | 'Sell'>('Buy');
+  const [activeTab, setActiveTab] = useState<'Buy' | 'Sell'>('Buy');
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearchSubmit = (e: React.FormEvent) => {
@@ -19,7 +19,6 @@ export const HeroSection: React.FC = () => {
     if (searchQuery.trim()) {
       params.set('q', searchQuery.trim());
     }
-    params.set('tab', activeTab.toLowerCase());
     router.push(`/properties?${params.toString()}`);
   };
 
@@ -66,9 +65,9 @@ export const HeroSection: React.FC = () => {
 
             {/* Multi-Tab Luxury Search Card */}
             <div className="bg-white border border-slate-200/80 rounded-3xl shadow-2xl p-6 sm:p-8 w-full max-w-2xl mt-2 text-slate-900 card-hover-elevate">
-              {/* Tabs: Buy / Rent / Sell */}
+              {/* Tabs: Buy / Sell */}
               <div className="flex gap-8 border-b border-slate-200 mb-6 pb-3">
-                {(['Buy', 'Rent', 'Sell'] as const).map((tab) => (
+                {(['Buy', 'Sell'] as const).map((tab) => (
                   <button
                     key={tab}
                     type="button"
