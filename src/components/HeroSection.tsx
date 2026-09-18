@@ -132,8 +132,8 @@ export const HeroSection: React.FC = () => {
             <div className="relative rounded-3xl p-3 sm:p-3.5 bg-slate-900/60 backdrop-blur-xl border border-white/20 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.7)] group animate-float">
               <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] max-h-[480px] rounded-2xl overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85"
-                  alt="A striking architectural photograph of a luxury verified estate"
+                  src="/images/projects/winsome-icon-page-5.jpg"
+                  alt="Winsome Icon - 18-Storey Ultra-Luxury Landmark on AIIMS-Digha Elevated Corridor"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 
@@ -145,7 +145,7 @@ export const HeroSection: React.FC = () => {
                   <div className="bg-slate-950/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/25 shadow-md flex items-center gap-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
                     <span className="text-xs font-bold text-white uppercase tracking-wider font-jakarta">
-                      Verified Portfolio
+                      Flagship Landmark
                     </span>
                   </div>
                   <div className="bg-[#D4AF37] text-slate-950 px-2.5 py-1 rounded-full shadow-md text-xs font-extrabold flex items-center gap-1 font-jakarta">
@@ -159,21 +159,21 @@ export const HeroSection: React.FC = () => {
                   <div className="flex justify-between items-start gap-2">
                     <div>
                       <span className="text-[11px] font-bold text-[#D4AF37] uppercase tracking-wider block mb-0.5 font-jakarta">
-                        Bangalore • Lakefront Enclave
+                        Patna • AIIMS-Digha Elevated Corridor
                       </span>
                       <h3 className="text-base font-bold font-outfit text-white line-clamp-1">
-                        Prestige Lakeside Habitat
+                        Winsome Icon
                       </h3>
                       <p className="text-xs text-slate-300 mt-0.5 font-jakarta">
-                        3 & 4 BHK • 2,145 sq.ft • RERA Approved
+                        3 & 4 BHK • 18-Storey Landmark • RERA Approved
                       </p>
                     </div>
                     <div className="text-right flex-shrink-0">
                       <span className="text-base sm:text-lg font-extrabold text-[#F3E5AB] font-outfit block">
-                        ₹1.85 Cr
+                        ₹1.45 Cr
                       </span>
                       <Link
-                        href="/properties/prestige-lakeside-habitat"
+                        href="/properties/winsome-icon"
                         className="mt-1 text-xs font-bold text-slate-950 bg-gradient-to-r from-[#D4AF37] to-[#B89628] hover:brightness-110 px-3 py-1.5 rounded-lg inline-flex items-center gap-1 transition-all shadow-sm active:scale-95 font-jakarta"
                       >
                         View Details →
