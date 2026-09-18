@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-pure: #ffffff;
+  --color-surface: #f8f9fa;
+  --color-surface-container-low: #f3f4f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e7e8e9;
+  --color-surface-container-highest: #e1e3e4;
+  --color-primary: #000d22;
+  --color-primary-container: #002349;
+  --color-primary-fixed: #d5e3ff;
+  --color-primary-fixed-dim: #adc8f6;
+  --color-on-primary: #ffffff;
+  --color-secondary: #0c5db6;
+  --color-secondary-fixed: #d6e3ff;
+  --color-secondary-fixed-dim: #aac7ff;
+  --color-secondary-container: #66a1fe;
+  --color-on-secondary-fixed-variant: #00458d;
+  --color-on-secondary-container: #003671;
+  --color-tertiary-container: #461000;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary: #200400;
+  --color-accent-orange: #ea5c27;
+  --color-on-surface: #191c1d;
+  --color-on-surface-variant: #43474e;
+  --color-text-high-emphasis: #001226;
+  --color-text-medium-emphasis: #4a5568;
+  --color-border-subtle: #e2e8f0;
+  --color-outline: #74777f;
+  --color-outline-variant: #c4c6cf;
+  --color-inverse-surface: #2e3132;
+  --color-error: #ba1a1a;
+
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  --font-display-hero-mobile: 'Montserrat', sans-serif;
+  --font-display-hero: 'Montserrat', sans-serif;
+  --font-headline-lg: 'Montserrat', sans-serif;
+  --font-headline-md: 'Montserrat', sans-serif;
+  --font-headline-sm: 'Montserrat', sans-serif;
+  --font-body-lg: 'Inter', sans-serif;
+  --font-body-md: 'Inter', sans-serif;
+  --font-label-bold: 'Inter', sans-serif;
+  --font-label-sm: 'Inter', sans-serif;
+
+  --spacing-container-max-width: 1280px;
+  --spacing-margin-mobile: 16px;
+  --spacing-margin-desktop: 40px;
+  --spacing-section-gap-sm: 48px;
+  --spacing-section-gap-lg: 80px;
+  --spacing-gutter: 24px;
+}
+
+/* Custom Utilities matching the HTML tokens */
+.shadow-ambient {
+  box-shadow: 0 10px 25px -5px rgba(0, 35, 73, 0.08);
+}
+
+.shadow-ambient-lg {
+  box-shadow: 0 20px 35px -8px rgba(0, 35, 73, 0.12);
+}
+
+.text-display-hero {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-display-hero-mobile {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-headline-lg {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-headline-md {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-headline-sm {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-body-md {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-label-bold {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.text-label-sm {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Material Symbols configuration */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #191c1d;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}

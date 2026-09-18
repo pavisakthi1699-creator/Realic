@@ -1,0 +1,957 @@
+{
+  "properties": [
+    {
+      "id": "prestige-lakeside-habitat",
+      "slug": "prestige-lakeside-habitat",
+      "title": "3 BHK Luxury Apartment in Prestige Lakeside Habitats",
+      "subtitle": "Overlooking Varthur Lake with Panoramic Skyline Views",
+      "tagline": "Curated by Realic Institutional Advisory",
+      "price": 18500000,
+      "priceDisplay": "₹1.85 Cr",
+      "priceUsd": "$225,000",
+      "location": "Whitefield, Bangalore",
+      "city": "Bangalore",
+      "locality": "Whitefield",
+      "address": "Tower 4, Prestige Lakeside Habitat, Varthur Main Rd, Bangalore, Karnataka 560087",
+      "coordinates": {
+        "lat": 12.956,
+        "lng": 77.741
+      },
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "balconies": 2,
+      "sqft": 2145,
+      "carpetAreaSqft": 1680,
+      "propertyType": "Luxury Apartment",
+      "status": "Ready to Move",
+      "possessionDate": "Immediate",
+      "facing": "North-East",
+      "reraId": "PRM/KA/RERA/1251/446/PR/170915/000176",
+      "furnishing": "Semi-Furnished",
+      "parking": "2 Covered Reserved Bays",
+      "floor": "18th of 28 Floors",
+      "maintenancePerMonth": "₹7,200/mo",
+      "description": "Experience unmatched modern serenity in this impeccably planned 3 BHK luxury residence situated in prestigious Lakeside Habitat. Featuring floor-to-ceiling soundproof acoustic glass windows framing pristine lake horizons, premium Italian marble flooring across living salons, and custom German modular kitchen fittings with integrated premium appliances. Uncompromised privacy with only 2 residences per elevator lobby.",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Varthur Lake Frontage",
+        "Italian Statuario Marble",
+        "Smart Home Automation",
+        "EV Charging Point in Basement",
+        "Acoustic Double-Glazed Windows",
+        "100% DG Power Backup"
+      ],
+      "amenities": [
+        {
+          "name": "Concierge Security",
+          "icon": "verified_user"
+        },
+        {
+          "name": "Fitness Gym",
+          "icon": "fitness_center"
+        },
+        {
+          "name": "Clubhouse",
+          "icon": "deck"
+        },
+        {
+          "name": "Power Backup",
+          "icon": "bolt"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Super Area",
+          "value": "2145 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Carpet Area",
+          "value": "1680 sq.ft",
+          "icon": "square_foot"
+        },
+        {
+          "label": "Bedrooms",
+          "value": "3 BHK",
+          "icon": "bed"
+        },
+        {
+          "label": "Floor Level",
+          "value": "18th of 28 Floors",
+          "icon": "apartment"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "Airport Transit",
+          "distance": "8.5 km (20 mins)",
+          "type": "Airport"
+        },
+        {
+          "title": "Metro Station",
+          "distance": "1.2 km (4 mins)",
+          "type": "Metro"
+        },
+        {
+          "title": "Specialty Hospital",
+          "distance": "2.5 km (6 mins)",
+          "type": "Hospital"
+        }
+      ],
+      "agent": {
+        "name": "Rahul Sharma",
+        "role": "Senior Property Advisor - Whitefield Cluster",
+        "phone": "+91 98450 12345",
+        "email": "rahul.sharma@realicconsultant.com",
+        "rating": 4.95,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "bailey-road-luxury-penthouse",
+      "slug": "bailey-road-luxury-penthouse",
+      "title": "3 BHK Luxury Sky Penthouse on Bailey Road",
+      "subtitle": "Exclusive High-Floor Haven in Patna Prime Corridor",
+      "tagline": "The pinnacle of private luxury in Bihar most coveted residential boulevard",
+      "price": 25000000,
+      "priceDisplay": "₹2.50 Cr",
+      "priceUsd": "$305,000",
+      "location": "Bailey Road, Patna, Bihar",
+      "city": "Patna",
+      "locality": "Bailey Road",
+      "address": "Bailey Heights, Near Saguna More, Bailey Road, Patna, Bihar 801503",
+      "coordinates": {
+        "lat": 25.6127,
+        "lng": 85.0743
+      },
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "balconies": 3,
+      "sqft": 2800,
+      "carpetAreaSqft": 2250,
+      "propertyType": "Penthouse",
+      "status": "Ready to Move",
+      "possessionDate": "Ready for Fit-out",
+      "facing": "North-East",
+      "reraId": "BR-RERA-2024-9182",
+      "furnishing": "Fully Furnished",
+      "parking": "2 Covered Bays",
+      "floor": "14th Floor (Top Penthouse)",
+      "maintenancePerMonth": "₹5,500/mo",
+      "description": "Commanding the top tier of Bailey Road premier tower, this 3 BHK penthouse provides rare double-height ceilings, private 400 sq ft wrap-around sky terrace with unobstructed sunset vistas, automated climate controls, and legal verification through Realic three-tier compliance audit.",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Private 400 sq ft Sky Deck",
+        "Double Height Living Lounge",
+        "Smart Fingerprint Locks",
+        "Clean 100% Clear Legal Title",
+        "High-Speed OTIS Elevators"
+      ],
+      "amenities": [
+        {
+          "name": "Sky Club Lounge",
+          "icon": "deck"
+        },
+        {
+          "name": "Gym & Yoga Studio",
+          "icon": "fitness_center"
+        },
+        {
+          "name": "Covered Car Parking",
+          "icon": "local_parking"
+        },
+        {
+          "name": "24/7 Armed Guard Security",
+          "icon": "security"
+        },
+        {
+          "name": "Rainwater Harvesting",
+          "icon": "water_drop"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Super Area",
+          "value": "2,800 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Carpet Area",
+          "value": "2,250 sq.ft",
+          "icon": "square_foot"
+        },
+        {
+          "label": "Configuration",
+          "value": "3 BHK + Sky Terrace",
+          "icon": "bed"
+        },
+        {
+          "label": "Floor Level",
+          "value": "Penthouse Level",
+          "icon": "apartment"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "Saguna More Junction",
+          "distance": "600 m (3 mins)",
+          "type": "Metro"
+        },
+        {
+          "title": "Patna Airport (JPNI)",
+          "distance": "8.2 km (18 mins)",
+          "type": "Airport"
+        },
+        {
+          "title": "Paras HMRI Hospital",
+          "distance": "4.5 km (10 mins)",
+          "type": "Hospital"
+        },
+        {
+          "title": "DPS Danapur",
+          "distance": "3.0 km (7 mins)",
+          "type": "School"
+        }
+      ],
+      "agent": {
+        "name": "Amit Vikram",
+        "role": "Director - Patna Luxury Advisory",
+        "phone": "+91 94310 98765",
+        "email": "amit.vikram@realicconsultant.com",
+        "rating": 4.98,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "danapur-ultra-luxury-villa",
+      "slug": "danapur-ultra-luxury-villa",
+      "title": "4 BHK Ultra Luxury Contemporary Villa in Danapur",
+      "subtitle": "Private Gated Compound with Heated Pool & Zen Garden",
+      "tagline": "Architectural masterpiece crafted for multi-generational elegance",
+      "price": 42000000,
+      "priceDisplay": "₹4.20 Cr",
+      "priceUsd": "$510,000",
+      "location": "Danapur Cantonment Road, Patna, Bihar",
+      "city": "Patna",
+      "locality": "Danapur",
+      "address": "Estate 7, The Imperial Enclave, Danapur Khagaul Rd, Patna 801105",
+      "coordinates": {
+        "lat": 25.6315,
+        "lng": 85.0411
+      },
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "balconies": 4,
+      "sqft": 4200,
+      "carpetAreaSqft": 3650,
+      "propertyType": "Villa",
+      "status": "Ready to Move",
+      "possessionDate": "Immediate",
+      "facing": "East",
+      "reraId": "BR-RERA-2024-4411",
+      "furnishing": "Semi-Furnished",
+      "parking": "3 Car Driveway & Garage",
+      "floor": "G + 2 Independent Floors",
+      "maintenancePerMonth": "₹8,000/mo",
+      "description": "A sprawling custom-designed modernist villa surrounded by private manicured grounds. Featuring an expansive central light atrium, imported teakwood finishings, private home theater room, rooftop solar array, and private swimming pool with outdoor cabana seating.",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Private Swimming Pool",
+        "G+2 Independent Structure",
+        "Solar Power Grid (10kW)",
+        "Home Theater Room",
+        "CCTV Perimeter Security"
+      ],
+      "amenities": [
+        {
+          "name": "Private Pool",
+          "icon": "pool"
+        },
+        {
+          "name": "Landscaped Lawn",
+          "icon": "park"
+        },
+        {
+          "name": "Home Theater",
+          "icon": "movie"
+        },
+        {
+          "name": "3-Car Garage",
+          "icon": "garage"
+        },
+        {
+          "name": "Servant Quarters",
+          "icon": "badge"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Built-up Area",
+          "value": "4,200 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Plot Size",
+          "value": "5,500 sq.ft",
+          "icon": "landscape"
+        },
+        {
+          "label": "Configuration",
+          "value": "4 BHK + Home Theater",
+          "icon": "bed"
+        },
+        {
+          "label": "Structure",
+          "value": "G + 2 Villa",
+          "icon": "villa"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "Danapur Railway Station",
+          "distance": "2.5 km (6 mins)",
+          "type": "Metro"
+        },
+        {
+          "title": "AIIMS Patna",
+          "distance": "5.8 km (12 mins)",
+          "type": "Hospital"
+        },
+        {
+          "title": "St. Michael High School",
+          "distance": "6.5 km (15 mins)",
+          "type": "School"
+        },
+        {
+          "title": "Patna Airport",
+          "distance": "9.5 km (20 mins)",
+          "type": "Airport"
+        }
+      ],
+      "agent": {
+        "name": "Amit Vikram",
+        "role": "Director - Patna Luxury Advisory",
+        "phone": "+91 94310 98765",
+        "email": "amit.vikram@realicconsultant.com",
+        "rating": 4.98,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "boring-road-executive-residence",
+      "slug": "boring-road-executive-residence",
+      "title": "3 BHK Modern High-Rise in Boring Road",
+      "subtitle": "Central Patna Elite Commercial & Educational Hub",
+      "tagline": "Unsurpassed urban connectivity with high rental yields",
+      "price": 18000000,
+      "priceDisplay": "₹1.80 Cr",
+      "priceUsd": "$220,000",
+      "location": "Boring Road, Patna, Bihar",
+      "city": "Patna",
+      "locality": "Boring Road",
+      "address": "Chanakya Royale, Boring Canal Rd, Patna 800001",
+      "coordinates": {
+        "lat": 25.6174,
+        "lng": 85.1215
+      },
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "balconies": 2,
+      "sqft": 2100,
+      "carpetAreaSqft": 1650,
+      "propertyType": "Luxury Apartment",
+      "status": "Ready to Move",
+      "possessionDate": "Ready",
+      "facing": "North",
+      "reraId": "BR-RERA-2024-1029",
+      "furnishing": "Semi-Furnished",
+      "parking": "1 Reserved Stilt Parking",
+      "floor": "8th of 12 Floors",
+      "maintenancePerMonth": "₹4,200/mo",
+      "description": "Situated in the vibrant cultural heart of Boring Road, this residence balances quiet interior comfort with immediate walking access to premier educational institutions, upscale dining, and major healthcare hubs.",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Prime Boring Road Address",
+        "High-Speed Internet Pre-cabling",
+        "24/7 Water & Power Backup",
+        "Intercom & Video Door Phone"
+      ],
+      "amenities": [
+        {
+          "name": "Fitness Gym",
+          "icon": "fitness_center"
+        },
+        {
+          "name": "Community Hall",
+          "icon": "groups"
+        },
+        {
+          "name": "CCTV Surveillance",
+          "icon": "videocam"
+        },
+        {
+          "name": "Power Backup",
+          "icon": "bolt"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Super Area",
+          "value": "2,100 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Carpet Area",
+          "value": "1,650 sq.ft",
+          "icon": "square_foot"
+        },
+        {
+          "label": "Configuration",
+          "value": "3 BHK + 3 Bath",
+          "icon": "bed"
+        },
+        {
+          "label": "Floor Level",
+          "value": "8th of 12 Floors",
+          "icon": "apartment"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "Boring Road Crossing",
+          "distance": "200 m (1 min)",
+          "type": "Shopping"
+        },
+        {
+          "title": "Patna Women College",
+          "distance": "1.2 km (4 mins)",
+          "type": "School"
+        },
+        {
+          "title": "Ruban Memorial Hospital",
+          "distance": "1.5 km (5 mins)",
+          "type": "Hospital"
+        },
+        {
+          "title": "Patna Junction Railway",
+          "distance": "3.8 km (12 mins)",
+          "type": "Metro"
+        }
+      ],
+      "agent": {
+        "name": "Ritu Raj",
+        "role": "Associate Consultant - Patna Central",
+        "phone": "+91 94312 34567",
+        "email": "ritu.raj@realicconsultant.com",
+        "rating": 4.89,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": false
+    },
+    {
+      "id": "bellandur-waterfront-villa",
+      "slug": "bellandur-waterfront-villa",
+      "title": "Modernist Waterfront Villa at Bellandur Lake",
+      "subtitle": "Private Infinity Edge Residence in Prime Tech Hub",
+      "tagline": "Where architectural purity meets quiet waterside luxury",
+      "price": 52000000,
+      "priceDisplay": "₹5.20 Cr",
+      "priceUsd": "$630,000",
+      "location": "Bellandur, Outer Ring Road, Bangalore",
+      "city": "Bangalore",
+      "locality": "Bellandur",
+      "address": "Villa 12, Lakeside Estates, Bellandur, Bangalore 560103",
+      "coordinates": {
+        "lat": 12.9298,
+        "lng": 77.6749
+      },
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "balconies": 3,
+      "sqft": 4800,
+      "carpetAreaSqft": 3950,
+      "propertyType": "Villa",
+      "status": "Ready to Move",
+      "possessionDate": "Ready",
+      "facing": "North-East",
+      "reraId": "PRM/KA/RERA/1251/310/PR/180222/001450",
+      "furnishing": "Fully Furnished",
+      "parking": "3 Covered Spaces",
+      "floor": "Triplex Villa",
+      "maintenancePerMonth": "₹11,000/mo",
+      "description": "Immerse in waterfront serenity minutes from Bangalore major ORR tech campuses. Features double cantilevered terraces, heated private infinity pool, temperature-controlled wine cellar, and integrated smart-home automation.",
+      "images": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Lakefront Infinity Pool",
+        "Smart Creston Home Automation",
+        "Solar Heated Water Grid",
+        "Zero Carbon Design Rating"
+      ],
+      "amenities": [
+        {
+          "name": "Private Pool",
+          "icon": "pool"
+        },
+        {
+          "name": "Clubhouse Access",
+          "icon": "deck"
+        },
+        {
+          "name": "24/7 Concierge",
+          "icon": "support_agent"
+        },
+        {
+          "name": "Tennis Court",
+          "icon": "sports_tennis"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Super Area",
+          "value": "4,800 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Plot Area",
+          "value": "6,200 sq.ft",
+          "icon": "landscape"
+        },
+        {
+          "label": "Configuration",
+          "value": "4 BHK + Maid Room",
+          "icon": "bed"
+        },
+        {
+          "label": "Structure",
+          "value": "Triplex Villa",
+          "icon": "villa"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "EcoWorld Tech Park",
+          "distance": "1.2 km (4 mins)",
+          "type": "Tech Park"
+        },
+        {
+          "title": "Manipal Hospital Varthur",
+          "distance": "3.1 km (8 mins)",
+          "type": "Hospital"
+        },
+        {
+          "title": "Outer Ring Road Metro",
+          "distance": "1.5 km (5 mins)",
+          "type": "Metro"
+        },
+        {
+          "title": "Greenwood High School",
+          "distance": "5.2 km (14 mins)",
+          "type": "School"
+        }
+      ],
+      "agent": {
+        "name": "Julian Mercer",
+        "role": "Executive Vice President - Luxury Portfolio",
+        "phone": "+91 98451 88990",
+        "email": "julian.mercer@realicconsultant.com",
+        "rating": 4.97,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "indiranagar-glass-pavilion",
+      "slug": "indiranagar-glass-pavilion",
+      "title": "The Glass Pavilion & Sky Villa in Indiranagar",
+      "subtitle": "Signature Monolithic Architecture in Bangalore Heart",
+      "tagline": "Bold lines, private elevator access, and rooftop terrace",
+      "price": 32500000,
+      "priceDisplay": "₹3.25 Cr",
+      "priceUsd": "$395,000",
+      "location": "100 Feet Road, Indiranagar, Bangalore",
+      "city": "Bangalore",
+      "locality": "Indiranagar",
+      "address": "Pavilion 4, Defense Colony, Indiranagar, Bangalore 560038",
+      "coordinates": {
+        "lat": 12.9784,
+        "lng": 77.6408
+      },
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "balconies": 3,
+      "sqft": 3450,
+      "carpetAreaSqft": 2850,
+      "propertyType": "Penthouse",
+      "status": "Ready to Move",
+      "possessionDate": "Ready",
+      "facing": "East",
+      "reraId": "PRM/KA/RERA/1251/308/PR/190510/002231",
+      "furnishing": "Fully Furnished",
+      "parking": "2 Covered Bays",
+      "floor": "Top Floor with Terrace",
+      "maintenancePerMonth": "₹9,500/mo",
+      "description": "A true collector piece of modern architecture in Bangalore trendiest lifestyle precinct. Direct private elevator keycard access opens directly into an expansive open-concept gallery with floor-to-ceiling glass and skyline perspectives.",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Direct Private Keycard Elevator",
+        "Floor-to-Ceiling Thermal Glass",
+        "Imported Poliform Kitchen",
+        "Dedicated Wine Cellar"
+      ],
+      "amenities": [
+        {
+          "name": "Sky Lounge Deck",
+          "icon": "deck"
+        },
+        {
+          "name": "Infinity Spa",
+          "icon": "hot_tub"
+        },
+        {
+          "name": "24/7 Valet & Concierge",
+          "icon": "local_taxi"
+        },
+        {
+          "name": "Biometric Access",
+          "icon": "fingerprint"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Super Area",
+          "value": "3,450 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Carpet Area",
+          "value": "2,850 sq.ft",
+          "icon": "square_foot"
+        },
+        {
+          "label": "Configuration",
+          "value": "4 BHK Sky Villa",
+          "icon": "bed"
+        },
+        {
+          "label": "Floor Level",
+          "value": "Penthouse with Terrace",
+          "icon": "apartment"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "100 Feet Road Boutiques",
+          "distance": "100 m (1 min)",
+          "type": "Shopping"
+        },
+        {
+          "title": "Indiranagar Metro Station",
+          "distance": "800 m (3 mins)",
+          "type": "Metro"
+        },
+        {
+          "title": "Manipal Hospital Old Airport Rd",
+          "distance": "2.5 km (7 mins)",
+          "type": "Hospital"
+        },
+        {
+          "title": "National Public School (NPS)",
+          "distance": "1.8 km (5 mins)",
+          "type": "School"
+        }
+      ],
+      "agent": {
+        "name": "Sarah Lin",
+        "role": "Principal Partner - Institutional Transactions",
+        "phone": "+91 98452 77112",
+        "email": "sarah.lin@realicconsultant.com",
+        "rating": 4.96,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": true
+    },
+    {
+      "id": "patliputra-palatial-bungalow",
+      "slug": "patliputra-palatial-bungalow",
+      "title": "5 BHK Palatial Heritage Estate in Patliputra Colony",
+      "subtitle": "Timeless Grandeur with Lush Private Orchards",
+      "tagline": "Patna most distinguished aristocratic residential address",
+      "price": 68000000,
+      "priceDisplay": "₹6.80 Cr",
+      "priceUsd": "$825,000",
+      "location": "Patliputra Colony, Patna, Bihar",
+      "city": "Patna",
+      "locality": "Patliputra Colony",
+      "address": "Plot 42, Road No 10, Patliputra Colony, Patna 800013",
+      "coordinates": {
+        "lat": 25.6322,
+        "lng": 85.1095
+      },
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "balconies": 5,
+      "sqft": 5600,
+      "carpetAreaSqft": 4800,
+      "propertyType": "Independent House",
+      "status": "Ready to Move",
+      "possessionDate": "Immediate",
+      "facing": "North-East",
+      "reraId": "BR-RERA-2024-3320",
+      "furnishing": "Fully Furnished",
+      "parking": "4 Covered Car Garage",
+      "floor": "G + 2 Independent Bungalow",
+      "maintenancePerMonth": "Self Managed",
+      "description": "An exceptional opportunity to acquire a grand independent estate in prime Patliputra Colony. Boasting manicured lawns, grand colonnaded entryway, separate staff quarters, high-security boundary wall, and heritage architectural finishes updated with modern MEP infrastructure.",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "features": [
+        "Prime Patliputra Road 10",
+        "Private 8,000 sq ft Land Parcel",
+        "Separate 2-Room Staff Quarters",
+        "4-Car Enclosed Garage"
+      ],
+      "amenities": [
+        {
+          "name": "Private Garden",
+          "icon": "park"
+        },
+        {
+          "name": "Private Gym Room",
+          "icon": "fitness_center"
+        },
+        {
+          "name": "Solar Energy Setup",
+          "icon": "solar_power"
+        },
+        {
+          "name": "Guard House",
+          "icon": "security"
+        }
+      ],
+      "overviewStats": [
+        {
+          "label": "Built-up Area",
+          "value": "5,600 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Plot Area",
+          "value": "8,000 sq.ft",
+          "icon": "landscape"
+        },
+        {
+          "label": "Configuration",
+          "value": "5 BHK + Staff Quarters",
+          "icon": "bed"
+        },
+        {
+          "label": "Floors",
+          "value": "G + 2 Bungalow",
+          "icon": "villa"
+        }
+      ],
+      "neighborhoodInsights": [
+        {
+          "title": "Patliputra Roundabout",
+          "distance": "400 m (2 mins)",
+          "type": "Shopping"
+        },
+        {
+          "title": "Kurji Holy Family Hospital",
+          "distance": "1.2 km (4 mins)",
+          "type": "Hospital"
+        },
+        {
+          "title": "Loyola High School",
+          "distance": "1.5 km (5 mins)",
+          "type": "School"
+        },
+        {
+          "title": "Patna Airport",
+          "distance": "6.2 km (14 mins)",
+          "type": "Airport"
+        }
+      ],
+      "agent": {
+        "name": "Amit Vikram",
+        "role": "Director - Patna Luxury Advisory",
+        "phone": "+91 94310 98765",
+        "email": "amit.vikram@realicconsultant.com",
+        "rating": 4.98,
+        "verified": true,
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+      },
+      "verified": true,
+      "featured": true
+    }
+  ],
+  "blogs": [
+    {
+      "id": "patna-real-estate-boom-2026",
+      "slug": "patna-real-estate-boom-2026",
+      "title": "Patna Real Estate Boom: The Bailey Road & Danapur Corridor Transformation llll",
+      "excerpt": "Analyzing how metro connectivity, AIIMS expansion, and institutional RERA regulations are turning Patna into Bihar premier wealth and luxury residential market.",
+      "category": "Patna Corridors",
+      "coverImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "author": {
+        "name": "Amit Vikram",
+        "role": "Managing Director, Bihar & Eastern Corridor",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+      },
+      "publishedAt": "September 12, 2026",
+      "readTime": "6 min read",
+      "tags": [
+        "Patna Real Estate",
+        "Bailey Road",
+        "Danapur",
+        "Infrastructure",
+        "Metro Expansion"
+      ],
+      "featured": true,
+      "metaTitle": "Patna Real Estate Market Boom 2026 | Realic Property Consultant",
+      "metaDescription": "Explore the rapid price appreciation and luxury estate developments along Bailey Road, Danapur, and Patliputra Colony in Patna.",
+      "content": "\n### The New Era of Capital Appreciation in Bihar\n\nPatna, historically characterized by low-rise independent family dwellings and fragmented real estate holdings, is undergoing an unprecedented institutional transformation. Over the past twenty-four months, strategic state capital investments in the Patna Metro Rail project, the Ganga Pathway (Marine Drive), and elevated arterial expressways connecting Saguna More to Danapur Cantonment have redefined the city's residential skyline.\n\n### 1. Bailey Road: The Premier Sky-Penthouse Corridor\nBailey Road has established itself as Patna's equivalent to Bangalore's Indiranagar or Delhi's Golf Course Road. With double-lane flyovers connecting Saguna More directly to the Patna Airport and High Court within eighteen minutes, leading developers are introducing gated vertical communities with private elevators, sky decks, and multi-tier security.\n\n> \"Discerning families in Patna no longer look for standard apartments; they seek private estates in the sky with institutional RERA compliance and guaranteed clear title lineage.\" — *Amit Vikram, Realic Property Consultant*\n\n### 2. The Danapur Expansion & Riverfront Luxury\nDanapur, once considered an outer suburban cantonment, has evolved into the chosen sanctuary for sprawling contemporary villas. With proximity to premier medical hubs like AIIMS Patna and reputed educational institutions like DPS and St. Michael's, land values along the Khagaul-Danapur road have appreciated over 34% annualized.\n\n### 3. Institutional Fiduciary Diligence\nFor buyers, the most critical shift has been the enforcement of Bihar RERA (BR-RERA). In earlier cycles, informal agreements and unverified ancestral land claims posed significant legal risks. At Realic, our 3-Tier Title Lineage Audit guarantees that every property listed has an uninterrupted 30-year clean registry search, municipal tax clearance, and verified non-encumbrance documentation.\n    "
+    },
+    {
+      "id": "rera-title-diligence-checklist",
+      "slug": "rera-title-diligence-checklist",
+      "title": "The 30-Year Title Search: Protecting High-Value Real Estate Investments",
+      "excerpt": "A forensic legal guide on verifying encumbrance certificates, mother deeds, and sanction plans before acquiring luxury properties in India.",
+      "category": "Legal & RERA",
+      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80",
+      "author": {
+        "name": "Julian Mercer",
+        "role": "Head of Legal & Compliance Counsel",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+      },
+      "publishedAt": "August 28, 2026",
+      "readTime": "8 min read",
+      "tags": [
+        "Legal Audit",
+        "RERA",
+        "Title Search",
+        "Encumbrance Certificate",
+        "Due Diligence"
+      ],
+      "featured": false,
+      "metaTitle": "30-Year Property Title Due Diligence Guide | Realic",
+      "metaDescription": "Learn how Realic legal counsel conducts 30-year title searches, RERA audits, and encumbrance checks to protect your property capital.",
+      "content": "\n### Why Standard Broker Checks Fall Short\n\nIn the luxury and high-net-worth real estate segment, an aesthetic marble floor or a grand foyer is meaningless if the legal title underlying the land parcel is encumbered by historical litigation, partition disputes, or zoning ambiguities.\n\n### The Realic 5-Pillar Legal Audit\nBefore any property is certified in our catalog, our in-house advocates execute a comprehensive 5-stage verification:\n\n1. **The 30-Year Encumbrance Search**: Examining the sub-registrar archives for all registered sales, mortgages, gifts, and partition deeds over three decades.\n2. **Mother Deed & Revenue Genealogy**: Tracing the chain of title transfers from the original agricultural or zamindari allotment to the current developer or owner.\n3. **Approved Sanctioned Building Plans**: Ensuring the built structure strictly complies with municipal floor-area ratios (FAR) and fire clearance norms without illegal floor deviations.\n4. **Commencement & Occupancy Certificates (OC)**: Confirming the local municipal authority has inspected the building utilities, water harvesting, and structural safety.\n5. **RERA Project Registration Audit**: Cross-referencing developer escrow disclosures, quarterly progress filings, and designated bank accounts.\n\nBy following this uncompromising process, Realic maintains a spotless 100% dispute-free record across more than ₹1,200 Cr in transactions.\n    "
+    },
+    {
+      "id": "nri-investment-guide-digital-escrow",
+      "slug": "nri-investment-guide-digital-escrow",
+      "title": "The Modern NRI Playbook: Acquiring Luxury Estates Remotely with Digital Escrow",
+      "excerpt": "How diaspora investors in North America, Europe, and the Middle East are executing seamless high-value transactions with zero travel overhead.",
+      "category": "NRI Advisory",
+      "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "author": {
+        "name": "Sarah Lin",
+        "role": "Partner, Private Client Services",
+        "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=200&q=80"
+      },
+      "publishedAt": "August 10, 2026",
+      "readTime": "5 min read",
+      "tags": [
+        "NRI Real Estate",
+        "Digital Escrow",
+        "Power of Attorney",
+        "FEMA Guidelines",
+        "Luxury Homes"
+      ],
+      "featured": true,
+      "metaTitle": "NRI Property Buying Guide in India | Realic Advisory",
+      "metaDescription": "Complete guide for Non-Resident Indians on FEMA compliance, NRE/NRO banking, digital escrow, and remote property closing.",
+      "content": "\n### Bridging the Distance for Global Investors\n\nFor Non-Resident Indians (NRIs), investing in premium real estate across India has historically been complicated by physical distance, reliance on distant relatives, and opacity around fund transfers.\n\n### Key Innovations in Remote Real Estate Execution\n\n#### 1. Digital Escrow Accounts\nRather than releasing high-value token advances directly to builders, Realic utilizes institutional escrow mechanisms managed by regulated schedule banks. Funds are released only upon successful title verification milestones.\n\n#### 2. Consular-Adjudicated Power of Attorney (POA)\nYou do not need to take leave from work in New York or Dubai to register a property. Our legal desk prepares the bespoke Special Power of Attorney, guides you through Indian Consulate legalization, and oversees adjudication at the local District Registrar office.\n\n#### 3. High-Definition 4K Drone Walkthroughs\nBefore making a financial commitment, our clients receive detailed 4K uncompressed video tours, laser-measure floor scans, and GIS sun-path orientation analysis.\n    "
+    },
+    {
+      "id": "modernist-waterfront-architecture-trends",
+      "slug": "modernist-waterfront-architecture-trends",
+      "title": "The Rise of Modernist Waterfront Villas: Bellandur & Whitefield Lakefront Living",
+      "excerpt": "Exploring the architectural philosophy behind panoramic cantilevered glass terraces, infinity edges, and biophilic living in Bangalore Silicon Valley.",
+      "category": "Luxury Living",
+      "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "author": {
+        "name": "Eleanor Vance",
+        "role": "Founder & Chief Executive Officer",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+      },
+      "publishedAt": "July 18, 2026",
+      "readTime": "7 min read",
+      "tags": [
+        "Bangalore Luxury",
+        "Lakefront Villas",
+        "Architecture",
+        "Prestige Habitat",
+        "Bellandur"
+      ],
+      "featured": false,
+      "metaTitle": "Waterfront Modernist Luxury Architecture | Realic",
+      "metaDescription": "Discover how contemporary luxury homes in Bangalore integrate lakefront infinity pools, acoustic acoustic glass, and biophilic open pavilions.",
+      "content": "\n### Living on the Edge of Nature and Urban Innovation\n\nIn a bustling technology capital like Bangalore, the true definition of luxury has moved beyond gold-leaf moldings or generic marble lobbies. Today, luxury is defined by space, light, natural acoustics, and expansive water horizons.\n\n### The Modernist Design Vocabulary\n\n* **Thermal Acoustic Double-Glazed Glass**: Allowing dramatic 12-foot high ceiling-to-floor views of Varthur and Bellandur lakes while insulating indoor air temperature and eliminating urban decibels.\n* **Cantilevered Terraces**: Extending the private living salon outward into the breeze, creating shaded outdoor lounges that function seamlessly in monsoon and summer alike.\n* **Integrated Smart Micro-Grids**: Utilizing rooftop photovoltaic arrays and greywater recycling systems that deliver sustainable luxury with near-zero grid dependency.\n    "
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-1",
+      "type": "Showing",
+      "name": "Dr. Anand Kishore",
+      "phone": "+91 94310 88221",
+      "email": "anand.kishore@gmail.com",
+      "propertyTitle": "3 BHK Luxury Sky Penthouse on Bailey Road",
+      "date": "2026-09-20",
+      "notes": "Interested in Sunday afternoon in-person walkthrough and RERA document review.",
+      "status": "New",
+      "createdAt": "2026-09-17 14:30"
+    },
+    {
+      "id": "inq-2",
+      "type": "Instant Offer",
+      "name": "Suresh Singhania",
+      "phone": "+91 98450 77123",
+      "email": "suresh@singhania.com",
+      "propertyTitle": "Waterfront Villa at Bellandur Lake",
+      "notes": "Looking for 30-day closing valuation for ancestral home in Patna Patliputra.",
+      "status": "Contacted",
+      "createdAt": "2026-09-16 11:15"
+    }
+  ]
+}
