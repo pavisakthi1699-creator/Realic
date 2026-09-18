@@ -346,88 +346,117 @@ export default function AdminPropertiesPage() {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full text-left text-xs">
-              <thead className="bg-slate-50 border-b border-slate-200 text-slate-600 font-bold uppercase tracking-wider text-[10px]">
+              <thead className="bg-slate-50/80 border-b border-slate-200 text-slate-600 font-bold uppercase tracking-wider text-[11px]">
                 <tr>
-                  <th className="py-3.5 px-4">Property</th>
-                  <th className="py-3.5 px-4">Location</th>
-                  <th className="py-3.5 px-4">Price</th>
-                  <th className="py-3.5 px-4">Specs</th>
-                  <th className="py-3.5 px-4">RERA Status</th>
-                  <th className="py-3.5 px-4 text-right">Actions</th>
+                  <th className="py-4 px-5">Property</th>
+                  <th className="py-4 px-5">City & Locality</th>
+                  <th className="py-4 px-5">Price</th>
+                  <th className="py-4 px-5">Configuration</th>
+                  <th className="py-4 px-5">Status</th>
+                  <th className="py-4 px-5 text-right">Actions</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-200">
+              <tbody className="divide-y divide-slate-100">
                 {filteredProperties.map((prop) => (
-                  <tr key={prop.id} className="hover:bg-slate-50/50 transition-colors">
+                  <tr key={prop.id} className="hover:bg-slate-50/60 transition-colors">
                     {/* Thumbnail & Title */}
-                    <td className="py-3.5 px-4">
+                    <td className="py-3.5 px-5">
                       <div className="flex items-center gap-3">
                         <img
                           src={prop.images[0]}
                           alt={prop.title}
-                          className="w-16 h-12 rounded-xl object-cover flex-shrink-0"
+                          className="w-14 h-11 rounded-xl object-cover flex-shrink-0 border border-slate-200"
                         />
                         <div className="min-w-0 max-w-xs">
                           <Link
                             href={`/properties/${prop.slug}`}
                             target="_blank"
-                            className="font-bold text-white hover:text-secondary truncate block"
+                            className="font-bold text-slate-900 hover:text-secondary truncate block font-outfit text-sm"
                           >
                             {prop.title}
                           </Link>
-                          <span className="text-[10px] text-slate-600 block">{prop.propertyType}</span>
+                          <span className="text-[11px] text-slate-500 block font-medium">
+                            {prop.propertyType}
+                          </span>
                         </div>
                       </div>
                     </td>
 
                     {/* Location */}
-                    <td className="py-3.5 px-4">
-                      <span className="font-semibold text-slate-200 block">{prop.locality}</span>
-                      <span className="text-[10px] text-slate-600">{prop.city}</span>
+                    <td className="py-3.5 px-5">
+                      <span
+                        className={`inline-block px-2.5 py-0.5 rounded-md text-[11px] font-bold mb-0.5 ${
+                          prop.city === 'Patna'
+                            ? 'bg-blue-50 text-secondary border border-blue-200'
+                            : 'bg-amber-50 text-[#9E7A0C] border border-amber-200'
+                        }`}
+                      >
+                        {prop.city}
+                      </span>
+                      <span className="text-xs text-slate-600 block font-medium">
+                        {prop.locality}
+                      </span>
                     </td>
 
                     {/* Price */}
-                    <td className="py-3.5 px-4 font-bold text-amber-400 font-montserrat text-sm">
-                      {prop.priceDisplay}
+                    <td className="py-3.5 px-5">
+                      <span className="font-extrabold text-slate-950 font-outfit text-sm block">
+                        {prop.priceDisplay}
+                      </span>
+                      {prop.priceUsd && (
+                        <span className="text-[10px] text-slate-400 font-mono block">
+                          {prop.priceUsd}
+                        </span>
+                      )}
                     </td>
 
                     {/* Specs */}
-                    <td className="py-3.5 px-4 text-slate-700">
-                      <span>{prop.bedrooms} BHK • {prop.sqft.toLocaleString()} sqft</span>
-                      <span className="text-[10px] text-slate-600 block">{prop.status}</span>
+                    <td className="py-3.5 px-5 text-slate-700 font-medium">
+                      <span className="text-xs font-semibold text-slate-900 block">
+                        {prop.bedrooms} BHK
+                      </span>
+                      <span className="text-[11px] text-slate-500 block">
+                        {prop.sqft.toLocaleString()} sq.ft
+                      </span>
                     </td>
 
-                    {/* RERA */}
-                    <td className="py-3.5 px-4">
-                      <span className="text-[10px] font-bold text-emerald-400 bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-800/40">
-                        {prop.reraId}
+                    {/* Status */}
+                    <td className="py-3.5 px-5">
+                      <span
+                        className={`inline-block px-2.5 py-1 rounded-lg text-[11px] font-bold ${
+                          prop.status === 'Ready to Move'
+                            ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                            : 'bg-slate-100 text-slate-700 border border-slate-200'
+                        }`}
+                      >
+                        {prop.status}
                       </span>
                     </td>
 
                     {/* Actions */}
-                    <td className="py-3.5 px-4 text-right">
-                      <div className="flex items-center justify-end gap-2">
+                    <td className="py-3.5 px-5 text-right">
+                      <div className="flex items-center justify-end gap-1.5">
                         <Link
                           href={`/properties/${prop.slug}`}
                           target="_blank"
                           title="View Live Listing"
-                          className="p-1.5 rounded-lg bg-slate-50 hover:bg-slate-800 text-slate-700 hover:text-white transition-colors"
+                          className="p-2 rounded-xl text-slate-500 hover:text-slate-900 hover:bg-slate-100 transition-colors"
                         >
-                          <span className="material-symbols-outlined text-sm">visibility</span>
+                          <span className="material-symbols-outlined text-base">visibility</span>
                         </Link>
                         <button
                           onClick={() => openEditModal(prop)}
                           title="Edit Property"
-                          className="p-1.5 rounded-lg bg-secondary/15 hover:bg-secondary text-secondary hover:text-white transition-colors cursor-pointer"
+                          className="p-2 rounded-xl text-slate-500 hover:text-secondary hover:bg-slate-100 transition-colors cursor-pointer"
                         >
-                          <span className="material-symbols-outlined text-sm">edit</span>
+                          <span className="material-symbols-outlined text-base">edit</span>
                         </button>
                         <button
                           onClick={() => handleDeleteProperty(prop.id, prop.title)}
                           title="Delete Property"
-                          className="p-1.5 rounded-lg bg-rose-500/15 hover:bg-rose-500 text-rose-400 hover:text-white transition-colors cursor-pointer"
+                          className="p-2 rounded-xl text-slate-500 hover:text-red-600 hover:bg-red-50 transition-colors cursor-pointer"
                         >
-                          <span className="material-symbols-outlined text-sm">delete</span>
+                          <span className="material-symbols-outlined text-base">delete</span>
                         </button>
                       </div>
                     </td>

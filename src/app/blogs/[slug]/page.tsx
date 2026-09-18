@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getAllBlogs, getBlogBySlug } from '@/data/store';
+import { getAllBlogs, getBlogBySlug, getAllProperties } from '@/data/store';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -93,11 +93,20 @@ export default async function BlogDetailPage({ params }: Props) {
     },
   };
 
-  // Convert markdown-style content to styled blocks
-  const contentParagraphs = blog.content
-    .split('\n\n')
-    .map((chunk) => chunk.trim())
-    .filter((chunk) => chunk.length > 0);
+  const allProperties = getAllProperties();
+  const interlinkedProperties = allProperties.filter((p) =>
+    blog.relatedPropertyIds?.includes(p.id)
+  );
+
+  const isHtmlContent = /<[a-z][\s\S]*>/i.test(blog.content);
+
+  // Convert markdown-style content to styled blocks if not HTML
+  const contentParagraphs = isHtmlContent
+    ? []
+    : blog.content
+        .split('\n\n')
+        .map((chunk) => chunk.trim())
+        .filter((chunk) => chunk.length > 0);
 
   return (
     <>
@@ -177,66 +186,121 @@ export default async function BlogDetailPage({ params }: Props) {
 
         {/* Article Body Content */}
         <main className="max-w-4xl mx-auto px-4 sm:px-6 pb-20">
-          <article className="space-y-6 text-slate-800 leading-relaxed text-base sm:text-lg">
-            {contentParagraphs.map((paragraph, idx) => {
-              // H3 Heading
-              if (paragraph.startsWith('### ')) {
+          {isHtmlContent ? (
+            <article
+              className="prose prose-slate max-w-none text-slate-800 leading-relaxed text-base sm:text-lg space-y-5 prose-headings:font-outfit prose-headings:font-bold prose-headings:text-slate-950 prose-a:text-secondary hover:prose-a:underline prose-blockquote:border-l-4 prose-blockquote:border-[#D4AF37] prose-blockquote:bg-slate-50 prose-blockquote:p-6 prose-blockquote:rounded-2xl prose-img:rounded-2xl prose-img:shadow-md"
+              dangerouslySetInnerHTML={{ __html: blog.content }}
+            />
+          ) : (
+            <article className="space-y-6 text-slate-800 leading-relaxed text-base sm:text-lg">
+              {contentParagraphs.map((paragraph, idx) => {
+                // H3 Heading
+                if (paragraph.startsWith('### ')) {
+                  return (
+                    <h3
+                      key={idx}
+                      className="text-2xl sm:text-3xl font-bold font-outfit text-slate-950 pt-6 pb-2 border-b border-slate-200"
+                    >
+                      {paragraph.replace('### ', '')}
+                    </h3>
+                  );
+                }
+                // H2 Heading
+                if (paragraph.startsWith('## ')) {
+                  return (
+                    <h2
+                      key={idx}
+                      className="text-2xl sm:text-3xl font-bold font-outfit text-slate-950 pt-8 pb-3 border-b border-[#D4AF37]/40"
+                    >
+                      {paragraph.replace('## ', '')}
+                    </h2>
+                  );
+                }
+                // Blockquote
+                if (paragraph.startsWith('> ')) {
+                  return (
+                    <blockquote
+                      key={idx}
+                      className="my-6 p-6 rounded-2xl bg-slate-50 border-l-4 border-[#D4AF37] text-slate-800 text-base italic font-serif leading-relaxed shadow-xs"
+                    >
+                      {paragraph.replace(/^>\s*/gm, '')}
+                    </blockquote>
+                  );
+                }
+                // Unordered List
+                if (paragraph.startsWith('- ') || paragraph.startsWith('* ')) {
+                  const listItems = paragraph
+                    .split('\n')
+                    .map((l) => l.replace(/^[-*]\s*/, '').trim())
+                    .filter((l) => l.length > 0);
+                  return (
+                    <ul key={idx} className="space-y-2.5 my-4 pl-4">
+                      {listItems.map((item, itemIdx) => (
+                        <li key={itemIdx} className="flex items-start gap-3 text-slate-700">
+                          <span className="w-2 h-2 rounded-full bg-[#D4AF37] mt-2.5 flex-shrink-0"></span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  );
+                }
+                // Default Paragraph
                 return (
-                  <h3
-                    key={idx}
-                    className="text-2xl sm:text-3xl font-bold font-montserrat text-slate-950 pt-6 pb-2 border-b border-slate-200"
-                  >
-                    {paragraph.replace('### ', '')}
+                  <p key={idx} className="text-slate-700 leading-relaxed font-normal">
+                    {paragraph}
+                  </p>
+                );
+              })}
+            </article>
+          )}
+
+          {/* Interlinked Featured Properties in this Corridor */}
+          {interlinkedProperties.length > 0 && (
+            <div className="mt-12 p-6 sm:p-8 rounded-3xl bg-slate-50 border border-slate-200">
+              <div className="flex items-center justify-between mb-4">
+                <div>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-[#9E7A0C]">
+                    Recommended Corridors
+                  </span>
+                  <h3 className="text-lg font-bold font-outfit text-slate-950">
+                    Featured Properties In This Area
                   </h3>
-                );
-              }
-              // H2 Heading
-              if (paragraph.startsWith('## ')) {
-                return (
-                  <h2
-                    key={idx}
-                    className="text-2xl sm:text-3xl font-bold font-montserrat text-slate-950 pt-8 pb-3 border-b border-[#D4AF37]/40"
+                </div>
+                <Link
+                  href="/properties"
+                  className="text-xs font-bold text-secondary hover:underline flex items-center gap-1"
+                >
+                  <span>All listings</span>
+                  <span className="material-symbols-outlined text-xs">arrow_forward</span>
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {interlinkedProperties.map((prop) => (
+                  <Link
+                    key={prop.id}
+                    href={`/properties/${prop.slug}`}
+                    className="p-3.5 rounded-2xl bg-white border border-slate-200 hover:border-[#D4AF37] hover:shadow-md transition-all flex items-center gap-3.5 group"
                   >
-                    {paragraph.replace('## ', '')}
-                  </h2>
-                );
-              }
-              // Blockquote
-              if (paragraph.startsWith('> ')) {
-                return (
-                  <blockquote
-                    key={idx}
-                    className="my-6 p-6 rounded-2xl bg-slate-50 border-l-4 border-[#D4AF37] text-slate-800 text-base italic font-serif leading-relaxed shadow-xs"
-                  >
-                    {paragraph.replace(/^>\s*/gm, '')}
-                  </blockquote>
-                );
-              }
-              // Unordered List
-              if (paragraph.startsWith('- ') || paragraph.startsWith('* ')) {
-                const listItems = paragraph
-                  .split('\n')
-                  .map((l) => l.replace(/^[-*]\s*/, '').trim())
-                  .filter((l) => l.length > 0);
-                return (
-                  <ul key={idx} className="space-y-2.5 my-4 pl-4">
-                    {listItems.map((item, itemIdx) => (
-                      <li key={itemIdx} className="flex items-start gap-3 text-slate-700">
-                        <span className="w-2 h-2 rounded-full bg-[#D4AF37] mt-2.5 flex-shrink-0"></span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                );
-              }
-              // Default Paragraph
-              return (
-                <p key={idx} className="text-slate-700 leading-relaxed font-normal">
-                  {paragraph}
-                </p>
-              );
-            })}
-          </article>
+                    <img
+                      src={prop.images[0]}
+                      alt={prop.title}
+                      className="w-16 h-16 rounded-xl object-cover flex-shrink-0"
+                    />
+                    <div className="min-w-0">
+                      <h4 className="text-xs font-bold text-slate-900 group-hover:text-secondary line-clamp-1 font-outfit">
+                        {prop.title}
+                      </h4>
+                      <p className="text-[11px] text-slate-500 line-clamp-1">{prop.location}</p>
+                      <span className="text-xs font-extrabold text-[#B8860B] font-outfit block mt-0.5">
+                        {prop.priceDisplay}
+                      </span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* Tags */}
           <div className="pt-8 mt-12 border-t border-slate-200 flex flex-wrap items-center gap-2">

@@ -65,12 +65,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     toast.info('Signed out of executive console');
   }
 
-  function fillDemoCredentials() {
-    setEmail('admin@realicconsultant.com');
-    setPassword('Realic@2026');
-    setLoginError('');
-  }
-
   // Loading Session Check
   if (isAuthenticated === null) {
     return (
@@ -167,21 +161,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               </div>
             </div>
 
-            {/* Quick Demo Credentials Autofill Banner */}
-            <div className="pt-1">
-              <button
-                type="button"
-                onClick={fillDemoCredentials}
-                className="w-full py-2 px-3 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-600 text-[11px] flex items-center justify-between transition-colors"
-              >
-                <div className="flex items-center gap-1.5 text-left">
-                  <span className="material-symbols-outlined text-[#B8860B] text-[15px]">key</span>
-                  <span>Auto-fill Admin Credentials</span>
-                </div>
-                <span className="text-[#B8860B] font-bold text-[10px]">USE KEY</span>
-              </button>
-            </div>
-
             {/* Submit Button */}
             <button
               type="submit"
@@ -198,21 +177,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               )}
             </button>
           </form>
-
-          {/* Credentials Reference Box */}
-          <div className="mt-6 p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5 font-mono text-[11px]">
-            <p className="text-slate-500 font-sans text-[10px] font-bold uppercase tracking-wider mb-1">
-              Default Credentials:
-            </p>
-            <div className="flex items-center justify-between text-slate-700">
-              <span className="text-slate-400">Email:</span>
-              <span className="text-[#9E7A0C] font-semibold select-all">admin@realicconsultant.com</span>
-            </div>
-            <div className="flex items-center justify-between text-slate-700">
-              <span className="text-slate-400">Password:</span>
-              <span className="text-[#9E7A0C] font-semibold select-all">Realic@2026</span>
-            </div>
-          </div>
 
           <div className="mt-6 text-center">
             <Link

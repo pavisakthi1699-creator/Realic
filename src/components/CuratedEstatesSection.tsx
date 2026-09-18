@@ -38,7 +38,7 @@ export const CuratedEstatesSection: React.FC = () => {
             <span className="material-symbols-outlined text-sm">stars</span>
             Portfolio Exclusives
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-montserrat tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-outfit tracking-tight">
             Curated Estates
           </h2>
           <p className="text-text-medium-emphasis text-sm md:text-base mt-1.5 max-w-xl">
@@ -83,7 +83,7 @@ export const CuratedEstatesSection: React.FC = () => {
           return (
             <div
               key={property.id}
-              className="bg-surface-pure rounded-2xl border border-border-subtle overflow-hidden shadow-ambient hover:shadow-ambient-lg transition-all duration-300 flex flex-col group"
+              className="bg-surface-pure rounded-2xl border border-border-subtle overflow-hidden shadow-ambient hover:shadow-ambient-lg card-hover-elevate flex flex-col group"
             >
               {/* Image Preview Container */}
               <div className="relative h-64 w-full overflow-hidden bg-slate-100">
@@ -95,10 +95,10 @@ export const CuratedEstatesSection: React.FC = () => {
 
                 {/* Badges */}
                 <div className="absolute top-3.5 left-3.5 flex items-center gap-1.5">
-                  <span className="bg-primary/80 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider">
+                  <span className="bg-primary/80 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider font-jakarta">
                     {property.status}
                   </span>
-                  <span className="bg-secondary/90 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full">
+                  <span className="bg-secondary/90 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full font-jakarta">
                     {property.city}
                   </span>
                 </div>
@@ -124,7 +124,7 @@ export const CuratedEstatesSection: React.FC = () => {
 
                 {/* Price pill */}
                 <div className="absolute bottom-3.5 left-3.5 bg-surface-pure/95 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-white/40 shadow-md">
-                  <span className="text-base font-extrabold text-primary font-montserrat">
+                  <span className="text-base font-extrabold text-primary font-outfit">
                     {displayPrice}
                   </span>
                 </div>
@@ -137,7 +137,7 @@ export const CuratedEstatesSection: React.FC = () => {
                     href={`/properties/${property.slug}`}
                     className="group-hover:text-secondary transition-colors"
                   >
-                    <h3 className="font-montserrat font-bold text-lg text-primary line-clamp-1">
+                    <h3 className="font-outfit font-bold text-lg text-primary line-clamp-1">
                       {property.title}
                     </h3>
                   </Link>

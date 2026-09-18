@@ -52,7 +52,7 @@ export const HeroSection: React.FC = () => {
           <div className="lg:col-span-7 flex flex-col gap-6 z-10">
 
             {/* Display Hero Title */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-montserrat text-white tracking-tight leading-[1.08] drop-shadow-md">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold font-outfit text-white tracking-tight leading-[1.06] drop-shadow-md">
               Your Vision of Home, <br />
               <span className="bg-gradient-to-r from-[#D4AF37] via-[#F3E5AB] to-[#D4AF37] bg-clip-text text-transparent">
                 Realized.
@@ -60,12 +60,12 @@ export const HeroSection: React.FC = () => {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl leading-relaxed drop-shadow-sm font-light">
+            <p className="text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl leading-relaxed drop-shadow-sm font-light font-jakarta">
               Experience unmatched real estate consultancy in Patna and Bangalore. We blend data-driven market insights with boutique white-glove advisory to guide your high-stakes property decisions.
             </p>
 
             {/* Multi-Tab Luxury Search Card */}
-            <div className="bg-white border border-slate-200/80 rounded-3xl shadow-2xl p-6 sm:p-8 w-full max-w-2xl mt-2 text-slate-900">
+            <div className="bg-white border border-slate-200/80 rounded-3xl shadow-2xl p-6 sm:p-8 w-full max-w-2xl mt-2 text-slate-900 card-hover-elevate">
               {/* Tabs: Buy / Rent / Sell */}
               <div className="flex gap-8 border-b border-slate-200 mb-6 pb-3">
                 {(['Buy', 'Rent', 'Sell'] as const).map((tab) => (
@@ -128,8 +128,8 @@ export const HeroSection: React.FC = () => {
             {/* Ambient subtle glow behind card */}
             <div className="absolute -inset-2 bg-gradient-to-r from-[#D4AF37]/20 to-secondary/20 rounded-3xl blur-2xl opacity-60"></div>
 
-            {/* Elevated Glassmorphism Container */}
-            <div className="relative rounded-3xl p-3 sm:p-3.5 bg-slate-900/60 backdrop-blur-xl border border-white/20 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.7)] group">
+            {/* Elevated Glassmorphism Container with smooth floating animation */}
+            <div className="relative rounded-3xl p-3 sm:p-3.5 bg-slate-900/60 backdrop-blur-xl border border-white/20 shadow-[0_25px_60px_-15px_rgba(0,0,0,0.7)] group animate-float">
               <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] lg:aspect-[4/3] max-h-[480px] rounded-2xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85"
@@ -144,11 +144,11 @@ export const HeroSection: React.FC = () => {
                 <div className="absolute top-3.5 left-3.5 right-3.5 flex justify-between items-center">
                   <div className="bg-slate-950/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-white/25 shadow-md flex items-center gap-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                    <span className="text-xs font-bold text-white uppercase tracking-wider">
+                    <span className="text-xs font-bold text-white uppercase tracking-wider font-jakarta">
                       Verified Portfolio
                     </span>
                   </div>
-                  <div className="bg-[#D4AF37] text-slate-950 px-2.5 py-1 rounded-full shadow-md text-xs font-extrabold flex items-center gap-1">
+                  <div className="bg-[#D4AF37] text-slate-950 px-2.5 py-1 rounded-full shadow-md text-xs font-extrabold flex items-center gap-1 font-jakarta">
                     <span className="material-symbols-outlined text-sm">hotel_class</span>
                     <span>Exclusive</span>
                   </div>
@@ -158,23 +158,23 @@ export const HeroSection: React.FC = () => {
                 <div className="absolute bottom-3 left-3 right-3 bg-slate-950/85 backdrop-blur-md border border-white/20 rounded-xl p-4 shadow-xl text-white">
                   <div className="flex justify-between items-start gap-2">
                     <div>
-                      <span className="text-[11px] font-bold text-[#D4AF37] uppercase tracking-wider block mb-0.5">
+                      <span className="text-[11px] font-bold text-[#D4AF37] uppercase tracking-wider block mb-0.5 font-jakarta">
                         Bangalore • Lakefront Enclave
                       </span>
-                      <h3 className="text-base font-bold font-montserrat text-white line-clamp-1">
+                      <h3 className="text-base font-bold font-outfit text-white line-clamp-1">
                         Prestige Lakeside Habitat
                       </h3>
-                      <p className="text-xs text-slate-300 mt-0.5">
+                      <p className="text-xs text-slate-300 mt-0.5 font-jakarta">
                         3 & 4 BHK • 2,145 sq.ft • RERA Approved
                       </p>
                     </div>
                     <div className="text-right flex-shrink-0">
-                      <span className="text-base sm:text-lg font-extrabold text-[#F3E5AB] font-montserrat block">
+                      <span className="text-base sm:text-lg font-extrabold text-[#F3E5AB] font-outfit block">
                         ₹1.85 Cr
                       </span>
                       <Link
                         href="/properties/prestige-lakeside-habitat"
-                        className="mt-1 text-xs font-bold text-slate-950 bg-gradient-to-r from-[#D4AF37] to-[#B89628] hover:brightness-110 px-3 py-1.5 rounded-lg inline-flex items-center gap-1 transition-all shadow-sm active:scale-95"
+                        className="mt-1 text-xs font-bold text-slate-950 bg-gradient-to-r from-[#D4AF37] to-[#B89628] hover:brightness-110 px-3 py-1.5 rounded-lg inline-flex items-center gap-1 transition-all shadow-sm active:scale-95 font-jakarta"
                       >
                         View Details →
                       </Link>

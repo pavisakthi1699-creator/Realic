@@ -17,6 +17,9 @@ export interface BlogArticle {
   featured: boolean;
   metaTitle?: string;
   metaDescription?: string;
+  keywords?: string[];
+  canonicalUrl?: string;
+  relatedPropertyIds?: string[];
 }
 
 export const INITIAL_BLOGS: BlogArticle[] = [
