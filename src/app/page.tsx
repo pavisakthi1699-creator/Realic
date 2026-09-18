@@ -19,7 +19,7 @@ export default function HomePage() {
       {/* 3. Curated Estates Catalog */}
       <CuratedEstatesSection />
 
-      {/* 4. Patna & Bangalore Spotlight Showcase (from Stitch Refined Homepage) */}
+      {/* 4. Patna Growth Corridors Showcase */}
       <section className="py-16 bg-surface-container-low border-y border-border-subtle">
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
@@ -27,103 +27,103 @@ export default function HomePage() {
               <span className="text-xs font-bold uppercase tracking-wider text-secondary">
                 Regional Hubs
               </span>
-              <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-montserrat tracking-tight mt-1">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-outfit tracking-tight mt-1">
                 Browse Prime Corridors
               </h2>
               <p className="text-text-medium-emphasis text-sm mt-1">
-                Explore hand-vetted developments in Bihar fast-expanding capital and Karnataka technology metropolis.
+                Explore hand-vetted, RERA-approved developments across Patna's highest-growth infrastructure axes.
               </p>
             </div>
             <Link
               href="/properties"
               className="text-sm font-bold text-secondary hover:text-primary flex items-center gap-1 transition-colors"
             >
-              View all locations
+              View all 9 projects
               <span className="material-symbols-outlined text-sm">arrow_forward</span>
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Card 1: Bailey Road, Patna */}
+            {/* Card 1: AIIMS-Digha Elevated Corridor */}
             <Link
-              href="/properties?city=Patna&locality=Bailey+Road"
+              href="/properties?q=Digha"
               className="group relative h-72 rounded-2xl overflow-hidden shadow-sm hover:shadow-ambient transition-all"
             >
               <img
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80"
-                alt="Bailey Road, Patna"
+                src="/images/projects/winsome-icon-page-5.jpg"
+                alt="AIIMS-Digha Elevated Corridor, Patna"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-5 flex flex-col justify-end">
                 <span className="text-[11px] font-bold uppercase tracking-widest text-secondary-container">
-                  Patna
+                  Patna • Pillar 242
                 </span>
-                <h3 className="text-xl font-bold text-white font-montserrat">Bailey Road</h3>
+                <h3 className="text-xl font-bold text-white font-outfit">AIIMS-Digha Corridor</h3>
                 <p className="text-xs text-white/80 mt-1">
-                  Sky Penthouses • Metro Connectivity • ₹1.8 Cr+
+                  Winsome Icon & Pearlz • 18-Storey High-Rise
                 </p>
               </div>
             </Link>
 
-            {/* Card 2: Patliputra Colony, Patna */}
+            {/* Card 2: 100-Ft Atal Path Expressway */}
             <Link
-              href="/properties?city=Patna&locality=Patliputra"
+              href="/properties?q=Atal"
               className="group relative h-72 rounded-2xl overflow-hidden shadow-sm hover:shadow-ambient transition-all"
             >
               <img
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80"
-                alt="Patliputra Colony, Patna"
+                src="/images/projects/durga-lifestyle-page-2.jpg"
+                alt="100-Ft Atal Path Expressway, Patna"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-5 flex flex-col justify-end">
                 <span className="text-[11px] font-bold uppercase tracking-widest text-secondary-container">
-                  Patna
+                  Patna • 100-Ft Expressway
                 </span>
-                <h3 className="text-xl font-bold text-white font-montserrat">Patliputra Colony</h3>
+                <h3 className="text-xl font-bold text-white font-outfit">Atal Path Expressway</h3>
                 <p className="text-xs text-white/80 mt-1">
-                  Heritage Bungalows • Elite Aristocratic Enclave
+                  Durga Lifestyle • 32 Exclusive Presidential Homes
                 </p>
               </div>
             </Link>
 
-            {/* Card 3: Whitefield, Bangalore */}
+            {/* Card 3: Danapur / AIIMS Corridor */}
             <Link
-              href="/properties?city=Bangalore&locality=Whitefield"
+              href="/properties?q=Danapur"
               className="group relative h-72 rounded-2xl overflow-hidden shadow-sm hover:shadow-ambient transition-all"
             >
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
-                alt="Whitefield, Bangalore"
+                src="/images/projects/winsome-elite-page-3.jpg"
+                alt="Danapur / AIIMS Corridor, Patna"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-5 flex flex-col justify-end">
                 <span className="text-[11px] font-bold uppercase tracking-widest text-secondary-container">
-                  Bangalore
+                  Patna • Danapur
                 </span>
-                <h3 className="text-xl font-bold text-white font-montserrat">Whitefield Lakefront</h3>
+                <h3 className="text-xl font-bold text-white font-outfit">Danapur Growth Axis</h3>
                 <p className="text-xs text-white/80 mt-1">
-                  Prestige Habitat • Tech Corridor • ₹1.85 Cr+
+                  Venus Capital & KB Boulevard • 20-Ft Driveways
                 </p>
               </div>
             </Link>
 
-            {/* Card 4: Indiranagar, Bangalore */}
+            {/* Card 4: JP Ganga Path / Marine Drive */}
             <Link
-              href="/properties?city=Bangalore&locality=Indiranagar"
+              href="/properties?q=Marine"
               className="group relative h-72 rounded-2xl overflow-hidden shadow-sm hover:shadow-ambient transition-all"
             >
               <img
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80"
-                alt="Indiranagar, Bangalore"
+                src="/images/projects/winsome-hari-pearlz-page-2.jpg"
+                alt="JP Ganga Path / Marine Drive, Patna"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent p-5 flex flex-col justify-end">
                 <span className="text-[11px] font-bold uppercase tracking-widest text-secondary-container">
-                  Bangalore
+                  Patna • Riverfront
                 </span>
-                <h3 className="text-xl font-bold text-white font-montserrat">Indiranagar & Bellandur</h3>
+                <h3 className="text-xl font-bold text-white font-outfit">Ganga Marine Drive</h3>
                 <p className="text-xs text-white/80 mt-1">
-                  Waterfront Villas • Glass Pavilions • ₹3.2 Cr+
+                  Winsome Hari Pearlz • Riverside Luxury & Retail
                 </p>
               </div>
             </Link>

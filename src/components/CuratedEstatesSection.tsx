@@ -10,7 +10,7 @@ export type { Property };
 export const CuratedEstatesSection: React.FC = () => {
   const [favorites, setFavorites] = useState<Record<string, boolean>>({});
   const [currency, setCurrency] = useState<'INR' | 'USD'>('INR');
-  const [activeFilter, setActiveFilter] = useState<'All' | 'Patna' | 'Bangalore'>('All');
+  const [activeFilter, setActiveFilter] = useState<'All' | 'Digha & Marine Drive' | 'Atal Path & Bailey Rd' | 'Danapur'>('All');
 
   const toggleFavorite = (id: string, title: string, e: React.MouseEvent) => {
     e.preventDefault();
@@ -26,7 +26,16 @@ export const CuratedEstatesSection: React.FC = () => {
 
   const filtered = PROPERTIES.filter((p) => {
     if (activeFilter === 'All') return true;
-    return p.city === activeFilter;
+    if (activeFilter === 'Digha & Marine Drive') {
+      return p.locality === 'Digha' || p.locality === 'Marine Drive';
+    }
+    if (activeFilter === 'Atal Path & Bailey Rd') {
+      return p.locality === 'Atal Path' || p.locality === 'Bailey Road';
+    }
+    if (activeFilter === 'Danapur') {
+      return p.locality === 'Danapur';
+    }
+    return true;
   });
 
   return (
@@ -49,17 +58,17 @@ export const CuratedEstatesSection: React.FC = () => {
         {/* Filters & Currency Controls */}
         <div className="flex flex-wrap items-center gap-3">
           <div className="bg-surface-pure border border-border-subtle p-1 rounded-xl flex items-center shadow-xs">
-            {(['All', 'Patna', 'Bangalore'] as const).map((city) => (
+            {(['All', 'Digha & Marine Drive', 'Atal Path & Bailey Rd', 'Danapur'] as const).map((corridor) => (
               <button
-                key={city}
-                onClick={() => setActiveFilter(city)}
+                key={corridor}
+                onClick={() => setActiveFilter(corridor)}
                 className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                  activeFilter === city
+                  activeFilter === corridor
                     ? 'bg-primary text-white shadow-xs'
                     : 'text-on-surface-variant hover:text-primary'
                 }`}
               >
-                {city}
+                {corridor}
               </button>
             ))}
           </div>

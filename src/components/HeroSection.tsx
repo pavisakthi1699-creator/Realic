@@ -24,11 +24,11 @@ export const HeroSection: React.FC = () => {
   };
 
   const popularSearches = [
-    { label: 'Patna Luxury', href: '/properties?city=Patna' },
+    { label: 'AIIMS-Digha Corridor', href: '/properties?q=Digha' },
+    { label: 'Atal Path Expressway', href: '/properties?q=Atal' },
     { label: 'Bailey Road', href: '/properties?q=Bailey' },
-    { label: 'Whitefield Bangalore', href: '/properties?city=Bangalore' },
-    { label: 'Sky Penthouses', href: '/properties?type=Penthouse' },
-    { label: 'Waterfront Villas', href: '/properties?type=Villa' },
+    { label: 'Danapur AIIMS', href: '/properties?q=Danapur' },
+    { label: 'Ganga Marine Drive', href: '/properties?q=Marine' },
   ];
 
   return (
@@ -61,7 +61,7 @@ export const HeroSection: React.FC = () => {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg lg:text-xl text-slate-200 max-w-2xl leading-relaxed drop-shadow-sm font-light font-jakarta">
-              Experience unmatched real estate consultancy in Patna and Bangalore. We blend data-driven market insights with boutique white-glove advisory to guide your high-stakes property decisions.
+              Experience unmatched real estate consultancy in Patna. We blend data-driven market insights with boutique white-glove advisory to guide your high-stakes property decisions.
             </p>
 
             {/* Multi-Tab Luxury Search Card */}
@@ -189,7 +189,7 @@ export const HeroSection: React.FC = () => {
                   <span className="material-symbols-outlined text-sm text-[#D4AF37]">gavel</span>
                   <span className="font-semibold text-slate-200">100% Legal Title Diligence</span>
                 </div>
-                <span className="text-slate-400 font-medium">Patna & Bangalore</span>
+                <span className="text-slate-400 font-medium">Patna Prime Portfolio</span>
               </div>
             </div>
           </div>

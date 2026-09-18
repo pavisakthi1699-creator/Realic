@@ -47,9 +47,14 @@ export default function PropertiesClient() {
         if (!matchTitle && !matchLoc && !matchLocality && !matchCity) return false;
       }
 
-      // City filter
-      if (selectedCity !== 'All' && p.city.toLowerCase() !== selectedCity.toLowerCase()) {
-        return false;
+      // City / Corridor filter
+      if (selectedCity !== 'All') {
+        const sc = selectedCity.toLowerCase();
+        const matches =
+          p.locality.toLowerCase().includes(sc) ||
+          p.location.toLowerCase().includes(sc) ||
+          p.address.toLowerCase().includes(sc);
+        if (!matches) return false;
       }
 
       // Type filter
@@ -98,7 +103,7 @@ export default function PropertiesClient() {
                 Verified Residences & Curated Estates
               </h1>
               <p className="text-xs md:text-sm text-text-medium-emphasis mt-1">
-                Showing {filteredProperties.length} verified listings in Patna and Bangalore with complete title audit.
+                Showing {filteredProperties.length} verified Realic projects in Patna with complete title audit.
               </p>
             </div>
 
@@ -147,16 +152,18 @@ export default function PropertiesClient() {
               />
             </div>
 
-            {/* City Select */}
+            {/* Corridor Select */}
             <div>
               <select
                 value={selectedCity}
                 onChange={(e) => setSelectedCity(e.target.value)}
                 className="w-full px-3 py-2 bg-surface text-xs rounded-lg border border-border-subtle focus:border-secondary outline-none font-medium h-10"
               >
-                <option value="All">All Cities (Patna & Bangalore)</option>
-                <option value="Patna">Patna Only</option>
-                <option value="Bangalore">Bangalore Only</option>
+                <option value="All">All Prime Corridors</option>
+                <option value="Digha">AIIMS-Digha & Marine Drive</option>
+                <option value="Atal Path">100-Ft Atal Path</option>
+                <option value="Bailey Road">Bailey Road Corridor</option>
+                <option value="Danapur">Danapur & Khagaul</option>
               </select>
             </div>
 
