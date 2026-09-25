@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 import { toast } from 'sonner';
 
 export default function SellClient() {
@@ -74,63 +73,60 @@ export default function SellClient() {
   return (
     <div className="min-h-screen bg-surface">
       {/* Hero Banner */}
-      <section className="bg-primary text-white py-16 md:py-24 px-4 md:px-8 relative overflow-hidden">
+      <section className="bg-slate-50 text-slate-900 py-16 md:py-24 px-4 md:px-8 border-b border-slate-200 relative overflow-hidden">
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="max-w-2xl">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/10 text-secondary-container text-xs font-bold mb-4 border border-white/10">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 text-black text-xs font-bold mb-4 border border-neutral-200">
               <span className="material-symbols-outlined text-sm">flash_on</span>
               Zero Commission • No Public Showings • 24hr Offer
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold font-montserrat tracking-tight leading-tight">
-              Sell Your Property, <span className="text-secondary-container">Seamlessly.</span>
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold font-montserrat tracking-tight leading-tight text-black">
+              Sell Your Property, <span className="text-black underline decoration-neutral-300">Seamlessly.</span>
             </h1>
 
-            <p className="text-primary-fixed-dim text-base md:text-lg mt-4 leading-relaxed">
+            <p className="text-neutral-600 text-base md:text-lg mt-4 leading-relaxed">
               Skip traditional broker delays, intrusive showings, and closing uncertainty. Receive a data-backed valuation and guaranteed liquidity on your timeline.
             </p>
           </div>
         </div>
-
-        {/* Ambient background glow */}
-        <div className="absolute -right-32 -top-32 w-96 h-96 bg-secondary/20 rounded-full blur-3xl pointer-events-none"></div>
       </section>
 
       {/* 3 Value Pillars from Stitch Template */}
-      <section className="py-12 bg-surface-pure border-b border-border-subtle px-4 md:px-8">
+      <section className="py-12 bg-white border-b border-neutral-200 px-4 md:px-8">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="p-6 rounded-2xl bg-surface border border-border-subtle shadow-xs flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary flex-shrink-0">
+          <div className="p-6 rounded-2xl bg-neutral-50 border border-neutral-200 shadow-xs flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-neutral-100 border border-neutral-200 flex items-center justify-center text-black flex-shrink-0">
               <span className="material-symbols-outlined text-2xl">visibility_off</span>
             </div>
             <div>
-              <h3 className="font-bold text-base text-primary font-montserrat">No Showings</h3>
-              <p className="text-xs text-text-medium-emphasis mt-1 leading-relaxed">
+              <h3 className="font-bold text-base text-black font-montserrat">No Showings</h3>
+              <p className="text-xs text-neutral-600 mt-1 leading-relaxed">
                 No cleaning, staging, or having dozens of strangers walk through your private family home on weekends.
               </p>
             </div>
           </div>
 
-          <div className="p-6 rounded-2xl bg-surface border border-border-subtle shadow-xs flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary flex-shrink-0">
+          <div className="p-6 rounded-2xl bg-neutral-50 border border-neutral-200 shadow-xs flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-neutral-100 border border-neutral-200 flex items-center justify-center text-black flex-shrink-0">
               <span className="material-symbols-outlined text-2xl">calendar_month</span>
             </div>
             <div>
-              <h3 className="font-bold text-base text-primary font-montserrat">
+              <h3 className="font-bold text-base text-black font-montserrat">
                 Pick Your Closing Date
               </h3>
-              <p className="text-xs text-text-medium-emphasis mt-1 leading-relaxed">
+              <p className="text-xs text-neutral-600 mt-1 leading-relaxed">
                 Close in as fast as 14 days or take up to 90 days. Align settlement seamlessly with your next home purchase.
               </p>
             </div>
           </div>
 
-          <div className="p-6 rounded-2xl bg-surface border border-border-subtle shadow-xs flex items-start gap-4">
-            <div className="w-12 h-12 rounded-xl bg-secondary/10 flex items-center justify-center text-secondary flex-shrink-0">
+          <div className="p-6 rounded-2xl bg-neutral-50 border border-neutral-200 shadow-xs flex items-start gap-4">
+            <div className="w-12 h-12 rounded-xl bg-neutral-100 border border-neutral-200 flex items-center justify-center text-black flex-shrink-0">
               <span className="material-symbols-outlined text-2xl">verified</span>
             </div>
             <div>
-              <h3 className="font-bold text-base text-primary font-montserrat">Certainty of Sale</h3>
+              <h3 className="font-bold text-base text-black font-montserrat">Certainty of Sale</h3>
               <p className="text-xs text-text-medium-emphasis mt-1 leading-relaxed">
                 Backed by institutional escrow and verified capital reserves. Zero risk of buyer loan cancellation.
               </p>
@@ -253,7 +249,7 @@ export default function SellClient() {
 
               <button
                 type="submit"
-                className="w-full py-3.5 bg-secondary hover:bg-secondary/90 text-white font-bold text-sm rounded-xl shadow-md transition-all active:scale-95 cursor-pointer flex items-center justify-center gap-2"
+                className="w-full py-3.5 bg-black hover:bg-neutral-800 text-white font-bold text-sm rounded-xl shadow-xs transition-all active:scale-95 cursor-pointer flex items-center justify-center gap-2"
               >
                 <span className="material-symbols-outlined text-base">calculate</span>
                 Calculate Data-Backed Valuation
@@ -263,44 +259,44 @@ export default function SellClient() {
 
           {/* Valuation Output Card */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="bg-primary text-white p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-ambient-lg">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-secondary-container">
+            <div className="bg-neutral-50 text-black p-6 sm:p-8 rounded-3xl border border-neutral-200 shadow-sm">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-black">
                 Market Valuation Range
               </span>
               <div className="mt-2 mb-4">
                 {estimatedValue ? (
                   <div>
-                    <div className="text-3xl sm:text-4xl font-extrabold font-montserrat text-white">
+                    <div className="text-3xl sm:text-4xl font-extrabold font-montserrat text-black">
                       ₹{(estimatedValue / 10000000).toFixed(2)} Cr
                     </div>
-                    <span className="text-xs text-primary-fixed-dim block mt-1">
+                    <span className="text-xs text-neutral-500 block mt-1">
                       Estimated Range: ₹{((estimatedValue * 0.95) / 10000000).toFixed(2)} Cr – ₹
                       {((estimatedValue * 1.08) / 10000000).toFixed(2)} Cr
                     </span>
                   </div>
                 ) : (
                   <div>
-                    <div className="text-2xl font-bold text-white/80 font-montserrat">
+                    <div className="text-2xl font-bold text-neutral-800 font-montserrat">
                       Configure details to estimate
                     </div>
-                    <p className="text-xs text-primary-fixed-dim mt-1">
+                    <p className="text-xs text-neutral-500 mt-1">
                       Fill out your property specifications on the left to receive an immediate benchmark.
                     </p>
                   </div>
                 )}
               </div>
 
-              <div className="border-t border-white/10 pt-4 space-y-2 text-xs text-primary-fixed-dim">
+              <div className="border-t border-neutral-200 pt-4 space-y-2 text-xs text-neutral-600">
                 <div className="flex items-center gap-2">
-                  <span className="material-symbols-outlined text-sm text-green-400">check</span>
+                  <span className="material-symbols-outlined text-sm text-black">check</span>
                   Includes recent land index registry comps
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="material-symbols-outlined text-sm text-green-400">check</span>
+                  <span className="material-symbols-outlined text-sm text-black">check</span>
                   Zero obligations or mandatory listing contracts
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="material-symbols-outlined text-sm text-green-400">check</span>
+                  <span className="material-symbols-outlined text-sm text-black">check</span>
                   Direct escrow liquidation available
                 </div>
               </div>
@@ -310,7 +306,7 @@ export default function SellClient() {
                   const formEl = document.getElementById('seller-request-form');
                   formEl?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full mt-6 py-3 px-4 bg-accent-orange hover:bg-[#d44d1c] text-white font-bold text-xs rounded-xl shadow transition-colors text-center block"
+                className="w-full mt-6 py-3 px-4 bg-black hover:bg-neutral-800 text-white font-bold text-xs rounded-xl shadow-xs transition-colors text-center block cursor-pointer"
               >
                 Request Official Binding Offer &rarr;
               </button>
@@ -320,16 +316,16 @@ export default function SellClient() {
       </section>
 
       {/* Comparison: Realic vs Traditional Agent */}
-      <section className="py-16 bg-surface-pure border-y border-border-subtle px-4 md:px-8">
+      <section className="py-16 bg-white border-y border-neutral-200 px-4 md:px-8">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-xs font-bold uppercase tracking-wider text-secondary">
+            <span className="text-xs font-bold uppercase tracking-wider text-neutral-500">
               The Realic Advantage
             </span>
-            <h2 className="text-3xl font-extrabold font-montserrat text-primary mt-1">
+            <h2 className="text-3xl font-extrabold font-montserrat text-black mt-1">
               Realic Direct vs. Traditional Real Estate Broker
             </h2>
-            <p className="text-xs sm:text-sm text-text-medium-emphasis mt-1">
+            <p className="text-xs sm:text-sm text-neutral-600 mt-1">
               Compare the certainty, timeline, and cost breakdown of selling your property.
             </p>
           </div>
@@ -337,49 +333,49 @@ export default function SellClient() {
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse text-xs sm:text-sm">
               <thead>
-                <tr className="border-b-2 border-border-subtle">
-                  <th className="py-3 px-4 font-bold text-text-medium-emphasis">Feature</th>
-                  <th className="py-3 px-4 font-bold text-secondary bg-secondary/5 rounded-t-xl">
+                <tr className="border-b-2 border-neutral-200">
+                  <th className="py-3 px-4 font-bold text-neutral-600">Feature</th>
+                  <th className="py-3 px-4 font-bold text-black bg-neutral-100 rounded-t-xl">
                     Realic Private Sale
                   </th>
-                  <th className="py-3 px-4 font-bold text-on-surface-variant">Traditional Broker</th>
+                  <th className="py-3 px-4 font-bold text-neutral-600">Traditional Broker</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-border-subtle">
+              <tbody className="divide-y border-neutral-200">
                 <tr>
-                  <td className="py-4 px-4 font-semibold text-primary">Time to Firm Offer</td>
-                  <td className="py-4 px-4 font-bold text-green-700 bg-secondary/5">
+                  <td className="py-4 px-4 font-semibold text-black">Time to Firm Offer</td>
+                  <td className="py-4 px-4 font-bold text-black bg-neutral-50">
                     Within 24 Hours
                   </td>
-                  <td className="py-4 px-4 text-text-medium-emphasis">45 to 120 Days (Average)</td>
+                  <td className="py-4 px-4 text-neutral-600">45 to 120 Days (Average)</td>
                 </tr>
                 <tr>
-                  <td className="py-4 px-4 font-semibold text-primary">Open Houses & Showings</td>
-                  <td className="py-4 px-4 font-bold text-green-700 bg-secondary/5">
+                  <td className="py-4 px-4 font-semibold text-black">Open Houses & Showings</td>
+                  <td className="py-4 px-4 font-bold text-black bg-neutral-50">
                     0 Showings (1 Private Inspection)
                   </td>
-                  <td className="py-4 px-4 text-text-medium-emphasis">15 – 30+ Disruptive Visits</td>
+                  <td className="py-4 px-4 text-neutral-600">15 – 30+ Disruptive Visits</td>
                 </tr>
                 <tr>
-                  <td className="py-4 px-4 font-semibold text-primary">Brokerage Commission</td>
-                  <td className="py-4 px-4 font-bold text-green-700 bg-secondary/5">
+                  <td className="py-4 px-4 font-semibold text-black">Brokerage Commission</td>
+                  <td className="py-4 px-4 font-bold text-black bg-neutral-50">
                     0% Commission
                   </td>
-                  <td className="py-4 px-4 text-text-medium-emphasis">2% to 3% + GST</td>
+                  <td className="py-4 px-4 text-neutral-600">2% to 3% + GST</td>
                 </tr>
                 <tr>
-                  <td className="py-4 px-4 font-semibold text-primary">Closing Date Timeline</td>
-                  <td className="py-4 px-4 font-bold text-green-700 bg-secondary/5">
+                  <td className="py-4 px-4 font-semibold text-black">Closing Date Timeline</td>
+                  <td className="py-4 px-4 font-bold text-black bg-neutral-50">
                     Chosen by Owner (14 to 90 days)
                   </td>
-                  <td className="py-4 px-4 text-text-medium-emphasis">Dictated by Buyer Loan Approvals</td>
+                  <td className="py-4 px-4 text-neutral-600">Dictated by Buyer Loan Approvals</td>
                 </tr>
                 <tr>
-                  <td className="py-4 px-4 font-semibold text-primary">Repair & Staging Cost</td>
-                  <td className="py-4 px-4 font-bold text-green-700 bg-secondary/5">
+                  <td className="py-4 px-4 font-semibold text-black">Repair & Staging Cost</td>
+                  <td className="py-4 px-4 font-bold text-black bg-neutral-50">
                     Sold In As-Is Condition
                   </td>
-                  <td className="py-4 px-4 text-text-medium-emphasis">₹2 – ₹5 Lakhs in staging/painting</td>
+                  <td className="py-4 px-4 text-neutral-600">₹2 – ₹5 Lakhs in staging/painting</td>
                 </tr>
               </tbody>
             </table>
@@ -400,10 +396,10 @@ export default function SellClient() {
           </div>
 
           {formSubmitted ? (
-            <div className="p-8 rounded-2xl bg-green-50 border border-green-200 text-center space-y-3">
-              <span className="material-symbols-outlined text-4xl text-green-600">check_circle</span>
-              <h3 className="text-lg font-bold text-green-800">Application Received</h3>
-              <p className="text-xs text-green-700 max-w-md mx-auto">
+            <div className="p-8 rounded-2xl bg-neutral-50 border border-neutral-200 text-center space-y-3">
+              <span className="material-symbols-outlined text-4xl text-black">check_circle</span>
+              <h3 className="text-lg font-bold text-black">Application Received</h3>
+              <p className="text-xs text-neutral-600 max-w-md mx-auto">
                 Thank you, {fullName}. Our acquisitions team is conducting the preliminary registry title review. We will phone you at {phone} within 24 hours.
               </p>
             </div>
@@ -411,7 +407,7 @@ export default function SellClient() {
             <form onSubmit={handleLeadSubmit} className="space-y-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="text-xs font-bold text-on-surface-variant block mb-1">
+                  <label className="text-xs font-bold text-neutral-700 block mb-1">
                     Your Full Name
                   </label>
                   <input
@@ -419,12 +415,12 @@ export default function SellClient() {
                     value={fullName}
                     onChange={(e) => setFullName(e.target.value)}
                     placeholder="e.g. Dr. Rajesh Verma"
-                    className="w-full px-3.5 py-2.5 rounded-xl border border-border-subtle bg-surface text-xs focus:border-secondary outline-none h-11"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-neutral-200 bg-neutral-50 text-xs focus:border-black outline-none h-11 text-black"
                     required
                   />
                 </div>
                 <div>
-                  <label className="text-xs font-bold text-on-surface-variant block mb-1">
+                  <label className="text-xs font-bold text-neutral-700 block mb-1">
                     Phone Number
                   </label>
                   <input
@@ -432,7 +428,7 @@ export default function SellClient() {
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                     placeholder="+91 94310 ..."
-                    className="w-full px-3.5 py-2.5 rounded-xl border border-border-subtle bg-surface text-xs focus:border-secondary outline-none h-11"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-neutral-200 bg-neutral-50 text-xs focus:border-black outline-none h-11 text-black"
                     required
                   />
                 </div>
@@ -440,7 +436,7 @@ export default function SellClient() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label className="text-xs font-bold text-on-surface-variant block mb-1">
+                  <label className="text-xs font-bold text-neutral-700 block mb-1">
                     Email Address
                   </label>
                   <input
@@ -448,17 +444,17 @@ export default function SellClient() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="name@domain.com"
-                    className="w-full px-3.5 py-2.5 rounded-xl border border-border-subtle bg-surface text-xs focus:border-secondary outline-none h-11"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-neutral-200 bg-neutral-50 text-xs focus:border-black outline-none h-11 text-black"
                   />
                 </div>
                 <div>
-                  <label className="text-xs font-bold text-on-surface-variant block mb-1">
+                  <label className="text-xs font-bold text-neutral-700 block mb-1">
                     Desired Closing Timeline
                   </label>
                   <select
                     value={targetClosingDays}
                     onChange={(e) => setTargetClosingDays(e.target.value)}
-                    className="w-full px-3.5 py-2.5 rounded-xl border border-border-subtle bg-surface text-xs focus:border-secondary outline-none h-11"
+                    className="w-full px-3.5 py-2.5 rounded-xl border border-neutral-200 bg-neutral-50 text-xs focus:border-black outline-none h-11 text-black"
                   >
                     <option>Expedited (Within 14 Days)</option>
                     <option>Standard (30 Days)</option>
@@ -468,7 +464,7 @@ export default function SellClient() {
               </div>
 
               <div>
-                <label className="text-xs font-bold text-on-surface-variant block mb-1">
+                <label className="text-xs font-bold text-neutral-700 block mb-1">
                   Full Property Address & Landmarks
                 </label>
                 <textarea
@@ -476,14 +472,14 @@ export default function SellClient() {
                   onChange={(e) => setFullAddress(e.target.value)}
                   placeholder="Street, Tower/Apartment number, Road, Patna or Bangalore..."
                   rows={3}
-                  className="w-full p-3 rounded-xl border border-border-subtle bg-surface text-xs focus:border-secondary outline-none"
+                  className="w-full p-3 rounded-xl border border-neutral-200 bg-neutral-50 text-xs focus:border-black outline-none text-black"
                   required
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full py-4 bg-accent-orange hover:bg-[#d44d1c] text-white font-bold text-sm rounded-xl shadow-md transition-all active:scale-95 cursor-pointer mt-2"
+                className="w-full py-4 bg-black hover:bg-neutral-800 text-white font-bold text-sm rounded-xl shadow-xs transition-all active:scale-95 cursor-pointer mt-2"
               >
                 Submit Property for Cash Evaluation
               </button>
@@ -493,13 +489,13 @@ export default function SellClient() {
       </section>
 
       {/* FAQ Accordion */}
-      <section className="py-16 bg-surface-container-low border-t border-border-subtle px-4 md:px-8">
+      <section className="py-16 bg-neutral-50 border-t border-neutral-200 px-4 md:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-10">
-            <h2 className="text-2xl font-extrabold font-montserrat text-primary">
+            <h2 className="text-2xl font-extrabold font-montserrat text-black">
               Frequently Asked Questions
             </h2>
-            <p className="text-xs text-text-medium-emphasis mt-1">
+            <p className="text-xs text-neutral-600 mt-1">
               Everything you need to know about selling to Realic.
             </p>
           </div>
@@ -508,19 +504,19 @@ export default function SellClient() {
             {faqs.map((faq, idx) => (
               <div
                 key={idx}
-                className="bg-surface-pure rounded-2xl border border-border-subtle overflow-hidden"
+                className="bg-white rounded-2xl border border-neutral-200 overflow-hidden"
               >
                 <button
                   onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
-                  className="w-full p-5 text-left font-bold text-sm text-primary flex items-center justify-between hover:text-secondary transition-colors"
+                  className="w-full p-5 text-left font-bold text-sm text-black flex items-center justify-between hover:text-neutral-700 transition-colors"
                 >
                   <span>{faq.q}</span>
-                  <span className="material-symbols-outlined text-lg text-outline">
+                  <span className="material-symbols-outlined text-lg text-neutral-400">
                     {openFaq === idx ? 'expand_less' : 'expand_more'}
                   </span>
                 </button>
                 {openFaq === idx && (
-                  <div className="px-5 pb-5 text-xs text-text-medium-emphasis leading-relaxed border-t border-border-subtle/50 pt-3">
+                  <div className="px-5 pb-5 text-xs text-neutral-600 leading-relaxed border-t border-neutral-100 pt-3">
                     {faq.a}
                   </div>
                 )}

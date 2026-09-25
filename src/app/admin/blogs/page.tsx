@@ -385,11 +385,11 @@ export default function AdminBlogsPage() {
               type="button"
               onClick={handleSubmit}
               disabled={isSaving}
-              className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-[#D4AF37] via-[#E6CA65] to-[#B89628] text-slate-950 font-bold text-xs tracking-wider uppercase shadow-md hover:shadow-lg transition-all flex items-center gap-2 cursor-pointer disabled:opacity-50"
+              className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs tracking-wider uppercase shadow-xs transition-all flex items-center gap-2 cursor-pointer disabled:opacity-50"
             >
               {isSaving ? (
                 <>
-                  <div className="w-4 h-4 border-2 border-slate-950 border-t-transparent rounded-full animate-spin"></div>
+                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
                   <span>Saving...</span>
                 </>
               ) : (
@@ -929,7 +929,7 @@ export default function AdminBlogsPage() {
           </Link>
           <button
             onClick={handleOpenCreate}
-            className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#D4AF37] to-[#B89628] text-slate-950 font-bold text-xs tracking-wider uppercase shadow-md hover:shadow-lg transition-all flex items-center gap-2 cursor-pointer active:scale-95"
+            className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs tracking-wider uppercase shadow-xs transition-all flex items-center gap-2 cursor-pointer active:scale-95"
           >
             <span className="material-symbols-outlined text-[18px]">add_circle</span>
             <span>Write New Article</span>
@@ -985,7 +985,7 @@ export default function AdminBlogsPage() {
             <p className="text-sm text-slate-600 font-medium">No blog articles match your criteria.</p>
             <button
               onClick={handleOpenCreate}
-              className="px-4 py-2 rounded-xl bg-[#D4AF37] text-slate-950 text-xs font-bold inline-flex items-center gap-1.5"
+              className="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold inline-flex items-center gap-1.5 shadow-xs transition-all"
             >
               <span>Compose First Article</span>
             </button>

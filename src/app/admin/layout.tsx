@@ -68,18 +68,18 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   // Loading Session Check
   if (isAuthenticated === null) {
     return (
-      <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-        <div className="w-8 h-8 border-2 border-[#D4AF37] border-t-transparent rounded-full animate-spin"></div>
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="w-8 h-8 border-2 border-neutral-900 border-t-transparent rounded-full animate-spin"></div>
       </div>
     );
   }
 
-  // LOGIN SCREEN (White Theme)
+  // LOGIN SCREEN (Monochrome Minimal Theme)
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-[#F1F5F9] text-slate-900 flex flex-col justify-center items-center p-4 relative overflow-hidden">
+      <div className="min-h-screen bg-neutral-50 text-neutral-900 flex flex-col justify-center items-center p-4 relative overflow-hidden">
         {/* Login Container */}
-        <div className="w-full max-w-md bg-white border border-slate-200 rounded-3xl shadow-2xl p-8 sm:p-10 relative z-10">
+        <div className="w-full max-w-md bg-white border border-neutral-200 rounded-3xl shadow-xl p-8 sm:p-10 relative z-10">
           {/* Logo & Header */}
           <div className="text-center mb-8">
             <Link href="/" className="inline-block mb-3">
@@ -90,22 +90,22 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 className="h-11 w-auto mx-auto object-contain"
               />
             </Link>
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/30 text-[#9E7A0C] text-[10px] font-bold tracking-widest uppercase mb-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-[#D4AF37]"></span>
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 border border-neutral-200 text-neutral-900 text-[10px] font-bold tracking-widest uppercase mb-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 animate-pulse"></span>
               Restricted Operations Desk
             </div>
-            <h1 className="text-xl font-bold font-montserrat text-slate-900">
+            <h1 className="text-xl font-bold font-montserrat text-neutral-900">
               Executive Portal Authentication
             </h1>
-            <p className="text-xs text-slate-500 mt-1">
+            <p className="text-xs text-neutral-500 mt-1">
               Sign in with institutional credentials to manage inventory and editorial content.
             </p>
           </div>
 
           {/* Error Banner */}
           {loginError && (
-            <div className="mb-6 p-3.5 rounded-xl bg-red-50 border border-red-200 flex items-center gap-2.5 text-xs text-red-700">
-              <span className="material-symbols-outlined text-red-500 text-base flex-shrink-0">
+            <div className="mb-6 p-3.5 rounded-xl bg-neutral-100 border border-neutral-300 flex items-center gap-2.5 text-xs text-neutral-900">
+              <span className="material-symbols-outlined text-neutral-900 text-base flex-shrink-0">
                 error
               </span>
               <span>{loginError}</span>
@@ -115,11 +115,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           {/* Form */}
           <form onSubmit={handleLogin} className="space-y-4">
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5 uppercase tracking-wider">
+              <label className="block text-xs font-semibold text-neutral-700 mb-1.5 uppercase tracking-wider">
                 Administrator Email / ID
               </label>
               <div className="relative">
-                <span className="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-[18px]">
+                <span className="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-neutral-400 text-[18px]">
                   person
                 </span>
                 <input
@@ -128,17 +128,17 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="admin@realicconsultant.com"
-                  className="w-full pl-10 pr-4 py-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-xs placeholder:text-slate-400 focus:outline-none focus:border-[#D4AF37] focus:bg-white"
+                  className="w-full pl-10 pr-4 py-3 rounded-xl bg-neutral-50 border border-neutral-200 text-neutral-900 text-xs placeholder:text-neutral-400 focus:outline-none focus:border-neutral-900 focus:bg-white focus:ring-1 focus:ring-neutral-900 transition-all"
                 />
               </div>
             </div>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5 uppercase tracking-wider">
+              <label className="block text-xs font-semibold text-neutral-700 mb-1.5 uppercase tracking-wider">
                 Security Passkey
               </label>
               <div className="relative">
-                <span className="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-[18px]">
+                <span className="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-neutral-400 text-[18px]">
                   lock
                 </span>
                 <input
@@ -147,12 +147,12 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="••••••••••••"
-                  className="w-full pl-10 pr-11 py-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-xs placeholder:text-slate-400 focus:outline-none focus:border-[#D4AF37] focus:bg-white"
+                  className="w-full pl-10 pr-11 py-3 rounded-xl bg-neutral-50 border border-neutral-200 text-neutral-900 text-xs placeholder:text-neutral-400 focus:outline-none focus:border-neutral-900 focus:bg-white focus:ring-1 focus:ring-neutral-900 transition-all"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 p-1"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400 hover:text-neutral-700 p-1 cursor-pointer"
                 >
                   <span className="material-symbols-outlined text-[18px]">
                     {showPassword ? 'visibility_off' : 'visibility'}
@@ -165,10 +165,10 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full mt-2 py-3 px-4 rounded-xl bg-gradient-to-r from-[#D4AF37] via-[#E6CA65] to-[#B89628] text-slate-950 text-xs font-bold uppercase tracking-wider hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer"
+              className="w-full mt-2 py-3 px-4 rounded-xl bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-bold uppercase tracking-wider shadow-xs transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-98"
             >
               {isSubmitting ? (
-                <div className="w-4 h-4 border-2 border-slate-950 border-t-transparent rounded-full animate-spin"></div>
+                <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
               ) : (
                 <>
                   <span className="material-symbols-outlined text-[18px]">vpn_key</span>
@@ -181,7 +181,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <div className="mt-6 text-center">
             <Link
               href="/"
-              className="text-xs text-slate-500 hover:text-slate-900 transition-colors inline-flex items-center gap-1.5"
+              className="text-xs text-neutral-500 hover:text-neutral-900 transition-colors inline-flex items-center gap-1.5"
             >
               <span className="material-symbols-outlined text-[14px]">arrow_back</span>
               <span>Return to Public Marketplace</span>
@@ -192,13 +192,13 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     );
   }
 
-  // AUTHENTICATED ADMIN CONSOLE (White Theme)
+  // AUTHENTICATED ADMIN CONSOLE (Monochrome Minimal Theme)
   return (
-    <div className="min-h-screen bg-[#F8FAFC] text-slate-900 flex flex-col md:flex-row antialiased">
+    <div className="min-h-screen bg-neutral-50 text-neutral-900 flex flex-col md:flex-row antialiased">
       {/* Sidebar */}
-      <aside className="w-full md:w-64 bg-white border-r border-slate-200 flex flex-col flex-shrink-0 shadow-xs">
-        {/* Top Left Branding with Official Gold Logo */}
-        <div className="p-5 border-b border-slate-200 flex items-center justify-between">
+      <aside className="w-full md:w-64 bg-white border-r border-neutral-200 flex flex-col flex-shrink-0 shadow-xs">
+        {/* Top Left Branding with Logo */}
+        <div className="p-5 border-b border-neutral-200 flex items-center justify-between">
           <Link href="/admin" className="flex items-center gap-2">
             <img
               src="/images/realic-logo.png"
@@ -207,7 +207,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               className="h-10 w-auto object-contain"
             />
           </Link>
-          <span className="text-[10px] uppercase font-bold tracking-widest bg-[#D4AF37]/15 text-[#9E7A0C] border border-[#D4AF37]/30 px-2 py-0.5 rounded">
+          <span className="text-[10px] uppercase font-bold tracking-widest bg-neutral-900 text-white px-2.5 py-0.5 rounded-full">
             Admin
           </span>
         </div>
@@ -226,8 +226,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 href={item.href}
                 className={`flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-bold transition-all ${
                   isActive
-                    ? 'bg-[#D4AF37] text-slate-950 font-bold shadow-md shadow-[#D4AF37]/20'
-                    : 'text-slate-600 hover:text-slate-950 hover:bg-slate-100 font-medium'
+                    ? 'bg-neutral-900 text-white font-bold shadow-xs'
+                    : 'text-neutral-600 hover:text-neutral-950 hover:bg-neutral-100 font-medium'
                 }`}
               >
                 <span className="material-symbols-outlined text-lg">{item.icon}</span>
@@ -238,25 +238,25 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         </nav>
 
         {/* Bottom Sidebar: Return to Live Site & User Session */}
-        <div className="p-4 border-t border-slate-200 space-y-3">
+        <div className="p-4 border-t border-neutral-200 space-y-3">
           <Link
             href="/"
             target="_blank"
-            className="w-full flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-950 text-xs font-bold border border-slate-200 transition-colors"
+            className="w-full flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl bg-neutral-50 hover:bg-neutral-100 text-neutral-700 hover:text-neutral-950 text-xs font-bold border border-neutral-200 transition-colors"
           >
             <span className="material-symbols-outlined text-sm">open_in_new</span>
             Open Live Marketplace
           </Link>
 
-          <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between">
+          <div className="p-3 rounded-xl bg-neutral-50 border border-neutral-200 flex items-center justify-between">
             <div className="flex items-center gap-2.5 min-w-0">
-              <div className="w-8 h-8 rounded-full bg-[#D4AF37]/20 border border-[#D4AF37]/40 flex items-center justify-center text-[#9E7A0C] font-bold text-xs flex-shrink-0">
+              <div className="w-8 h-8 rounded-full bg-neutral-900 text-white flex items-center justify-center font-bold text-xs flex-shrink-0">
                 AD
               </div>
               <div className="min-w-0">
-                <span className="text-xs font-bold text-slate-900 block truncate">Administrator</span>
-                <span className="text-[10px] text-emerald-600 font-semibold flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span className="text-xs font-bold text-neutral-900 block truncate">Administrator</span>
+                <span className="text-[10px] text-neutral-600 font-medium flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 animate-pulse"></span>
                   Active Session
                 </span>
               </div>
@@ -265,7 +265,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <button
               onClick={handleLogout}
               title="Sign Out"
-              className="p-1.5 rounded-lg text-slate-400 hover:text-red-600 hover:bg-slate-100 transition-colors"
+              className="p-1.5 rounded-lg text-neutral-400 hover:text-neutral-900 hover:bg-neutral-100 transition-colors cursor-pointer"
             >
               <span className="material-symbols-outlined text-[18px]">logout</span>
             </button>

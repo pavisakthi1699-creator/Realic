@@ -9,8 +9,6 @@ export type { Property };
 
 export const CuratedEstatesSection: React.FC = () => {
   const [favorites, setFavorites] = useState<Record<string, boolean>>({});
-  const [currency, setCurrency] = useState<'INR' | 'USD'>('INR');
-  const [activeFilter, setActiveFilter] = useState<'All' | 'Digha & Marine Drive' | 'Atal Path & Bailey Rd' | 'Danapur'>('All');
 
   const toggleFavorite = (id: string, title: string, e: React.MouseEvent) => {
     e.preventDefault();
@@ -24,191 +22,137 @@ export const CuratedEstatesSection: React.FC = () => {
     }
   };
 
-  const filtered = PROPERTIES.filter((p) => {
-    if (activeFilter === 'All') return true;
-    if (activeFilter === 'Digha & Marine Drive') {
-      return p.locality === 'Digha' || p.locality === 'Marine Drive';
-    }
-    if (activeFilter === 'Atal Path & Bailey Rd') {
-      return p.locality === 'Atal Path' || p.locality === 'Bailey Road';
-    }
-    if (activeFilter === 'Danapur') {
-      return p.locality === 'Danapur';
-    }
-    return true;
-  });
-
   return (
-    <section className="py-16 md:py-24 bg-surface max-w-7xl mx-auto px-4 md:px-8">
-      {/* Section Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+    <section className="max-w-container-max-width mx-auto px-margin-mobile md:px-margin-desktop py-section-gap-sm md:py-section-gap-lg">
+      <div className="flex justify-between items-end mb-8 md:mb-12">
         <div>
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary/10 text-secondary text-xs font-semibold mb-2">
-            <span className="material-symbols-outlined text-sm">stars</span>
-            Portfolio Exclusives
-          </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-primary font-outfit tracking-tight">
-            Curated Estates
-          </h2>
-          <p className="text-text-medium-emphasis text-sm md:text-base mt-1.5 max-w-xl">
-            Every residence is physically audited, RERA-validated, and priced at verified market valuation.
+          <h2 className="font-headline-lg text-headline-lg text-primary mb-2">Curated Estates</h2>
+          <p className="font-body-md text-body-md text-text-medium-emphasis">
+            Handpicked, verified homes ready for your arrival.
           </p>
         </div>
-
-        {/* Filters & Currency Controls */}
-        <div className="flex flex-wrap items-center gap-3">
-          <div className="bg-surface-pure border border-border-subtle p-1 rounded-xl flex items-center shadow-xs">
-            {(['All', 'Digha & Marine Drive', 'Atal Path & Bailey Rd', 'Danapur'] as const).map((corridor) => (
-              <button
-                key={corridor}
-                onClick={() => setActiveFilter(corridor)}
-                className={`px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all ${
-                  activeFilter === corridor
-                    ? 'bg-primary text-white shadow-xs'
-                    : 'text-on-surface-variant hover:text-primary'
-                }`}
-              >
-                {corridor}
-              </button>
-            ))}
-          </div>
-
-          <button
-            onClick={() => setCurrency(currency === 'INR' ? 'USD' : 'INR')}
-            className="px-3 py-1.5 rounded-xl border border-border-subtle bg-surface-pure text-xs font-bold text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1 shadow-xs"
-          >
-            <span className="material-symbols-outlined text-sm">currency_exchange</span>
-            {currency}
-          </button>
-        </div>
+        <Link
+          className="hidden md:flex items-center gap-1 font-label-bold text-secondary hover:text-primary transition-colors"
+          href="/properties"
+        >
+          View All Collection{' '}
+          <span className="material-symbols-outlined" style={{ fontSize: '20px' }}>
+            arrow_forward
+          </span>
+        </Link>
       </div>
 
-      {/* Property Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filtered.slice(0, 6).map((property: Property) => {
+      {/* Grid Layout */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+        {PROPERTIES.slice(0, 3).map((property: Property) => {
           const isFav = !!favorites[property.id];
-          const displayPrice = currency === 'INR' ? property.priceDisplay : (property.priceUsd || property.priceDisplay);
 
           return (
             <div
               key={property.id}
-              className="bg-surface-pure rounded-2xl border border-border-subtle overflow-hidden shadow-ambient hover:shadow-ambient-lg card-hover-elevate flex flex-col group"
+              className="bg-surface-pure border border-border-subtle rounded-lg overflow-hidden group hover:shadow-ambient transition-all duration-300 flex flex-col h-full"
             >
-              {/* Image Preview Container */}
-              <div className="relative h-64 w-full overflow-hidden bg-slate-100">
+              {/* Image Container */}
+              <div className="relative h-64 overflow-hidden">
                 <img
-                  src={property.images[0]}
-                  alt={property.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  alt={property.title}
+                  src={property.images[0]}
                 />
-
-                {/* Badges */}
-                <div className="absolute top-3.5 left-3.5 flex items-center gap-1.5">
-                  <span className="bg-primary/80 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider font-jakarta">
-                    {property.status}
+                {/* Verified Badge */}
+                <div className="absolute top-4 left-4 bg-surface-pure/90 backdrop-blur-sm px-3 py-1 rounded-full flex items-center gap-1 border border-border-subtle shadow-sm">
+                  <span
+                    className="material-symbols-outlined text-secondary"
+                    style={{ fontSize: '16px', fontVariationSettings: "'FILL' 1" }}
+                  >
+                    verified
                   </span>
-                  <span className="bg-secondary/90 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-full font-jakarta">
-                    {property.city}
-                  </span>
+                  <span className="font-label-sm text-label-sm text-primary">Verified</span>
                 </div>
 
-                {/* Heart Favorite */}
-                <button
-                  onClick={(e) => toggleFavorite(property.id, property.title, e)}
-                  aria-label="Save property"
-                  className={`absolute top-3.5 right-3.5 w-9 h-9 rounded-full backdrop-blur-md flex items-center justify-center transition-colors cursor-pointer shadow-sm ${
-                    isFav
-                      ? 'bg-red-500 text-white'
-                      : 'bg-black/30 hover:bg-black/50 text-white'
-                  }`}
-                >
-                  <span
-                    className={`material-symbols-outlined text-[19px] ${
-                      isFav ? 'fill-current' : ''
-                    }`}
-                  >
-                    favorite
-                  </span>
-                </button>
-
-                {/* Price pill */}
-                <div className="absolute bottom-3.5 left-3.5 bg-surface-pure/95 backdrop-blur-md px-3.5 py-1.5 rounded-xl border border-white/40 shadow-md">
-                  <span className="text-base font-extrabold text-primary font-outfit">
-                    {displayPrice}
+                {/* Status Badge */}
+                <div className="absolute bottom-4 left-4 bg-surface-pure px-2 py-1 rounded shadow-sm">
+                  <span className="font-label-sm text-label-sm text-text-high-emphasis">
+                    {property.status || 'Ready to Move'}
                   </span>
                 </div>
               </div>
 
               {/* Content Body */}
-              <div className="p-5 flex flex-col flex-grow justify-between">
-                <div>
-                  <Link
-                    href={`/properties/${property.slug}`}
-                    className="group-hover:text-secondary transition-colors"
+              <div className="p-5 flex flex-col flex-grow">
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="font-headline-md text-headline-md text-primary font-bold">
+                    {property.priceDisplay?.includes('₹') ? property.priceDisplay : `₹${property.priceDisplay}`}
+                  </h3>
+                  <button
+                    onClick={(e) => toggleFavorite(property.id, property.title, e)}
+                    aria-label="Save property"
+                    className="text-outline hover:text-error transition-colors cursor-pointer"
                   >
-                    <h3 className="font-outfit font-bold text-lg text-primary line-clamp-1">
-                      {property.title}
-                    </h3>
-                  </Link>
-                  <p className="text-xs text-text-medium-emphasis flex items-center gap-1 mt-1">
-                    <span className="material-symbols-outlined text-[15px] text-outline">
-                      location_on
+                    <span
+                      className={`material-symbols-outlined ${
+                        isFav ? 'text-error fill-current' : ''
+                      }`}
+                    >
+                      {isFav ? 'favorite' : 'favorite_border'}
                     </span>
-                    {property.location}
-                  </p>
+                  </button>
+                </div>
 
-                  {/* Specs row */}
-                  <div className="grid grid-cols-3 gap-2 py-4 my-3 border-y border-border-subtle/80 text-xs text-on-surface-variant">
-                    <div className="flex items-center gap-1.5">
-                      <span className="material-symbols-outlined text-base text-secondary">
-                        bed
-                      </span>
-                      <span>{property.bedrooms} Beds</span>
-                    </div>
-                    <div className="flex items-center gap-1.5">
-                      <span className="material-symbols-outlined text-base text-secondary">
-                        bathtub
-                      </span>
-                      <span>{property.bathrooms} Baths</span>
-                    </div>
-                    <div className="flex items-center gap-1.5">
-                      <span className="material-symbols-outlined text-base text-secondary">
-                        straighten
-                      </span>
-                      <span>{property.sqft.toLocaleString()} sqft</span>
-                    </div>
+                <p className="font-body-md text-body-md text-text-high-emphasis mb-1 font-semibold line-clamp-1">
+                  {property.title}
+                </p>
+                <p className="font-body-sm text-text-medium-emphasis mb-4 line-clamp-1">
+                  {property.location}
+                </p>
+
+                {/* Specs */}
+                <div className="flex gap-4 border-t border-border-subtle pt-4 mt-auto mb-6">
+                  <div className="flex items-center gap-1 text-text-medium-emphasis">
+                    <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>
+                      bed
+                    </span>
+                    <span className="font-label-sm text-label-sm">{property.bedrooms} Beds</span>
+                  </div>
+                  <div className="flex items-center gap-1 text-text-medium-emphasis">
+                    <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>
+                      bathtub
+                    </span>
+                    <span className="font-label-sm text-label-sm">{property.bathrooms} Baths</span>
+                  </div>
+                  <div className="flex items-center gap-1 text-text-medium-emphasis">
+                    <span className="material-symbols-outlined" style={{ fontSize: '18px' }}>
+                      square_foot
+                    </span>
+                    <span className="font-label-sm text-label-sm">
+                      {property.sqft.toLocaleString()} sqft
+                    </span>
                   </div>
                 </div>
 
-                {/* Action button */}
-                <div className="pt-2 flex items-center justify-between">
-                  <span className="text-[11px] font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-md border border-green-200">
-                    RERA Compliant
-                  </span>
-                  <Link
-                    href={`/properties/${property.slug}`}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-secondary hover:text-primary transition-colors"
-                  >
-                    View Details
-                    <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                  </Link>
-                </div>
+                {/* View Details Button */}
+                <Link
+                  href={`/properties/${property.slug}`}
+                  className="w-full py-2.5 border border-primary text-primary font-label-bold rounded hover:bg-primary hover:text-on-primary transition-colors text-center block"
+                >
+                  View Details
+                </Link>
               </div>
             </div>
           );
         })}
       </div>
 
-      {/* Explore All CTA */}
-      <div className="mt-14 text-center">
-        <Link
-          href="/properties"
-          className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white font-bold text-sm rounded-xl hover:bg-secondary transition-all shadow-md active:scale-95"
-        >
-          <span>Explore All Properties & Map View</span>
-          <span className="material-symbols-outlined text-base">arrow_forward</span>
-        </Link>
-      </div>
+      {/* Mobile view all link */}
+      <Link
+        href="/properties"
+        className="md:hidden mt-8 w-full py-3 border border-border-subtle rounded text-primary font-label-bold flex items-center justify-center gap-2 hover:bg-surface transition-colors"
+      >
+        View All Collection{' '}
+        <span className="material-symbols-outlined" style={{ fontSize: '20px' }}>
+          arrow_forward
+        </span>
+      </Link>
     </section>
   );
 };

@@ -3,13 +3,13 @@ import type { Metadata } from 'next';
 import ContactClient from './ContactClient';
 
 export const metadata: Metadata = {
-  title: 'Contact Support & Advisory | Patna & Bangalore Suites',
+  title: 'Contact Support | Realic Property Consultant',
   description:
-    'Contact Realic Property Consultant. Schedule private showings, request legal title due diligence, or visit our executive suites in Bailey Road, Patna and Whitefield, Bangalore.',
+    'Boutique Support for Discerning Clients. Our dedicated property experts are ready to assist with your real estate inquiries across Bangalore and premier corridors.',
   openGraph: {
-    title: 'Contact Realic Property Consultant | Private Client Advisory',
+    title: 'Contact Support | Realic Property Consultant',
     description:
-      'Connect with senior partners in Patna and Bangalore for discreet luxury acquisitions and verified sales.',
+      'Boutique Support for Discerning Clients. Our dedicated property experts are ready to assist with your real estate inquiries.',
     url: 'https://realicproperty.com/contact',
   },
 };

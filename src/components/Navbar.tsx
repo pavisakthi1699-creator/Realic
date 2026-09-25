@@ -3,134 +3,124 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { InstantOfferModal, EnquiryModal } from './Modals';
+import { EnquiryModal } from './Modals';
 
 export const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false);
-  const [isInstantOfferOpen, setIsInstantOfferOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 15);
+      setIsScrolled(window.scrollY > 10);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const isHome = pathname === '/';
-  const isTransparent = isHome && !isScrolled;
-
   const navLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'Properties', href: '/properties' },
-    { label: 'Sell Property', href: '/sell' },
-    { label: 'Blogs', href: '/blogs' },
-    { label: 'About Us', href: '/about' },
-    { label: 'Reviews', href: '/reviews' },
-    { label: 'Contact', href: '/contact' },
+    {
+      label: 'Properties',
+      href: '/properties',
+      active: pathname === '/properties' || pathname?.startsWith('/properties'),
+    },
+    {
+      label: 'Buy',
+      href: '/properties',
+      active: pathname === '/',
+    },
+    {
+      label: 'Sell',
+      href: '/sell',
+      active: pathname?.startsWith('/sell'),
+    },
+    {
+      label: 'About',
+      href: '/about',
+      active: pathname === '/about',
+    },
+    {
+      label: 'Reviews',
+      href: '/reviews',
+      active: pathname === '/reviews',
+    },
+    {
+      label: 'Blogs',
+      href: '/blogs',
+      active: pathname === '/blogs' || pathname?.startsWith('/blogs'),
+    },
+    {
+      label: 'Contact',
+      href: '/contact',
+      active: pathname === '/contact',
+    },
   ];
 
   return (
     <>
       <nav
         id="main-nav"
-        className={`fixed top-0 w-full z-40 transition-all duration-300 ${
-          isTransparent
-            ? 'bg-gradient-to-b from-black/85 via-black/40 to-transparent border-b border-white/10 py-3 md:py-3.5'
-            : isScrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-ambient border-b border-slate-200/80 py-2'
-            : 'bg-white/95 backdrop-blur-md border-b border-slate-200/80 py-2.5'
+        className={`fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-border-subtle transition-all duration-300 ${
+          isScrolled ? 'shadow-md py-0' : 'shadow-xs py-0.5'
         }`}
       >
-        <div className="flex justify-between items-center px-4 md:px-8 max-w-[1440px] mx-auto">
-          {/* Official Gold Brand Logo */}
+        <div className="flex justify-between items-center px-4 sm:px-6 md:px-8 h-16 sm:h-18 max-w-7xl mx-auto">
+          {/* Brand Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 group transition-transform active:scale-95 py-1"
+            className="flex items-center gap-2 hover:opacity-95 transition-opacity shrink-0 py-1"
           >
             <img
-              src="/images/realic-logo.png"
-              alt="Realic Property Consultant"
-              width={190}
-              height={56}
-              style={{ height: '48px', width: 'auto', minHeight: '40px', display: 'block' }}
-              className={`h-10 sm:h-12 md:h-12 w-auto object-contain transition-all duration-300 group-hover:scale-105 ${
-                isTransparent ? 'drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]' : ''
-              }`}
+              alt="Realic Property Consultant - Real Living Better Living"
+              className="h-10 sm:h-11 md:h-12 w-auto object-contain"
+              src="/images/header-logo.png"
             />
           </Link>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden lg:flex items-center gap-1 xl:gap-2">
-            {navLinks.map((item) => {
-              const isActive = pathname
-                ? item.href === '/'
-                  ? pathname === '/'
-                  : pathname.startsWith(item.href)
-                : false;
-
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`px-3.5 py-2 text-sm rounded-lg transition-all duration-200 ${
-                    isTransparent
-                      ? isActive
-                        ? 'text-[#D4AF37] bg-white/15 backdrop-blur-md font-bold border border-[#D4AF37]/40 shadow-sm'
-                        : 'text-white/90 hover:text-white hover:bg-white/15 font-medium'
-                      : isActive
-                      ? 'text-secondary bg-secondary/10 font-bold'
-                      : 'text-slate-700 hover:text-primary hover:bg-slate-100 font-semibold'
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* Actions: Demo Number & Enquiry Now Button */}
-          <div className="flex items-center gap-2.5 sm:gap-3">
-            {/* Demo Phone Number */}
-            <a
-              href="tel:+919431098765"
-              className={`hidden md:inline-flex items-center gap-2 px-3 py-2 text-xs lg:text-sm font-bold rounded-xl transition-colors ${
-                isTransparent
-                  ? 'text-white hover:text-[#D4AF37] hover:bg-white/10'
-                  : 'text-primary hover:text-secondary hover:bg-surface-container-low'
-              }`}
-            >
-              <span
-                className={`material-symbols-outlined text-base ${
-                  isTransparent ? 'text-[#D4AF37]' : 'text-secondary'
+          <div className="hidden lg:flex items-center gap-6 xl:gap-8 h-full">
+            {navLinks.map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                className={`h-full flex items-center transition-colors duration-200 text-xs xl:text-sm font-semibold tracking-wide ${
+                  item.active
+                    ? 'text-primary border-b-2 border-primary font-bold'
+                    : 'text-neutral-600 hover:text-black font-medium'
                 }`}
               >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+
+          {/* Action Buttons: Phone & Enquire Now */}
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+            {/* Direct Phone Call Button */}
+            <a
+              href="tel:+918045678900"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-neutral-200 bg-neutral-50/80 hover:bg-neutral-100 hover:border-neutral-300 text-neutral-900 text-xs font-bold transition-all shadow-2xs group"
+              title="Call Realic Advisory Desk"
+            >
+              <span className="material-symbols-outlined text-[17px] text-black group-hover:scale-110 transition-transform">
                 call
               </span>
-              <span>+91 94310 98765</span>
+              <span className="tracking-tight font-montserrat">+91 80 4567 8900</span>
             </a>
 
-            {/* Enquiry Now Button */}
+            {/* Enquire Now Popup Trigger Button */}
             <button
               onClick={() => setIsEnquiryOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 bg-gradient-to-r from-[#D4AF37] to-[#B89628] text-slate-950 font-bold text-xs sm:text-sm rounded-xl shadow-xs hover:shadow-[0_2px_12px_rgba(212,175,55,0.35)] transition-all duration-200 active:scale-95 cursor-pointer"
+              className="px-4 sm:px-5 py-2 bg-neutral-900 hover:bg-black text-white text-xs font-bold rounded-xl shadow-xs hover:shadow transition-all cursor-pointer active:scale-95 border border-neutral-900"
             >
-              <span className="material-symbols-outlined text-base">mail</span>
-              <span>Enquiry Now</span>
+              Enquire Now
             </button>
 
-
-            {/* Mobile Hamburger Toggle */}
+            {/* Mobile menu trigger */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className={`lg:hidden p-2 rounded-lg transition-colors focus:outline-none ${
-                isTransparent
-                  ? 'text-white hover:bg-white/15'
-                  : 'text-primary hover:bg-surface-container-low'
-              }`}
+              className="lg:hidden p-2 rounded-xl text-neutral-800 hover:bg-neutral-100 transition-colors cursor-pointer"
               aria-label="Toggle navigation menu"
             >
               <span className="material-symbols-outlined text-2xl">
@@ -142,69 +132,48 @@ export const Navbar: React.FC = () => {
 
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden bg-surface-pure border-b border-border-subtle px-4 pt-3 pb-5 space-y-1.5 shadow-xl animate-in slide-in-from-top-2">
-            <div className="pb-3 mb-2 border-b border-border-subtle flex items-center justify-between">
-              <Link href="/" onClick={() => setMobileMenuOpen(false)}>
-                <img
-                  src="/images/realic-logo.png"
-                  alt="Realic Logo"
-                  style={{ height: '36px', width: 'auto' }}
-                  className="h-9 w-auto object-contain"
-                />
-              </Link>
-              <span className="text-[10px] font-bold text-secondary uppercase tracking-wider bg-secondary/10 px-2 py-0.5 rounded">
-                Realic Consultant
-              </span>
-            </div>
-            {navLinks.map((item) => {
-              const isActive = pathname
-                ? item.href === '/'
-                  ? pathname === '/'
-                  : pathname.startsWith(item.href)
-                : false;
-
-              return (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  className={`block px-3 py-2.5 text-sm font-semibold rounded-lg transition-colors ${
-                    isActive
-                      ? 'text-secondary bg-secondary/10 font-bold'
-                      : 'text-on-surface-variant hover:bg-surface-container-low'
-                  }`}
-                >
-                  {item.label}
-                </Link>
-              );
-            })}
-            <div className="pt-3 mt-2 border-t border-border-subtle flex flex-col gap-2">
-              <a
-                href="tel:+919431098765"
-                className="w-full flex items-center justify-center gap-2 px-3 py-2.5 text-sm font-bold text-primary bg-surface-container-low rounded-xl"
+          <div className="lg:hidden bg-white border-b border-border-subtle px-4 pt-3 pb-5 space-y-1 shadow-xl animate-in slide-in-from-top-2">
+            {navLinks.map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className={`block px-3.5 py-2.5 text-sm font-semibold rounded-xl transition-colors ${
+                  item.active
+                    ? 'text-black bg-neutral-100 font-bold'
+                    : 'text-neutral-600 hover:bg-neutral-50 hover:text-black'
+                }`}
               >
-                <span className="material-symbols-outlined text-secondary text-base">call</span>
-                <span>Call Us: +91 94310 98765</span>
+                {item.label}
+              </Link>
+            ))}
+
+            <div className="pt-3 mt-2 border-t border-neutral-200 flex flex-col gap-2">
+              <a
+                href="tel:+918045678900"
+                className="w-full py-2.5 px-3 text-center text-xs font-bold text-neutral-800 bg-neutral-100 rounded-xl transition-colors flex items-center justify-center gap-2 border border-neutral-200"
+              >
+                <span className="material-symbols-outlined text-base text-black">call</span>
+                <span>+91 80 4567 8900</span>
               </a>
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
                   setIsEnquiryOpen(true);
                 }}
-                className="w-full py-2.5 px-3 text-center text-sm font-bold text-slate-950 bg-gradient-to-r from-[#D4AF37] to-[#B89628] rounded-xl shadow-sm"
+                className="w-full py-2.5 px-3 text-center text-xs font-bold text-white bg-black hover:bg-neutral-900 rounded-xl transition-colors cursor-pointer shadow-sm"
               >
-                Enquiry Now
+                Enquire Now
               </button>
             </div>
           </div>
         )}
       </nav>
 
-      {/* Global Modals */}
-      <EnquiryModal isOpen={isEnquiryOpen} onClose={() => setIsEnquiryOpen(false)} />
-      <InstantOfferModal
-        isOpen={isInstantOfferOpen}
-        onClose={() => setIsInstantOfferOpen(false)}
+      {/* Enquiry Popup Modal Form */}
+      <EnquiryModal
+        isOpen={isEnquiryOpen}
+        onClose={() => setIsEnquiryOpen(false)}
       />
     </>
   );

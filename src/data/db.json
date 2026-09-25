@@ -153,134 +153,220 @@
       "slug": "durga-lifestyle",
       "title": "Durga Lifestyle - 32 Bespoke Presidential Residences on 100-Ft Atal Path",
       "subtitle": "Patna's Most Coveted Single-Tower Presidential Address on Atal Path",
-      "tagline": "Uncompromising presidential living exclusively reserved for 32 families",
+      "tagline": "32 Vaastu compliant residences, 11-ft clear ceilings & bespoke panoramic vistas",
       "price": 23500000,
       "priceDisplay": "₹2.35 Cr",
       "priceUsd": "$282,000",
-      "location": "100-Ft Wide Atal Path, Patna, Bihar",
+      "location": "100-Ft Atal Path Expressway Corridor, Patna, Bihar",
       "city": "Patna",
-      "locality": "Atal Path",
-      "address": "Sector 4, 100-Ft Atal Path Expressway Corridor, Patna 800001",
+      "locality": "Atal Path Expressway",
+      "address": "100-Ft Atal Path Expressway Corridor, near Digha-Rajiv Nagar Link, Patna 800001",
       "coordinates": {
         "lat": 25.6185,
         "lng": 85.116
       },
       "bedrooms": 4,
       "bathrooms": 4,
-      "balconies": 3,
-      "sqft": 3150,
-      "carpetAreaSqft": 2480,
-      "propertyType": "Penthouse",
+      "balconies": 4,
+      "sqft": 3550,
+      "carpetAreaSqft": 2078,
+      "propertyType": "Luxury Apartment",
       "status": "Under Construction",
-      "possessionDate": "September 2026",
-      "facing": "East",
+      "possessionDate": "December 2026",
+      "facing": "North-East",
       "reraId": "BRERAP00045-1/11/R-1588/2023",
       "furnishing": "Semi-Furnished",
-      "parking": "2 Covered Reserved Stilt Bays",
-      "floor": "7th of 9 Floors",
-      "maintenancePerMonth": "₹7,500/mo",
-      "description": "Durga Lifestyle represents the epitome of presidential serenity on Patna's premier 100-ft-wide Atal Path. Conceived as a private single-tower boutique haven (B+G+9), it offers an elite collection of only 32 palatial homes, guaranteeing absolute peace and discretion. Featuring grand double-height entrance reception, imported Italian marble lobbies, bespoke biometric elevator access directly to your private foyer, terrace infinity relaxation deck, and world-class health facilities.",
+      "parking": "2 Covered Reserved Stilt & Basement Bays",
+      "floor": "7th of 9 Floors (B+G+9 Boutique Tower)",
+      "maintenancePerMonth": "₹6,800/mo",
+      "description": "Durga Lifestyle represents an exclusive sanctuary of presidential living on Patna's premier 100-ft-wide Atal Path Expressway. Designed as a distinguished B+G+9 single boutique tower, the project hosts strictly 32 ultra-spacious residences—ensuring utmost privacy with only four bespoke apartments per floor. Each residence features expansive 11-foot clear ceiling heights, 8-foot grand entrance doorways, private planter boxes, and panoramic views spanning the Ganges, Turf Club, and Atal Path. Ground and mezzanine levels accommodate high-end luxury retail stores, while the 1st floor social zone and rooftop terrace offer an infinity-edge swimming pool, wellness gymnasium, indoor games salon, children's day crèche, rooftop barbecue pavilion, and multi-sport court.",
       "images": [
-        "/images/projects/durga-lifestyle-page-2.jpg",
-        "/images/projects/durga-lifestyle-page-4.jpg",
-        "/images/projects/durga-lifestyle-page-5.jpg",
-        "/images/projects/durga-lifestyle-page-1.jpg",
-        "/images/projects/durga-lifestyle-page-3.jpg",
-        "/images/projects/durga-lifestyle-page-6.jpg"
+        "/images/projects/durga-lifestyle/aerial-view.jpg",
+        "/images/projects/durga-lifestyle/facade-elevation.jpg",
+        "/images/projects/durga-lifestyle/tower-river-breeze.jpg",
+        "/images/projects/durga-lifestyle/entrance-street-view.jpg",
+        "/images/projects/durga-lifestyle/drop-off-portico.jpg",
+        "/images/projects/durga-lifestyle/panoramic-balcony-view.jpg",
+        "/images/projects/durga-lifestyle/street-balcony-view.jpg",
+        "/images/projects/durga-lifestyle/griha-pravesh-foyer.jpg",
+        "/images/projects/durga-lifestyle/double-height-reception.jpg",
+        "/images/projects/durga-lifestyle/living-dining-4bhk.jpg",
+        "/images/projects/durga-lifestyle/master-bedroom-4bhk.jpg",
+        "/images/projects/durga-lifestyle/second-bedroom-4bhk.jpg",
+        "/images/projects/durga-lifestyle/kids-bedroom-4bhk.jpg",
+        "/images/projects/durga-lifestyle/third-bedroom-4bhk.jpg",
+        "/images/projects/durga-lifestyle/living-dining-3bhk.jpg",
+        "/images/projects/durga-lifestyle/master-bedroom-3bhk.jpg",
+        "/images/projects/durga-lifestyle/kitchen-luxury.jpg",
+        "/images/projects/durga-lifestyle/toilet-designer-tiles.jpg",
+        "/images/projects/durga-lifestyle/cityscape-balcony-8th.jpg",
+        "/images/projects/durga-lifestyle/entrance-driveway-plaza.jpg"
       ],
       "features": [
-        "Ultra-Exclusive: Strictly 32 Families Only",
-        "Prime 100-Ft Atal Path Frontage",
-        "Private Biometric Foyer Elevators",
-        "B+G+9 Boutique Low-Density Architectural Icon",
-        "BRERA Registered: BRERAP00045-1/11/R-1588/2023",
-        "Italian Statuario Marble Finished Lobbies"
+        "Ultra-Exclusive: Strictly 32 Families Only (B+G+9)",
+        "Low Density: Only 4 Residences Per Floor",
+        "11-Ft Clear Ceiling Height with 8-Ft Grand Doors",
+        "Direct 100-Ft Atal Path Expressway Frontage",
+        "Bespoke Ganga River & Turf Club Panoramic Balconies",
+        "Double-Height Ground Commercial Retail Boulevard",
+        "Rooftop BBQ Pavilion, Pergola & Reflexology Deck",
+        "BRERA Registered: BRERAP00045-1/11/R-1588/2023"
       ],
       "amenities": [
-        {
-          "name": "Double-Height Reception",
-          "icon": "meeting_room"
-        },
-        {
-          "name": "Terrace Infinity Pool",
-          "icon": "pool"
-        },
-        {
-          "name": "Private Gymnasium & Spa",
-          "icon": "fitness_center"
-        },
-        {
-          "name": "Italian Marble Salons",
-          "icon": "diamond"
-        },
-        {
-          "name": "Biometric Smart Access",
-          "icon": "fingerprint"
-        },
-        {
-          "name": "EV Vehicle Charging",
-          "icon": "ev_station"
-        },
-        {
-          "name": "24/7 Concierge & Security",
-          "icon": "shield"
-        },
-        {
-          "name": "100% Full DG Backup",
-          "icon": "bolt"
-        }
+        { "name": "Swimming Pool & Sundeck", "icon": "pool" },
+        { "name": "Fitness Gymnasium", "icon": "fitness_center" },
+        { "name": "Rooftop BBQ Pavilion", "icon": "outdoor_grill" },
+        { "name": "Indoor Games Salon", "icon": "sports_esports" },
+        { "name": "Multipurpose Sports Court", "icon": "sports_basketball" },
+        { "name": "Children's Adventure Play", "icon": "toys" },
+        { "name": "Children's Crèche", "icon": "child_friendly" },
+        { "name": "Celebratory Community Hall", "icon": "celebration" },
+        { "name": "Double-Height Reception", "icon": "meeting_room" },
+        { "name": "24/7 Smart CCTV Security", "icon": "shield" },
+        { "name": "High-Speed Dual Elevators", "icon": "elevator" },
+        { "name": "100% Full Generator Backup", "icon": "bolt" }
       ],
       "overviewStats": [
+        { "label": "Total Residences", "value": "32 Exclusive Homes", "icon": "domain" },
+        { "label": "Configuration", "value": "3 & 4 BHK + Servant", "icon": "bed" },
+        { "label": "Super Built-up", "value": "2,439 - 3,550 sq.ft", "icon": "straighten" },
+        { "label": "Clear Ceiling", "value": "11-Ft Volume", "icon": "height" }
+      ],
+      "amenityShowcase": [
         {
-          "label": "Total Residences",
-          "value": "32 Exclusive Homes",
-          "icon": "domain"
+          "title": "Swimming Pool & Sundeck",
+          "category": "Aquatics",
+          "image": "/images/projects/durga-lifestyle/swimming-pool.jpg"
         },
         {
-          "label": "Configuration",
-          "value": "3 & 4 BHK Presidential",
-          "icon": "bed"
+          "title": "State-of-the-Art Fitness Gymnasium",
+          "category": "Fitness",
+          "image": "/images/projects/durga-lifestyle/gymnasium.jpg"
         },
         {
-          "label": "Super Built-up",
-          "value": "2,250 - 3,450 sq.ft",
-          "icon": "straighten"
+          "title": "Rooftop BBQ Pavilion & Pergola Deck",
+          "category": "Sky Lounge",
+          "image": "/images/projects/durga-lifestyle/rooftop-bbq.jpg"
         },
         {
-          "label": "Expressway",
-          "value": "100-Ft Atal Path",
-          "icon": "navigation"
+          "title": "Rooftop Star Gazing Deck & Planters",
+          "category": "Leisure",
+          "image": "/images/projects/durga-lifestyle/rooftop-seating.jpg"
+        },
+        {
+          "title": "Indoor Games Room (Billiards & Table Tennis)",
+          "category": "Entertainment",
+          "image": "/images/projects/durga-lifestyle/indoor-games.jpg"
+        },
+        {
+          "title": "Multipurpose Basketball & Badminton Court",
+          "category": "Sports",
+          "image": "/images/projects/durga-lifestyle/sports-court.jpg"
+        },
+        {
+          "title": "Children's Adventure Play Area & Sand Bed",
+          "category": "Kids",
+          "image": "/images/projects/durga-lifestyle/kids-play-area.jpg"
+        },
+        {
+          "title": "Children's Zone & Day Crèche",
+          "category": "Child Care",
+          "image": "/images/projects/durga-lifestyle/creche-kids-zone.jpg"
+        },
+        {
+          "title": "Celebratory Community Hall",
+          "category": "Community",
+          "image": "/images/projects/durga-lifestyle/community-hall.jpg"
+        },
+        {
+          "title": "Senior Citizens Relaxation Plaza",
+          "category": "Wellness",
+          "image": "/images/projects/durga-lifestyle/senior-citizens-corner.jpg"
+        },
+        {
+          "title": "Entrance Driveway Plaza & Water Cascades",
+          "category": "Architecture",
+          "image": "/images/projects/durga-lifestyle/entrance-driveway-plaza.jpg"
+        },
+        {
+          "title": "Double-Height Luxury Retail Boulevard",
+          "category": "Retail",
+          "image": "/images/projects/durga-lifestyle/luxury-retail-boulevard.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Typical Floor Plan (3rd to 9th Floor)",
+          "specs": "3 & 4 BHK • 4 Units per Floor • 2,439 - 3,550 sq.ft",
+          "description": "Low-density architectural floor plate featuring 4 residences per floor, dual high-speed elevators, wide corridors, and 11-ft ceiling heights.",
+          "image": "/images/projects/durga-lifestyle/floorplan-typical-3to9.jpg"
+        },
+        {
+          "title": "2nd Floor Plan with Private OTS Terraces",
+          "specs": "Flats 2A, 2B, 2C, 2D • Up to 811 sq.ft Open Terraces",
+          "description": "Exclusive 2nd floor residences with expansive open-to-sky (OTS) private terraces ranging from 310 sq.ft to 811 sq.ft.",
+          "image": "/images/projects/durga-lifestyle/floorplan-2nd-terrace.jpg"
+        },
+        {
+          "title": "Clubhouse, Pool & Rooftop Deck Blueprint",
+          "specs": "1st Floor Social Zone & Rooftop Pergola Deck",
+          "description": "Comprehensive layout of the 1st floor swimming pool, gymnasium, crèche, and gaming zone plus rooftop BBQ pavilion and reflexology path.",
+          "image": "/images/projects/durga-lifestyle/floorplan-rooftop-1stfloor.jpg"
+        },
+        {
+          "title": "Master Site Plan & Landscape Circulation",
+          "specs": "100-Ft Atal Path Access • Entry Plaza & Water Features",
+          "description": "Overall site planning with dedicated residential drop-off, commercial retail plaza, 5-ft barbed security wall, and peripheral greens.",
+          "image": "/images/projects/durga-lifestyle/floorplan-master-site.jpg"
+        },
+        {
+          "title": "Basement Parking & Circulation Plan",
+          "specs": "54+ Reserved Stilt & Basement Bays • 5.5m Driveway",
+          "description": "Basement vehicular circulation with 5.5m wide driveways, dual ramp access, driver waiting facilities, and MEP services.",
+          "image": "/images/projects/durga-lifestyle/floorplan-basement-parking.jpg"
+        },
+        {
+          "title": "4BHK Presidential Unit Plans (Flats A & B)",
+          "specs": "4B+4T & 4B+4T+P • 2,977 - 3,550 sq.ft Saleable",
+          "description": "Detailed unit layouts for Flat 3-9A (1,773 sq.ft carpet) and Flat 3-9B (2,078 sq.ft carpet) with private foyer, servant entry, and powder room.",
+          "image": "/images/projects/durga-lifestyle/floorplan-unit-4bhk.jpg"
+        },
+        {
+          "title": "3BHK Luxury Unit Plans (Flats C & D)",
+          "specs": "3B+3T & 3B+3T+P • 2,439 - 2,544 sq.ft Saleable",
+          "description": "Detailed unit layouts for Flat 3-9C (1,360 sq.ft carpet) and Flat 3-9D (1,552 sq.ft carpet) with large balconies and walk-in dresser.",
+          "image": "/images/projects/durga-lifestyle/floorplan-unit-3bhk.jpg"
         }
       ],
       "neighborhoodInsights": [
         {
-          "title": "Atal Path Expressway",
-          "distance": "0 min (Direct access)",
+          "title": "100-Ft Atal Path Expressway",
+          "distance": "0 min (Direct frontage)",
           "type": "Metro"
         },
         {
-          "title": "East Boring Canal Road",
-          "distance": "3 mins (1.2 km)",
-          "type": "Shopping"
+          "title": "Patliputra Marine Drive & Ganga River",
+          "distance": "3 mins (1.1 km)",
+          "type": "Airport"
         },
         {
-          "title": "Gandhi Maidan & Maurya Center",
-          "distance": "8 mins (3.8 km)",
+          "title": "East Boring Canal Road",
+          "distance": "4 mins (1.5 km)",
           "type": "Shopping"
         },
         {
           "title": "Patna Central Junction",
-          "distance": "10 mins (4.5 km)",
+          "distance": "9 mins (4.2 km)",
           "type": "Metro"
         },
         {
           "title": "Paras HMRI Hospital",
-          "distance": "8 mins (3.2 km)",
+          "distance": "7 mins (3.0 km)",
           "type": "Hospital"
         },
         {
-          "title": "Loyola High School",
-          "distance": "6 mins (2.4 km)",
+          "title": "Loyola High School & St. Michael's",
+          "distance": "5 mins (2.1 km)",
           "type": "School"
         }
       ],
@@ -329,20 +415,30 @@
       "maintenancePerMonth": "₹5,200/mo",
       "description": "Winsome Pearlz delivers an impeccable blend of aesthetic elegance and pragmatic luxury, situated at Pillar No. 263 just west of Patliputra Station along Digha Link Road. Offering thoughtfully masterplanned 3 BHK (1,793 sq.ft) and 4 BHK + Servant (2,437 sq.ft) suites, every home boasts abundant natural illumination and cross-ventilation. Residents experience high-caliber amenities including a podium infinity pool, open yoga pavilion, landscaped gardens, cafeteria, and fast EV charging.",
       "images": [
-        "/images/projects/winsome-pearlz-page-5.jpg",
-        "/images/projects/winsome-pearlz-page-2.jpg",
-        "/images/projects/winsome-pearlz-page-3.jpg",
-        "/images/projects/winsome-pearlz-page-4.jpg",
-        "/images/projects/winsome-pearlz-page-6.jpg",
-        "/images/projects/winsome-pearlz-page-1.jpg"
+        "/images/projects/winsome-pearlz/tower-elevation.jpg",
+        "/images/projects/winsome-pearlz/tower-night-view.jpg",
+        "/images/projects/winsome-pearlz/infinity-swimming-pool.jpg",
+        "/images/projects/winsome-pearlz/grand-entrance-lobby.jpg",
+        "/images/projects/winsome-pearlz/aerial-campus-overview.jpg",
+        "/images/projects/winsome-pearlz/rooftop-skyline-terrace.jpg",
+        "/images/projects/winsome-pearlz/rooftop-cafeteria.jpg",
+        "/images/projects/winsome-pearlz/rooftop-gymnasium.jpg",
+        "/images/projects/winsome-pearlz/green-garden-gazebo.jpg",
+        "/images/projects/winsome-pearlz/kids-play-garden.jpg",
+        "/images/projects/winsome-pearlz/yoga-meditation-deck.jpg",
+        "/images/projects/winsome-pearlz/bedroom-interior.jpg",
+        "/images/projects/winsome-pearlz/ev-charging-station.jpg",
+        "/images/projects/winsome-pearlz/isometric-4bhk-cut.jpg",
+        "/images/projects/winsome-pearlz/isometric-3bhk-unit1.jpg",
+        "/images/projects/winsome-pearlz/isometric-3bhk-unit2.jpg"
       ],
       "features": [
-        "Dedicated Servant Room & Washroom in 4 BHK",
-        "Strategically Located at Pillar 263 Digha Link Rd",
-        "Podium Infinity Pool & Rooftop Yoga Deck",
-        "Carpet Area Verified: 1,151 - 1,575 sq.ft",
-        "RERA Approved: BRERAP14015-2/12/R-1554/2023",
-        "2-Level Automated Basement Parking"
+        "Only 3 Residences per Floor (B+G+14 Storey Single Tower)",
+        "Dedicated Servant Room & Washroom in 4.5 BHK",
+        "Pillar No. 263 Frontage with 6.0m Two-Way Driveways",
+        "Rooftop Infinity Swimming Pool & Sun Deck",
+        "BRERA Approved: BRERAP14015-2/12/R-1554/2023",
+        "Dedicated EV Charging Stations & 2-Level Parking"
       ],
       "amenities": [
         {
@@ -376,6 +472,108 @@
         {
           "name": "Children Play Zone",
           "icon": "child_care"
+        }
+      ],
+      "amenityShowcase": [
+        {
+          "title": "Infinity Swimming Pool & Sun Deck",
+          "category": "Aquatics",
+          "image": "/images/projects/winsome-pearlz/infinity-swimming-pool.jpg"
+        },
+        {
+          "title": "Double-Height Grand Entrance Lobby",
+          "category": "Arrival",
+          "image": "/images/projects/winsome-pearlz/grand-entrance-lobby.jpg"
+        },
+        {
+          "title": "Rooftop Skyline Open-Air Gymnasium",
+          "category": "Fitness",
+          "image": "/images/projects/winsome-pearlz/rooftop-gymnasium.jpg"
+        },
+        {
+          "title": "Sky Cafeteria & Sunset Deck",
+          "category": "Social",
+          "image": "/images/projects/winsome-pearlz/rooftop-cafeteria.jpg"
+        },
+        {
+          "title": "Rooftop Yoga & Meditation Pavilion",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-pearlz/yoga-meditation-deck.jpg"
+        },
+        {
+          "title": "Landscaped Green Garden & Gazebo",
+          "category": "Nature",
+          "image": "/images/projects/winsome-pearlz/green-garden-gazebo.jpg"
+        },
+        {
+          "title": "Dedicated Children's Play Zone",
+          "category": "Recreation",
+          "image": "/images/projects/winsome-pearlz/kids-play-garden.jpg"
+        },
+        {
+          "title": "Fast EV Charging Station",
+          "category": "Eco Tech",
+          "image": "/images/projects/winsome-pearlz/ev-charging-station.jpg"
+        },
+        {
+          "title": "Rooftop Skyline Panorama Terrace",
+          "category": "Skyline",
+          "image": "/images/projects/winsome-pearlz/rooftop-skyline-terrace.jpg"
+        },
+        {
+          "title": "Evening Illuminated Tower Architecture",
+          "category": "Architecture",
+          "image": "/images/projects/winsome-pearlz/tower-night-view.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Typical Floor Plan (1st to 14th Floor)",
+          "specs": "3 & 4.5 BHK • 3 Units per Floor • B + G + 14 Floors",
+          "description": "Spacious low-density floor plate featuring 3 luxury residences per floor, dual high-speed elevators, wide lobby, and fire escape staircase.",
+          "image": "/images/projects/winsome-pearlz/floorplan-typical-7and12.jpg"
+        },
+        {
+          "title": "Unit 101, 102 & 103 Dimensional Floor Plan",
+          "specs": "CAD Dimensions • Carpet & Balcony Detailed Measurements",
+          "description": "Accurate architectural dimensions for 3 BHK Unit 101/102 (1,793 sq.ft) and 4.5 BHK Unit 103 (2,437 sq.ft) with room-by-room measurements.",
+          "image": "/images/projects/winsome-pearlz/floorplan-unit-details.jpg"
+        },
+        {
+          "title": "Master Ground Site & Circulation Plan",
+          "specs": "Pillar 263 Access • 6.0m Driveway • Guard Kiosk",
+          "description": "Complete ground site layout with 6.0-meter peripheral two-way driveways, dedicated transformer yard, ramp down to basement parking, and entrance fountain.",
+          "image": "/images/projects/winsome-pearlz/floorplan-master-site.jpg"
+        },
+        {
+          "title": "Rooftop Terrace & Sky Amenities Blueprint",
+          "specs": "Terrace Level • Pool, Gym, Gazebo & Walkways",
+          "description": "Comprehensive rooftop blueprint detailing the infinity pool with filtration plant, pergola gym, open cafeteria, and yoga deck.",
+          "image": "/images/projects/winsome-pearlz/floorplan-rooftop-terrace.jpg"
+        },
+        {
+          "title": "4.5 BHK Presidential Suite (3D Cut View)",
+          "specs": "Flat 103 • 4 Bed + 4 Bath + Servant • 2,437 sq.ft Saleable",
+          "description": "3D cut view of Unit 103 showing master bedroom suite, 3 wide balconies, dedicated servant quarter with attached bath, and formal living room.",
+          "image": "/images/projects/winsome-pearlz/isometric-4bhk-cut.jpg"
+        },
+        {
+          "title": "3 BHK Luxury Residence - Unit 101 (3D Cut View)",
+          "specs": "Flat 101 • 3 Bed + 3 Bath • 1,793 sq.ft Saleable",
+          "description": "Isometric 3D layout of Flat 101 showcasing open kitchen, spacious dining lounge, master bedroom with private balcony, and optimal cross-ventilation.",
+          "image": "/images/projects/winsome-pearlz/isometric-3bhk-unit1.jpg"
+        },
+        {
+          "title": "3 BHK Luxury Residence - Unit 102 (3D Cut View)",
+          "specs": "Flat 102 • 3 Bed + 3 Bath • 1,793 sq.ft Saleable",
+          "description": "Isometric 3D layout of Flat 102 featuring expansive living salon, dual master suites, vastu-compliant puja corner, and modern utility balcony.",
+          "image": "/images/projects/winsome-pearlz/isometric-3bhk-unit2.jpg"
+        },
+        {
+          "title": "Regional Strategic Connectivity Map",
+          "specs": "GIS Location • Digha Link Rd & Marine Drive Access",
+          "description": "Connectivity blueprint highlighting direct access to Patliputra Junction, JP Ganga Path (Marine Drive), AIIMS Elevated Corridor, and JP Setu.",
+          "image": "/images/projects/winsome-pearlz/marine-drive-connectivity-map.jpg"
         }
       ],
       "overviewStats": [
@@ -728,138 +926,300 @@
     {
       "id": "durga-77",
       "slug": "durga-77",
-      "title": "Durga 77 - Signature Urban Residences on Bailey-Atal Corridor",
-      "subtitle": "Contemporary Architectural Elegance along Patna's Central Growth Axis",
-      "tagline": "Sophisticated design, expansive sunlit balconies, and uncompromised privacy",
+      "title": "Durga 77 - Signature Urban Residences on Digha-Atal Corridor",
+      "subtitle": "Iconic Terracotta Architecture with Vertical Balcony Gardens & Resort Living",
+      "tagline": "4BHK bespoke presidential residences, rooftop sky lounge & 32+ world-class amenities",
       "price": 18500000,
       "priceDisplay": "₹1.85 Cr",
       "priceUsd": "$222,000",
-      "location": "Atal Path / Bailey Road Corridor, Patna, Bihar",
+      "location": "Digha Polson Road, Atal Path Corridor, Patna, Bihar",
       "city": "Patna",
-      "locality": "Bailey Road",
-      "address": "Near Atal Path Flyover, Bailey Road Growth Corridor, Patna 800014",
+      "locality": "Digha Polson Road",
+      "address": "Digha Polson Road, off Atal Path Expressway & Marine Drive, Patna 800011",
       "coordinates": {
-        "lat": 25.612,
-        "lng": 85.098
+        "lat": 25.632,
+        "lng": 85.105
       },
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "balconies": 3,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "balconies": 4,
       "sqft": 2850,
       "carpetAreaSqft": 2150,
       "propertyType": "Luxury Apartment",
       "status": "Newly Launched",
       "possessionDate": "June 2027",
-      "facing": "East",
+      "facing": "North-East",
       "reraId": "BRERAP00045-2/14/R-1640/2024",
       "furnishing": "Semi-Furnished",
-      "parking": "2 Covered Bays",
+      "parking": "2 Covered Reserved Bays",
       "floor": "10th of 16 Floors",
       "maintenancePerMonth": "₹5,900/mo",
-      "description": "Durga 77 brings signature modern aesthetics to Patna's most dynamic corridor connecting Atal Path and Bailey Road. Engineered by Durga Projects, this prestigious development boasts striking glass façades, vast sun-drenched balconies, and intelligent space planning. Ranging from 1,950 to 2,850 sq.ft, each residence provides seamless airflow, acoustic insulation, and access to a panoramic rooftop clubhouse, infinity plunge pool, and lush manicured gardens.",
+      "description": "Durga 77 stands as an architectural triumph by Durga Projects along Patna's coveted Digha Polson Road, moments from the Atal Path Expressway and Patliputra Marine Drive on the Ganges. Showcasing an iconic terracotta-hued facade intertwined with hanging balcony gardens, this twin-tower landmark redefines high-end living in Bihar. Each bespoke 4BHK residence features expansive acoustic glass balconies, 4 baths, powder toilet, and dedicated staff quarters. Residents enjoy unmatched privileges: a resort-grade swimming pool with wooden sundeck and cabana, rooftop sky lounge and barbecue pavilion, private mini theatre, high-tech fitness studio, indoor multi-sports arena (badminton & basketball), spiritual Shiva temple, lush zen gardens, EV buggies, and comprehensive 3-tier digital security.",
       "images": [
-        "/images/projects/durga-77-featured.jpg",
-        "/images/projects/durga-77-page-2.jpg",
-        "/images/projects/durga-77-page-6.jpg",
-        "/images/projects/durga-77-page-5.jpg",
-        "/images/projects/durga-77-page-1.jpg",
-        "/images/projects/durga-77-page-3.jpg",
-        "/images/projects/durga-77-page-4.jpg"
+        "/images/projects/durga-77/img77.jpg",
+        "/images/projects/durga-77/img94.jpg",
+        "/images/projects/durga-77/img2059.jpg",
+        "/images/projects/durga-77/img36.jpg",
+        "/images/projects/durga-77/img340.jpg",
+        "/images/projects/durga-77/img184.jpg",
+        "/images/projects/durga-77/img196.jpg",
+        "/images/projects/durga-77/img177.jpg",
+        "/images/projects/durga-77/img346.jpg",
+        "/images/projects/durga-77/img341.jpg",
+        "/images/projects/durga-77/img178.jpg",
+        "/images/projects/durga-77/img183.jpg",
+        "/images/projects/durga-77/img195.jpg",
+        "/images/projects/durga-77/img347.jpg",
+        "/images/projects/durga-77/img171.jpg",
+        "/images/projects/durga-77/img1891.jpg",
+        "/images/projects/durga-77/img1892.jpg",
+        "/images/projects/durga-77/img2032.jpg",
+        "/images/projects/durga-77/img2031.jpg",
+        "/images/projects/durga-77/img382.jpg",
+        "/images/projects/durga-77/img119.jpg",
+        "/images/projects/durga-77/img2384.jpg"
       ],
       "features": [
-        "Strategic Bailey Road & Atal Path Interchange",
-        "Floor-to-Ceiling Acoustic Glazed Balconies",
-        "Rooftop Infinity Plunge Pool & Sky Club",
-        "Smart Digital Access & Automated Security",
-        "BRERA Approved: BRERAP00045-2/14/R-1640/2024",
-        "2 Covered Reserved Parkings"
+        "Iconic Terracotta Facade with Vertical Balcony Gardens",
+        "Bespoke 4BHK + 4T + Powder Room + Staff Quarters",
+        "Resort Swimming Pool & Sun Deck with Cabana Canopy",
+        "Rooftop Sunset Sky Lounge & BBQ Pavilion",
+        "Private Mini Theatre & Audiovisual Screening Room",
+        "Indoor Multi-Sport Arena (Badminton & Basketball)",
+        "Executive Library & Co-Working Business Lounge",
+        "Landscaped Spiritual Temple & Meditation Pavilion",
+        "Direct Connectivity: Digha Polson Rd, Atal Path & Marine Drive",
+        "BRERA Approved: BRERAP00045-2/14/R-1640/2024"
       ],
       "amenities": [
         {
-          "name": "Rooftop Sky Club",
-          "icon": "deck"
-        },
-        {
-          "name": "Infinity Plunge Pool",
+          "name": "Resort Swimming Pool",
           "icon": "pool"
         },
         {
-          "name": "Fitness Studio",
+          "name": "Rooftop Sky Lounge",
+          "icon": "deck"
+        },
+        {
+          "name": "Private Mini Theatre",
+          "icon": "theaters"
+        },
+        {
+          "name": "Indoor Sports Arena",
+          "icon": "sports_basketball"
+        },
+        {
+          "name": "Executive Fitness Studio",
           "icon": "fitness_center"
         },
         {
-          "name": "Senior Citizen Pavilion",
-          "icon": "elderly"
+          "name": "Rooftop Yoga Pergola",
+          "icon": "self_improvement"
         },
         {
-          "name": "Designer Landscaped Gardens",
-          "icon": "park"
+          "name": "Indoor Games Salon",
+          "icon": "sports_esports"
         },
         {
-          "name": "Children Play Area",
+          "name": "Kids Adventure Park",
           "icon": "child_care"
         },
         {
-          "name": "Multi-Tier Automated Security",
+          "name": "Grand Banquet Hall",
+          "icon": "celebration"
+        },
+        {
+          "name": "Business Library",
+          "icon": "menu_book"
+        },
+        {
+          "name": "Spiritual Shiva Temple",
+          "icon": "temple_hindu"
+        },
+        {
+          "name": "EV Golf Buggy Shuttles",
+          "icon": "electric_car"
+        },
+        {
+          "name": "Zen Stepped Gardens",
+          "icon": "park"
+        },
+        {
+          "name": "Turf Cricket Pitch",
+          "icon": "sports_cricket"
+        },
+        {
+          "name": "24/7 Gated Security",
           "icon": "security"
         },
         {
-          "name": "100% DG Power Backup",
+          "name": "100% Power Backup",
           "icon": "bolt"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Master Typical Floor Plan (4BHK)",
+          "type": "Typical Residential Floor",
+          "description": "Architectural master layout featuring Flats A1, A2, A3, B1, B2, B3 with 4 Bedrooms, 4 Bathrooms, Powder Toilet, and Staff Quarters with expansive verandas.",
+          "image": "/images/projects/durga-77/img2384.jpg",
+          "specs": "4 BHK • 2,850 sq.ft • Balcony Gardens"
+        },
+        {
+          "title": "Podium Sky Garden Level",
+          "type": "Podium / Garden Tier",
+          "description": "Exclusive terrace residences integrated with private landscaped sky gardens, water features, and open-air decks.",
+          "image": "/images/projects/durga-77/img390.jpg",
+          "specs": "Podium Tier • Landscaped Sky Gardens"
+        },
+        {
+          "title": "Terrace & Recreation Deck Plan",
+          "type": "Recreation Floor",
+          "description": "Dedicated lifestyle floor plan highlighting the multi-activity zones, soft-floor children's court, and perimeter planters.",
+          "image": "/images/projects/durga-77/img1616.jpg",
+          "specs": "Recreation Deck • Community Greens"
+        },
+        {
+          "title": "Master Site Layout & Campus Circulation",
+          "type": "Master Campus Plan",
+          "description": "Comprehensive site master plan delineating the grand entry boulevard, perimeter driveways, outdoor sports courts, swimming pool, and dedicated parking bays.",
+          "image": "/images/projects/durga-77/img119.jpg",
+          "specs": "Twin Towers • Master Circulation • Gated Campus"
+        },
+        {
+          "title": "Strategic GIS Connectivity & Corridor Map",
+          "type": "Location & Infrastructure",
+          "description": "Official infrastructure map detailing direct proximity to Digha Polson Road, Atal Path Expressway, and Patliputra Marine Drive on the Ganges.",
+          "image": "/images/projects/durga-77/img382.jpg",
+          "specs": "Digha Polson Rd • Atal Path • Marine Drive"
+        }
+      ],
+      "amenityShowcase": [
+        {
+          "title": "Cardio & Fitness Gymnasium",
+          "category": "Wellness & Health",
+          "description": "State-of-the-art cardiovascular and strength training equipment overlooking landscaped greens.",
+          "image": "/images/projects/durga-77/img2237.jpg"
+        },
+        {
+          "title": "Covered Swimming Pool & Sundeck",
+          "category": "Aquatics",
+          "description": "Weather-protected lap pool with granite steps, safety rails, and poolside relaxation deck.",
+          "image": "/images/projects/durga-77/img2247.jpg"
+        },
+        {
+          "title": "All-Weather Box Cricket Arena",
+          "category": "Sports",
+          "description": "High-enclosure net cricket practice pitch with floodlights and synthetic turf.",
+          "image": "/images/projects/durga-77/img2258.jpg"
+        },
+        {
+          "title": "Children's Adventure Playground",
+          "category": "Kids & Family",
+          "description": "Multi-play fortress with slides, swings, and soft green safety surroundings.",
+          "image": "/images/projects/durga-77/img2248.jpg"
+        },
+        {
+          "title": "Stepped Amphitheater & Zen Garden",
+          "category": "Landscape",
+          "description": "Terraced granite seating with lush floral arrangements for open-air gatherings.",
+          "image": "/images/projects/durga-77/img2249.jpg"
+        },
+        {
+          "title": "Resident Clubhouse Reception",
+          "category": "Community",
+          "description": "Grand modern clubhouse lobby providing access to concierge and indoor leisure lounges.",
+          "image": "/images/projects/durga-77/img2254.jpg"
+        },
+        {
+          "title": "EV Buggy Mobility Shuttles",
+          "category": "Convenience",
+          "description": "Zero-emission electric golf carts for effortless internal campus transit.",
+          "image": "/images/projects/durga-77/img2259.jpg"
+        },
+        {
+          "title": "Badminton & Multi-Sport Court",
+          "category": "Sports",
+          "description": "Fenced sports court with anti-skid synthetic surface for competitive play.",
+          "image": "/images/projects/durga-77/img2235.jpg"
+        },
+        {
+          "title": "Aerobics & Yoga Hall",
+          "category": "Wellness",
+          "description": "Mirrored studio with timber flooring and wellness equipment for mindful living.",
+          "image": "/images/projects/durga-77/img2232.jpg"
+        },
+        {
+          "title": "Landscaped Central Park & Promenade",
+          "category": "Nature",
+          "description": "Manicured central park with paved walking paths, lamp posts, and lush trees.",
+          "image": "/images/projects/durga-77/img2236.jpg"
+        },
+        {
+          "title": "Grand Entrance Portico & Canopy",
+          "category": "Architecture",
+          "description": "Timber-paneled entrance portico and double-height arrival pavilion.",
+          "image": "/images/projects/durga-77/img2256.jpg"
+        },
+        {
+          "title": "24/7 Gated Security & Perimeter Guard",
+          "category": "Security",
+          "description": "Ornate security gates with boom barriers and round-the-clock surveillance control.",
+          "image": "/images/projects/durga-77/img2233.jpg"
         }
       ],
       "overviewStats": [
         {
           "label": "Total Area",
-          "value": "1,950 - 2,850 sq.ft",
+          "value": "2,850 sq.ft",
           "icon": "straighten"
         },
         {
           "label": "Carpet Area",
-          "value": "1,480 - 2,150 sq.ft",
+          "value": "2,150 sq.ft",
           "icon": "aspect_ratio"
         },
         {
           "label": "Growth Corridor",
-          "value": "Bailey Rd / Atal Path",
+          "value": "Digha Polson / Atal Path",
           "icon": "alt_route"
         },
         {
           "label": "Configuration",
-          "value": "3 & 4 BHK Signature",
+          "value": "4 BHK + 4T + Servant",
           "icon": "bed"
         }
       ],
       "neighborhoodInsights": [
         {
-          "title": "Bailey Road Prime Corridor",
-          "distance": "2 mins (800 m)",
-          "type": "Tech Park"
-        },
-        {
           "title": "Atal Path Expressway Junction",
-          "distance": "2 mins (900 m)",
+          "distance": "2 mins (800 m)",
           "type": "Metro"
         },
         {
-          "title": "Paras HMRI Super-Specialty Hospital",
-          "distance": "7 mins (3.0 km)",
+          "title": "Patliputra Marine Drive (Ganga Riverfront)",
+          "distance": "3 mins (1.2 km)",
+          "type": "Tech Park"
+        },
+        {
+          "title": "Digha Bridge Halt / Railway Junction",
+          "distance": "4 mins (1.8 km)",
+          "type": "Metro"
+        },
+        {
+          "title": "St. Michael's High School / DPS",
+          "distance": "6 mins (2.4 km)",
+          "type": "School"
+        },
+        {
+          "title": "Ruban Memorial Super-Specialty Hospital",
+          "distance": "7 mins (3.1 km)",
           "type": "Hospital"
         },
         {
           "title": "Patna International Airport",
-          "distance": "12 mins (5.2 km)",
+          "distance": "14 mins (6.8 km)",
           "type": "Airport"
-        },
-        {
-          "title": "City Centre Mall Patna",
-          "distance": "8 mins (3.4 km)",
-          "type": "Shopping"
-        },
-        {
-          "title": "Delhi Public School Patna",
-          "distance": "10 mins (4.0 km)",
-          "type": "School"
         }
       ],
       "agent": {

@@ -4,7 +4,7 @@ import ClientLayoutWrapper from '@/components/ClientLayoutWrapper';
 import { Toaster } from 'sonner';
 
 export const viewport: Viewport = {
-  themeColor: '#000d22',
+  themeColor: '#ffffff',
   width: 'device-width',
   initialScale: 1,
 };
@@ -118,7 +118,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdOrganization) }}
         />
       </head>
-      <body className="bg-surface text-on-surface antialiased min-h-screen flex flex-col font-inter selection:bg-secondary selection:text-white">
+      <body className="bg-surface-pure text-on-surface antialiased min-h-screen flex flex-col font-inter selection:bg-secondary selection:text-white">
         <Toaster position="top-right" richColors />
         <ClientLayoutWrapper>{children}</ClientLayoutWrapper>
       </body>

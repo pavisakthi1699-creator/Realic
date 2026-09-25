@@ -18,10 +18,10 @@ export default function BlogsPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-[#0B0F15] flex items-center justify-center p-12">
+        <div className="min-h-screen bg-white flex items-center justify-center p-12">
           <div className="flex flex-col items-center gap-3">
-            <div className="w-10 h-10 border-4 border-[#D4AF37] border-t-transparent rounded-full animate-spin"></div>
-            <p className="text-sm font-semibold text-slate-400">
+            <div className="w-10 h-10 border-4 border-neutral-900 border-t-transparent rounded-full animate-spin"></div>
+            <p className="text-sm font-semibold text-neutral-600">
               Loading market intelligence journal...
             </p>
           </div>

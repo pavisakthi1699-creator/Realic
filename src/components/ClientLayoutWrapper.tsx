@@ -14,18 +14,18 @@ export default function ClientLayoutWrapper({
   const isAdmin = Boolean(pathname?.startsWith('/admin'));
 
   if (isAdmin) {
-    // Admin panel is self-contained with its own executive dashboard and controls.
-    // Public website navbar and footer are completely excluded.
-    return <main className="min-h-screen flex flex-col">{children}</main>;
+    return <div className="min-h-screen flex flex-col">{children}</div>;
   }
 
-  const isHome = pathname === '/';
+  const isProperties = pathname === '/properties';
 
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className={`flex-grow ${isHome ? '' : 'pt-16'}`}>{children}</main>
-      <Footer />
-    </>
+      <div className={isProperties ? 'h-screen pt-16 overflow-hidden flex flex-col' : 'flex-grow pt-16'}>
+        {children}
+      </div>
+      {!isProperties && <Footer />}
+    </div>
   );
 }

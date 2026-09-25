@@ -58,14 +58,14 @@ export default function AdminDashboardPage() {
         <div className="flex items-center gap-3">
           <Link
             href="/admin/properties"
-            className="px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold rounded-xl shadow-xs transition-all flex items-center gap-1.5"
+            className="px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold rounded-xl shadow-xs transition-all flex items-center gap-1.5"
           >
             <span className="material-symbols-outlined text-base">add_circle</span>
             Manage Properties
           </Link>
           <Link
             href="/admin/blogs"
-            className="px-4 py-2.5 bg-gradient-to-r from-[#D4AF37] to-[#B89628] text-slate-950 text-xs font-bold rounded-xl shadow-xs transition-all flex items-center gap-1.5"
+            className="px-4 py-2.5 bg-white hover:bg-slate-50 text-slate-700 border border-slate-300 text-xs font-bold rounded-xl shadow-xs transition-all flex items-center gap-1.5"
           >
             <span className="material-symbols-outlined text-base">post_add</span>
             Create Article
