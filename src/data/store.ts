@@ -5,7 +5,7 @@ import { BlogArticle, INITIAL_BLOGS } from './blogs';
 
 export interface Inquiry {
   id: string;
-  type: 'Showing' | 'Instant Offer' | 'General Consultation';
+  type: 'Showing' | 'Instant Offer' | 'General Consultation' | 'Interior Design' | 'Turnkey Construction' | 'Builder JV Mandate';
   name: string;
   phone: string;
   email?: string;

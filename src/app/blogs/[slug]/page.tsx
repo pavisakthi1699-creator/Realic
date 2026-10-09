@@ -354,7 +354,7 @@ export default async function BlogDetailPage({ params }: Props) {
                 Conduct a RERA Due Diligence or Portfolio Appraisal
               </h3>
               <p className="mt-2 text-sm text-neutral-600">
-                Are you looking to acquire luxury inventory in Patna or Bangalore? Our legal counsel and senior acquisition team will verify 30-year title deeds and ensure RERA compliance.
+                Are you looking to acquire luxury inventory in Patna? Our legal counsel and senior acquisition team will verify 30-year title deeds and ensure RERA compliance.
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-3">
                 <Link

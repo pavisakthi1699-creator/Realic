@@ -13,8 +13,8 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-neutral-800/80">
-          {/* Column 1: Brand & Credibility (Span 2 on lg) */}
-          <div className="lg:col-span-2 space-y-4">
+          {/* Column 1: Brand & Credibility */}
+          <div className="space-y-4">
             <Link href="/" className="inline-block">
               <img
                 src="/images/header-logo.png"
@@ -24,13 +24,13 @@ export const Footer: React.FC = () => {
             </Link>
 
             <p className="text-xs text-neutral-400 leading-relaxed max-w-sm">
-              Realic Property Consultant is an institutional advisory partner specializing in curated luxury residences, sky penthouses, and strategic prime commercial assets with 100% RERA compliance and clear title vetting.
+              Realic Property Consultant is an institutional advisory partner specializing in curated luxury residences, turnkey construction, bespoke interiors, and builder JV mandates.
             </p>
 
             <div className="pt-2 flex flex-col gap-2 text-xs">
               <div className="flex items-center gap-2 text-neutral-300">
                 <span className="material-symbols-outlined text-amber-400 text-sm">verified_user</span>
-                <span className="font-semibold">Registered Institutional Property Advisors</span>
+                <span className="font-semibold">Registered Institutional Advisory</span>
               </div>
               <div className="flex items-center gap-2 text-neutral-400">
                 <span className="material-symbols-outlined text-amber-400 text-sm">schedule</span>
@@ -39,7 +39,41 @@ export const Footer: React.FC = () => {
             </div>
           </div>
 
-          {/* Column 2: Marketplace Navigation */}
+          {/* Column 2: Services & Solutions */}
+          <div className="space-y-3">
+            <h4 className="text-xs font-bold uppercase tracking-wider text-white font-montserrat">
+              Core Services
+            </h4>
+            <ul className="space-y-2 text-xs text-neutral-400">
+              <li>
+                <Link href="/interior" className="hover:text-amber-400 transition-colors">
+                  Bespoke Interiors
+                </Link>
+              </li>
+              <li>
+                <Link href="/construction" className="hover:text-amber-400 transition-colors">
+                  Turnkey Construction
+                </Link>
+              </li>
+              <li>
+                <Link href="/builder" className="hover:text-amber-400 transition-colors">
+                  Builder &amp; Developer JVs
+                </Link>
+              </li>
+              <li>
+                <Link href="/sell" className="hover:text-amber-400 transition-colors">
+                  Instant Property Valuation
+                </Link>
+              </li>
+              <li>
+                <Link href="/properties" className="hover:text-amber-400 transition-colors">
+                  Curated Property Portfolio
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 3: Marketplace Portfolio */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white font-montserrat">
               Explore Portfolio
@@ -66,22 +100,22 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/sell" className="hover:text-amber-400 transition-colors">
-                  List Your Property
+                <Link href="/reviews" className="hover:text-amber-400 transition-colors">
+                  Client Case Studies
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Column 3: Prime Corridors */}
+          {/* Column 4: Prime Corridors */}
           <div className="space-y-3">
             <h4 className="text-xs font-bold uppercase tracking-wider text-white font-montserrat">
               Key Corridors
             </h4>
             <ul className="space-y-2 text-xs text-neutral-400">
               <li>
-                <Link href="/properties?city=Bangalore" className="hover:text-amber-400 transition-colors">
-                  Bangalore (Whitefield & Indiranagar)
+                <Link href="/properties?city=Patna" className="hover:text-amber-400 transition-colors">
+                  Patna (Atal Path Expressway)
                 </Link>
               </li>
               <li>
@@ -101,7 +135,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="/blogs" className="hover:text-amber-400 transition-colors">
-                  Corridor Appreciation Analysis
+                  Market Appreciation Analysis
                 </Link>
               </li>
             </ul>
@@ -114,11 +148,11 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="space-y-2.5 text-xs text-neutral-400">
               <a
-                href="tel:+918045678900"
+                href="tel:+919102599969"
                 className="flex items-center gap-2 hover:text-amber-400 transition-colors text-white font-semibold"
               >
                 <span className="material-symbols-outlined text-amber-400 text-sm">call</span>
-                <span>+91 80 4567 8900</span>
+                <span>+91 91025 99969</span>
               </a>
 
               <a
@@ -133,7 +167,7 @@ export const Footer: React.FC = () => {
                 <span className="material-symbols-outlined text-amber-400 text-sm shrink-0 mt-0.5">
                   location_on
                 </span>
-                <span>Level 4, Prestige Tech Park, Marathahalli ORR, Bangalore 560103</span>
+                <span>Bailey Road, Near Saguna More &amp; Atal Path Link, Patna, Bihar 800001</span>
               </p>
 
               <div className="pt-2">

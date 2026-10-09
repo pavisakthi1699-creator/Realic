@@ -31,7 +31,7 @@ export const INITIAL_BLOGS: BlogArticle[] = [
       'Analyzing how metro connectivity, AIIMS expansion, and institutional RERA regulations are turning Patna into Bihar premier wealth and luxury residential market.',
     category: 'Patna Corridors',
     coverImage:
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80',
+      '/images/projects/venus-capital-heights/palatial-tower-facade-elevation.jpg',
     author: {
       name: 'Amit Vikram',
       role: 'Managing Director, Bihar & Eastern Corridor',
@@ -50,7 +50,7 @@ export const INITIAL_BLOGS: BlogArticle[] = [
 Patna, historically characterized by low-rise independent family dwellings and fragmented real estate holdings, is undergoing an unprecedented institutional transformation. Over the past twenty-four months, strategic state capital investments in the Patna Metro Rail project, the Ganga Pathway (Marine Drive), and elevated arterial expressways connecting Saguna More to Danapur Cantonment have redefined the city's residential skyline.
 
 ### 1. Bailey Road: The Premier Sky-Penthouse Corridor
-Bailey Road has established itself as Patna's equivalent to Bangalore's Indiranagar or Delhi's Golf Course Road. With double-lane flyovers connecting Saguna More directly to the Patna Airport and High Court within eighteen minutes, leading developers are introducing gated vertical communities with private elevators, sky decks, and multi-tier security.
+Bailey Road has established itself as Patna's premier sky-penthouse and presidential township corridor. With double-lane flyovers connecting Saguna More directly to the Patna Airport and High Court within eighteen minutes, leading developers are introducing gated vertical communities with private elevators, sky decks, and multi-tier security.
 
 > "Discerning families in Patna no longer look for standard apartments; they seek private estates in the sky with institutional RERA compliance and guaranteed clear title lineage." — *Amit Vikram, Realic Property Consultant*
 
@@ -69,7 +69,7 @@ For buyers, the most critical shift has been the enforcement of Bihar RERA (BR-R
       'A forensic legal guide on verifying encumbrance certificates, mother deeds, and sanction plans before acquiring luxury properties in India.',
     category: 'Legal & RERA',
     coverImage:
-      'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80',
+      '/images/projects/durga-lifestyle/full-tower-elevation-atal-path.jpg',
     author: {
       name: 'Julian Mercer',
       role: 'Head of Legal & Compliance Counsel',
@@ -107,7 +107,7 @@ By following this uncompromising process, Realic maintains a spotless 100% dispu
       'How diaspora investors in North America, Europe, and the Middle East are executing seamless high-value transactions with zero travel overhead.',
     category: 'NRI Advisory',
     coverImage:
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+      '/images/projects/satvika-rajpati-enclave/full-front-elevation.jpg',
     author: {
       name: 'Sarah Lin',
       role: 'Partner, Private Client Services',
@@ -140,34 +140,34 @@ Before making a financial commitment, our clients receive detailed 4K uncompress
   {
     id: 'modernist-waterfront-architecture-trends',
     slug: 'modernist-waterfront-architecture-trends',
-    title: 'The Rise of Modernist Waterfront Villas: Bellandur & Whitefield Lakefront Living',
+    title: 'The Rise of Modernist Riverfront High-Rises: JP Ganga Marine Drive Living in Patna',
     excerpt:
-      'Exploring the architectural philosophy behind panoramic cantilevered glass terraces, infinity edges, and biophilic living in Bangalore Silicon Valley.',
+      'Exploring the architectural philosophy behind panoramic cantilevered glass terraces, infinity pools, and riverfront living along Patna Ganga Pathway.',
     category: 'Luxury Living',
     coverImage:
-      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80',
+      '/images/projects/winsome-icon/day-elevation-glass-tower.jpg',
     author: {
-      name: 'Eleanor Vance',
-      role: 'Founder & Chief Executive Officer',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80',
+      name: 'Amit Vikram',
+      role: 'Managing Director, Bihar & Eastern Corridor',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
     },
     publishedAt: 'July 18, 2026',
     readTime: '7 min read',
-    tags: ['Bangalore Luxury', 'Lakefront Villas', 'Architecture', 'Prestige Habitat', 'Bellandur'],
+    tags: ['Patna Luxury', 'Marine Drive', 'Riverfront Towers', 'Ganga Horizons', 'Winsome Icon'],
     featured: false,
-    metaTitle: 'Waterfront Modernist Luxury Architecture | Realic',
+    metaTitle: 'Ganga Riverfront Luxury Living & Marine Drive Architecture | Realic',
     metaDescription:
-      'Discover how contemporary luxury homes in Bangalore integrate lakefront infinity pools, acoustic acoustic glass, and biophilic open pavilions.',
+      'Discover how contemporary luxury homes along Patna Ganga Marine Drive integrate panoramic river horizons, acoustic glass, and infinity pools.',
     content: `
 ### Living on the Edge of Nature and Urban Innovation
 
-In a bustling technology capital like Bangalore, the true definition of luxury has moved beyond gold-leaf moldings or generic marble lobbies. Today, luxury is defined by space, light, natural acoustics, and expansive water horizons.
+Along the transformative JP Ganga Pathway (Marine Drive) in Patna, the definition of luxury has evolved. Today, discerning homeowners demand space, light, acoustic serenity, and panoramic horizons spanning the sacred Ganges.
 
-### The Modernist Design Vocabulary
+### The Modernist Riverfront Design Vocabulary
 
-* **Thermal Acoustic Double-Glazed Glass**: Allowing dramatic 12-foot high ceiling-to-floor views of Varthur and Bellandur lakes while insulating indoor air temperature and eliminating urban decibels.
-* **Cantilevered Terraces**: Extending the private living salon outward into the breeze, creating shaded outdoor lounges that function seamlessly in monsoon and summer alike.
-* **Integrated Smart Micro-Grids**: Utilizing rooftop photovoltaic arrays and greywater recycling systems that deliver sustainable luxury with near-zero grid dependency.
+* **Thermal Acoustic Double-Glazed Glass**: Allowing dramatic floor-to-ceiling vistas of the Ganga while insulating indoor air temperature and eliminating urban decibels.
+* **Cantilevered Terraces**: Extending private living salons outward into the river breeze, creating shaded outdoor viewing decks that function seamlessly year-round.
+* **Integrated Rooftop Amenities**: Featuring rooftop infinity-edge pools, sky lounges, and jogging decks engineered atop landmark towers like Winsome Icon and Hari Pearlz.
     `,
   },
 ];

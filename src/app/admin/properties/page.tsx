@@ -22,7 +22,7 @@ export default function AdminPropertiesPage() {
     price: 25000000,
     priceDisplay: '₹2.50 Cr',
     priceUsd: '$300,000',
-    city: 'Patna' as 'Patna' | 'Bangalore',
+    city: 'Patna' as 'Patna',
     locality: '',
     address: '',
     bedrooms: 3,
@@ -40,8 +40,8 @@ export default function AdminPropertiesPage() {
     floor: '12th Floor',
     maintenancePerMonth: '₹5,000/mo',
     description: '',
-    imageUrl1: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-    imageUrl2: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80',
+    imageUrl1: '/images/projects/winsome-icon/day-elevation-glass-tower.jpg',
+    imageUrl2: '/images/projects/durga-lifestyle/full-tower-elevation-atal-path.jpg',
     features: 'Italian Marble, 100% Power Backup, Private Terrace',
     agentName: 'Amit Vikram',
     agentRole: 'Director - Patna Advisory',
@@ -97,8 +97,8 @@ export default function AdminPropertiesPage() {
       floor: '12th Floor',
       maintenancePerMonth: '₹5,000/mo',
       description: 'Exclusive luxury residence with floor-to-ceiling panoramic glass, imported finishes, and 100% legal title compliance.',
-      imageUrl1: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-      imageUrl2: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80',
+      imageUrl1: '/images/projects/winsome-icon/day-elevation-glass-tower.jpg',
+      imageUrl2: '/images/projects/durga-lifestyle/full-tower-elevation-atal-path.jpg',
       features: 'Italian Marble, 100% Power Backup, Private Terrace',
       agentName: 'Amit Vikram',
       agentRole: 'Director - Patna Advisory',
@@ -319,7 +319,7 @@ export default function AdminPropertiesPage() {
 
         <div className="flex items-center gap-2 w-full sm:w-auto">
           <span className="text-xs text-slate-600 font-medium">City:</span>
-          {(['All', 'Patna', 'Bangalore'] as const).map((city) => (
+          {(['All', 'Patna'] as const).map((city) => (
             <button
               key={city}
               onClick={() => setSelectedCity(city)}
@@ -506,7 +506,6 @@ export default function AdminPropertiesPage() {
                     className="w-full px-3 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 focus:border-secondary outline-none"
                   >
                     <option value="Patna">Patna, Bihar</option>
-                    <option value="Bangalore">Bangalore, Karnataka</option>
                   </select>
                 </div>
               </div>

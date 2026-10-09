@@ -367,9 +367,11 @@ export const EnquiryModal: React.FC<{ isOpen: boolean; onClose: () => void }> = 
                     onChange={(e) => setCity(e.target.value)}
                     className="w-full px-3.5 py-2.5 rounded-xl border border-neutral-200 bg-neutral-50 focus:outline-none focus:border-black text-sm text-black"
                   >
-                    <option value="Patna">Patna (Bailey Rd, Danapur, etc.)</option>
-                    <option value="Bangalore">Bangalore (Whitefield, Bellandur, etc.)</option>
-                    <option value="Both">Both Corridors</option>
+                    <option value="Patna">Patna (All Corridors)</option>
+                    <option value="Bailey Road">Patna - Bailey Road / Saguna More</option>
+                    <option value="Atal Path">Patna - Atal Path Expressway</option>
+                    <option value="AIIMS-Digha">Patna - AIIMS-Digha Corridor</option>
+                    <option value="Marine Drive">Patna - Ganga Marine Drive</option>
                   </select>
                 </div>
               </div>

@@ -16,18 +16,18 @@ export const metadata: Metadata = {
     template: '%s | Realic Property Consultant',
   },
   description:
-    'Premier real estate consultancy in Patna, Bangalore and top luxury corridors. Verified penthouses, contemporary villas, instant cash offers, and 100% legal title diligence.',
+    'Premier real estate consultancy in Patna and top Bihar luxury corridors. Verified penthouses, contemporary high-rises, developer sole mandates, and 100% legal title diligence.',
   keywords: [
     'Realic Property Consultant',
     'Real Estate Patna',
-    'Luxury Apartments Bangalore',
+    'Luxury Apartments Patna',
     'Properties in Patna',
     'Penthouses Bailey Road Patna',
-    'Villas in Bangalore',
-    'Whitefield Luxury Homes',
-    'Sell Property Fast',
-    'Instant Cash Offer Real Estate',
-    'RERA Verified Real Estate',
+    'Atal Path Luxury Residences',
+    'AIIMS Digha Elevated Corridor',
+    'Ganga Marine Drive Flats',
+    'Danapur Gated Communities',
+    'RERA Verified Real Estate Bihar',
   ],
   authors: [{ name: 'Realic Property Consultant' }],
   creator: 'Realic Advisory Group',
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     siteName: 'Realic Property Consultant',
     title: 'Realic Property Consultant | High-End Real Estate & Advisory',
     description:
-      'Verified luxury estates, penthouses, and modern villas in Patna & Bangalore with complete legal title audit and seamless closing.',
+      'Verified luxury estates, penthouses, and modern high-rises in Patna with complete legal title audit and seamless closing.',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&h=630&q=80',
+        url: '/images/projects/winsome-icon/day-elevation-glass-tower.jpg',
         width: 1200,
         height: 630,
-        alt: 'Realic Property Consultant Luxury Residences',
+        alt: 'Realic Property Consultant Luxury Residences Patna',
       },
     ],
   },
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Realic Property Consultant | High-End Real Estate',
     description:
-      'Curated luxury residences in Patna & Bangalore with verified legal title diligence.',
-    images: ['https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&h=630&q=80'],
+      'Curated luxury residences in Patna with verified legal title diligence.',
+    images: ['/images/projects/winsome-icon/day-elevation-glass-tower.jpg'],
   },
   robots: {
     index: true,
@@ -81,27 +81,17 @@ export default function RootLayout({
     url: 'https://realicproperty.com',
     logo: 'https://realicproperty.com/logo.png',
     description:
-      'Premier real estate consultancy providing verified luxury properties, legal title audits, and instant sale valuations in Patna and Bangalore.',
-    telephone: '+91 94310 98765',
-    address: [
-      {
-        '@type': 'PostalAddress',
-        streetAddress: 'Bailey Heights, Near Saguna More, Bailey Road',
-        addressLocality: 'Patna',
-        addressRegion: 'Bihar',
-        postalCode: '801503',
-        addressCountry: 'IN',
-      },
-      {
-        '@type': 'PostalAddress',
-        streetAddress: 'Tower 4, Prestige Lakeside Habitat, Varthur Main Rd',
-        addressLocality: 'Bangalore',
-        addressRegion: 'Karnataka',
-        postalCode: '560087',
-        addressCountry: 'IN',
-      },
-    ],
-    priceRange: '₹1.1 Cr - ₹15.0 Cr',
+      'Premier real estate consultancy providing verified luxury properties, legal title audits, and developer partnerships in Patna, Bihar.',
+    telephone: '+91 91025 99969',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Bailey Road Corridor, Near Saguna More & Atal Path Link',
+      addressLocality: 'Patna',
+      addressRegion: 'Bihar',
+      postalCode: '800001',
+      addressCountry: 'IN',
+    },
+    priceRange: '₹60 L - ₹15.0 Cr',
   };
 
   return (

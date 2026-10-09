@@ -86,7 +86,7 @@ export default function AdminDashboardPage() {
           <div className="text-3xl font-extrabold font-montserrat text-slate-950">
             {loading ? '...' : properties.length}
           </div>
-          <p className="text-xs text-slate-500 mt-1">Patna & Bangalore Luxury Corridors</p>
+          <p className="text-xs text-slate-500 mt-1">Patna Luxury Corridors</p>
         </div>
 
         {/* Portfolio Valuation */}

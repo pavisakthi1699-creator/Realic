@@ -64,7 +64,7 @@ export default function BlogsClient() {
               The Realic <span className="italic font-serif font-normal">Quarterly Journal</span>
             </h1>
             <p className="mt-4 text-base sm:text-lg text-neutral-600 leading-relaxed font-normal">
-              In-depth market intelligence, RERA title audit frameworks, corridor price indices, and wealth advisory reports for Patna and Bangalore luxury real estate.
+              In-depth market intelligence, RERA title audit frameworks, corridor price indices, and wealth advisory reports for Patna luxury real estate.
             </p>
           </div>
 
@@ -291,7 +291,7 @@ export default function BlogsClient() {
             Private Investor Briefing
           </div>
           <h3 className="text-2xl sm:text-3xl font-bold font-montserrat text-neutral-950">
-            Receive Our Monthly Patna & Bangalore Intelligence
+            Receive Our Monthly Patna Real Estate Intelligence
           </h3>
           <p className="mt-3 text-sm text-neutral-600 max-w-xl mx-auto">
             Get exclusive early access to pre-launch sky penthouses, infrastructure growth updates, and 30-year title diligence reports directly in your inbox.

@@ -52,7 +52,7 @@ export default function ContactClient() {
                 </div>
                 <h3 className="font-headline-md text-primary">Inquiry Sent Successfully</h3>
                 <p className="text-text-medium-emphasis font-body-md max-w-md mx-auto">
-                  Thank you, <span className="font-bold text-primary">{fullName}</span>. Your message has been received by our Bangalore Headquarters Advisory team. We will contact you at <span className="font-semibold text-primary">{email}</span> within 2 hours.
+                  Thank you, <span className="font-bold text-primary">{fullName}</span>. Your message has been received by our Patna Headquarters Advisory team. We will contact you at <span className="font-semibold text-primary">{email}</span> within 2 hours.
                 </p>
                 <button
                   type="button"
@@ -164,11 +164,11 @@ export default function ContactClient() {
                   <span className="material-symbols-outlined text-primary">location_on</span>
                 </div>
                 <div className="flex flex-col">
-                  <span className="font-label-bold text-label-bold text-text-high-emphasis mb-1">Bangalore Office</span>
+                  <span className="font-label-bold text-label-bold text-text-high-emphasis mb-1">Patna Headquarters</span>
                   <span className="font-body-md text-body-md text-text-medium-emphasis leading-relaxed">
-                    Level 4, Prestige Tech Park<br />
-                    Marathahalli Outer Ring Road<br />
-                    Bangalore, Karnataka 560103
+                    Bailey Road Corridor<br />
+                    Near Saguna More &amp; Atal Path Link<br />
+                    Patna, Bihar 800001
                   </span>
                 </div>
               </div>
@@ -179,8 +179,8 @@ export default function ContactClient() {
                 </div>
                 <div className="flex flex-col">
                   <span className="font-label-bold text-label-bold text-text-high-emphasis mb-1">Phone</span>
-                  <a href="tel:+918045678900" className="font-body-md text-body-md text-text-medium-emphasis hover:text-secondary transition-colors">
-                    +91 80 4567 8900
+                  <a href="tel:+919102599969" className="font-body-md text-body-md text-text-medium-emphasis hover:text-secondary transition-colors">
+                    +91 91025 99969
                   </a>
                   <span className="font-label-sm text-label-sm text-text-medium-emphasis mt-1">Mon-Fri, 9am - 6pm IST</span>
                 </div>
@@ -203,13 +203,13 @@ export default function ContactClient() {
             <div className="h-64 rounded-xl overflow-hidden border border-border-subtle custom-shadow relative bg-surface-container-low group">
               <img
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                alt="A clean, minimalist digital map of Bangalore showing the Marathahalli Outer Ring Road area."
-                src="/images/contact-map.jpg"
+                alt="Patna Prime Real Estate Corridors & Connectivity Map"
+                src="/images/projects/venus-capital-heights/location-connectivity-map.jpg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-container/20 to-transparent pointer-events-none"></div>
               <div className="absolute bottom-3 left-3 bg-surface-pure/90 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-border-subtle shadow-sm flex items-center gap-2">
                 <span className="material-symbols-outlined text-secondary text-sm">location_on</span>
-                <span className="font-label-bold text-xs text-primary">Prestige Tech Park, ORR</span>
+                <span className="font-label-bold text-xs text-primary">Bailey Road &amp; Atal Path, Patna</span>
               </div>
             </div>
           </div>

@@ -147,7 +147,7 @@ export default function SellClient() {
               Estimate Your Property Market Value
             </h2>
             <p className="text-xs sm:text-sm text-text-medium-emphasis mb-8">
-              Based on historical land registries and real transactions across Patna and Bangalore.
+              Based on historical land registries and real transactions across Patna premier corridors.
             </p>
 
             <form onSubmit={calculateValuation} className="space-y-5">
@@ -162,7 +162,6 @@ export default function SellClient() {
                     className="w-full px-3.5 py-2.5 rounded-xl border border-border-subtle bg-surface text-xs font-medium focus:border-secondary outline-none h-11"
                   >
                     <option value="Patna">Patna, Bihar</option>
-                    <option value="Bangalore">Bangalore, Karnataka</option>
                   </select>
                 </div>
 
@@ -470,7 +469,7 @@ export default function SellClient() {
                 <textarea
                   value={fullAddress}
                   onChange={(e) => setFullAddress(e.target.value)}
-                  placeholder="Street, Tower/Apartment number, Road, Patna or Bangalore..."
+                  placeholder="Street, Tower/Apartment number, Road, Patna..."
                   rows={3}
                   className="w-full p-3 rounded-xl border border-neutral-200 bg-neutral-50 text-xs focus:border-black outline-none text-black"
                   required

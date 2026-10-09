@@ -58,9 +58,9 @@ export default function AboutPage() {
             </div>
             <div className="rounded-lg overflow-hidden custom-shadow">
               <img
-                alt="Luxury Real Estate Architectural Model"
+                alt="Venus Capital Heights 16-Acre Integrated Township Patna"
                 className="w-full h-[500px] object-cover"
-                src="/images/about-hero.jpg"
+                src="/images/projects/venus-capital-heights/master-township-aerial-view.jpg"
               />
             </div>
           </div>

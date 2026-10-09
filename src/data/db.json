@@ -33,12 +33,33 @@
       "maintenancePerMonth": "₹5,800/mo",
       "description": "Winsome Icon stands as the undisputed tallest architectural marvel in a 5-km radius across Patna, rising 18 storeys high along the AIIMS-Digha Elevated Corridor near JP Setu and Ganga Marine Drive. Designed for visionary living, it features four distinct towers: Tower A (commercial boutique hubs), Tower B (exclusive executive suites), and Towers C & D (palatial 3 & 4 BHK residences). Residents enjoy a double-height grand entrance lobby, rooftop infinity swimming pool with Ganga river horizons, cricket pitch with net, world-class club house, and 3-tier smart security.",
       "images": [
-        "/images/projects/winsome-icon-page-5.jpg",
-        "/images/projects/winsome-icon-page-2.jpg",
-        "/images/projects/winsome-icon-page-3.jpg",
-        "/images/projects/winsome-icon-page-4.jpg",
-        "/images/projects/winsome-icon-page-6.jpg",
-        "/images/projects/winsome-icon-page-1.jpg"
+        "/images/projects/winsome-icon/aerial-panorama-ganga.jpg",
+        "/images/projects/winsome-icon/tower-front-elevation.jpg",
+        "/images/projects/winsome-icon/commercial-tower-a.jpg",
+        "/images/projects/winsome-icon/swimming-pool-clubhouse.jpg",
+        "/images/projects/winsome-icon/podium-campus-overview.jpg",
+        "/images/projects/winsome-icon/tower-ground-perspective.jpg",
+        "/images/projects/winsome-icon/tower-architectural-perspective.jpg",
+        "/images/projects/winsome-icon/podium-kids-court-deck.jpg",
+        "/images/projects/winsome-icon/gymnasium-fitness-center.jpg",
+        "/images/projects/winsome-icon/indoor-games-chess-salon.jpg",
+        "/images/projects/winsome-icon/private-mini-theatre.jpg",
+        "/images/projects/winsome-icon/cricket-practice-net.jpg",
+        "/images/projects/winsome-icon/yoga-meditation-lawn.jpg",
+        "/images/projects/winsome-icon/party-lawn-gazebo.jpg",
+        "/images/projects/winsome-icon/jogging-walking-track.jpg",
+        "/images/projects/winsome-icon/multipurpose-sports-court.jpg",
+        "/images/projects/winsome-icon/banquet-celebration-hall.jpg",
+        "/images/projects/winsome-icon/executive-dining-salon.jpg",
+        "/images/projects/winsome-icon/rooftop-cabana-lounge.jpg",
+        "/images/projects/winsome-icon/steam-sauna-wellness-spa.jpg",
+        "/images/projects/winsome-icon/reflexology-pathway.jpg",
+        "/images/projects/winsome-icon/aerobics-zumba-studio.jpg",
+        "/images/projects/winsome-icon/sunset-wooden-gazebo.jpg",
+        "/images/projects/winsome-icon/biophilic-vertical-garden.jpg",
+        "/images/projects/winsome-icon/floorplan-master-site.jpg",
+        "/images/projects/winsome-icon/floorplan-master-aerial.jpg",
+        "/images/projects/winsome-icon/floorplan-yoga-temple.jpg"
       ],
       "features": [
         "18-Storey Tallest Tower in 5-km Radius",
@@ -54,7 +75,7 @@
           "icon": "meeting_room"
         },
         {
-          "name": "Infinity Pool",
+          "name": "Infinity Pool & Sun Deck",
           "icon": "pool"
         },
         {
@@ -62,12 +83,40 @@
           "icon": "sports_cricket"
         },
         {
-          "name": "Club House & Gym",
+          "name": "Club House & Modern Gym",
           "icon": "fitness_center"
         },
         {
-          "name": "Party Lounge",
+          "name": "Private Mini Theatre",
+          "icon": "theaters"
+        },
+        {
+          "name": "Multipurpose Sports Court",
+          "icon": "sports_basketball"
+        },
+        {
+          "name": "Indoor Games & Chess Lounge",
+          "icon": "sports_esports"
+        },
+        {
+          "name": "Open-Air Yoga Lawn",
+          "icon": "self_improvement"
+        },
+        {
+          "name": "Kids Adventure Play Park",
+          "icon": "child_care"
+        },
+        {
+          "name": "Party Lawn & Dining Gazebo",
           "icon": "celebration"
+        },
+        {
+          "name": "Steam & Sauna Spa",
+          "icon": "spa"
+        },
+        {
+          "name": "Reflexology Stone Track",
+          "icon": "footprint"
         },
         {
           "name": "EV Fast Charging",
@@ -146,7 +195,137 @@
         "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
       },
       "verified": true,
-      "featured": true
+      "featured": true,
+      "amenityShowcase": [
+        {
+          "title": "Swimming Pool & Luxury Club House Pavilion",
+          "category": "Aquatics",
+          "image": "/images/projects/winsome-icon/swimming-pool-clubhouse.jpg"
+        },
+        {
+          "title": "Tower A Commercial Boutique Hub & Shopping Arcade",
+          "category": "Commercial",
+          "image": "/images/projects/winsome-icon/commercial-tower-a.jpg"
+        },
+        {
+          "title": "High-Tech Gymnasium & Aerobics Studio",
+          "category": "Fitness",
+          "image": "/images/projects/winsome-icon/gymnasium-fitness-center.jpg"
+        },
+        {
+          "title": "Enclosed Turf Cricket Practice Net with Floodlights",
+          "category": "Sports",
+          "image": "/images/projects/winsome-icon/cricket-practice-net.jpg"
+        },
+        {
+          "title": "Multipurpose Sports Court with Spectator Canopy",
+          "category": "Sports",
+          "image": "/images/projects/winsome-icon/multipurpose-sports-court.jpg"
+        },
+        {
+          "title": "Private Mini Theatre & Audiovisual Screening Room",
+          "category": "Entertainment",
+          "image": "/images/projects/winsome-icon/private-mini-theatre.jpg"
+        },
+        {
+          "title": "Indoor Games Salon & Chess Tables",
+          "category": "Recreation",
+          "image": "/images/projects/winsome-icon/indoor-games-chess-salon.jpg"
+        },
+        {
+          "title": "Open-Air Yoga & Meditation Green Lawn",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-icon/yoga-meditation-lawn.jpg"
+        },
+        {
+          "title": "Celebration Party Lawn & Evening Dining Pergola",
+          "category": "Social",
+          "image": "/images/projects/winsome-icon/party-lawn-gazebo.jpg"
+        },
+        {
+          "title": "Synthetic Jogging & Morning Walking Track",
+          "category": "Fitness",
+          "image": "/images/projects/winsome-icon/jogging-walking-track.jpg"
+        },
+        {
+          "title": "Air-Conditioned Grand Community Banquet Hall",
+          "category": "Celebration",
+          "image": "/images/projects/winsome-icon/banquet-celebration-hall.jpg"
+        },
+        {
+          "title": "Private Executive Dining Salon & Banquet Suite",
+          "category": "Dining",
+          "image": "/images/projects/winsome-icon/executive-dining-salon.jpg"
+        },
+        {
+          "title": "Rooftop Cabana Lounge & Night View Seating",
+          "category": "Skyline",
+          "image": "/images/projects/winsome-icon/rooftop-cabana-lounge.jpg"
+        },
+        {
+          "title": "Steam Bath & Sauna Wellness Spa",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-icon/steam-sauna-wellness-spa.jpg"
+        },
+        {
+          "title": "Acupressure Reflexology Natural Pebble Walkway",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-icon/reflexology-pathway.jpg"
+        },
+        {
+          "title": "Aerobics, Dance & Pilates Fitness Studio",
+          "category": "Fitness",
+          "image": "/images/projects/winsome-icon/aerobics-zumba-studio.jpg"
+        },
+        {
+          "title": "Podium Children's Adventure Playground & Slides",
+          "category": "Kids",
+          "image": "/images/projects/winsome-icon/podium-kids-court-deck.jpg"
+        },
+        {
+          "title": "Biophilic Vertical Green Garden Art",
+          "category": "Nature",
+          "image": "/images/projects/winsome-icon/biophilic-vertical-garden.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Master Ground Site & Circulation Plan",
+          "specs": "Pillar 242 Access • Main Road Entry • Driveways & Public Plaza",
+          "description": "Comprehensive architectural layout showing Tower A commercial plaza, Tower B executive suites, Towers C & D residential towers, clubhouse, swimming pool, and peripheral 6m vehicular circulation.",
+          "image": "/images/projects/winsome-icon/floorplan-master-site.jpg"
+        },
+        {
+          "title": "Master Campus Top-Down Blueprint",
+          "specs": "Bird's-Eye Site Layout • 4 Towers & Central Leisure Podium",
+          "description": "Full spatial blueprint detailing tower positioning, sports courts, pool deck, children's zone, green lawns, and dual basement parking ramps.",
+          "image": "/images/projects/winsome-icon/floorplan-master-aerial.jpg"
+        },
+        {
+          "title": "Yoga Lawn, Temple & Promenade Blueprint",
+          "specs": "Podium Level • Yoga Oval, Temple Sanctuary & 6M Wide Pathway",
+          "description": "Detailed architectural layout of the dedicated central green oval for yoga, spiritual temple pavilion, spectator benches, and 6-meter pedestrian promenade.",
+          "image": "/images/projects/winsome-icon/floorplan-yoga-temple.jpg"
+        },
+        {
+          "title": "Tower A Commercial Hub - Retail Level 1",
+          "specs": "Ground Floor Arcade • Showrooms, Wide Corridors & Parking",
+          "description": "Floorplate layout for Tower A Ground Level featuring flagship retail spaces, glass facades, double-height entrance foyer, and direct arterial road frontage.",
+          "image": "/images/projects/winsome-icon/floorplan-commercial-level-1.jpg"
+        },
+        {
+          "title": "Tower A Commercial Hub - Retail Level 2",
+          "specs": "Mezzanine Level • Boutique Brand Stores & Atrium Passage",
+          "description": "Architectural floorplan for Level 2 boutique retail units, central atrium walkways, escalator connectivity, and executive facilities.",
+          "image": "/images/projects/winsome-icon/floorplan-commercial-level-2.jpg"
+        },
+        {
+          "title": "Tower A Commercial Hub - Office Suites Level 3",
+          "specs": "Corporate Level 3 • Executive Chambers & Consulting Suites",
+          "description": "Executive floorplan configured for premium corporate offices, medical suites, law chambers, and financial consultation hubs.",
+          "image": "/images/projects/winsome-icon/floorplan-commercial-level-3.jpg"
+        }
+      ]
     },
     {
       "id": "durga-lifestyle",
@@ -213,24 +392,76 @@
         "BRERA Registered: BRERAP00045-1/11/R-1588/2023"
       ],
       "amenities": [
-        { "name": "Swimming Pool & Sundeck", "icon": "pool" },
-        { "name": "Fitness Gymnasium", "icon": "fitness_center" },
-        { "name": "Rooftop BBQ Pavilion", "icon": "outdoor_grill" },
-        { "name": "Indoor Games Salon", "icon": "sports_esports" },
-        { "name": "Multipurpose Sports Court", "icon": "sports_basketball" },
-        { "name": "Children's Adventure Play", "icon": "toys" },
-        { "name": "Children's Crèche", "icon": "child_friendly" },
-        { "name": "Celebratory Community Hall", "icon": "celebration" },
-        { "name": "Double-Height Reception", "icon": "meeting_room" },
-        { "name": "24/7 Smart CCTV Security", "icon": "shield" },
-        { "name": "High-Speed Dual Elevators", "icon": "elevator" },
-        { "name": "100% Full Generator Backup", "icon": "bolt" }
+        {
+          "name": "Swimming Pool & Sundeck",
+          "icon": "pool"
+        },
+        {
+          "name": "Fitness Gymnasium",
+          "icon": "fitness_center"
+        },
+        {
+          "name": "Rooftop BBQ Pavilion",
+          "icon": "outdoor_grill"
+        },
+        {
+          "name": "Indoor Games Salon",
+          "icon": "sports_esports"
+        },
+        {
+          "name": "Multipurpose Sports Court",
+          "icon": "sports_basketball"
+        },
+        {
+          "name": "Children's Adventure Play",
+          "icon": "toys"
+        },
+        {
+          "name": "Children's Crèche",
+          "icon": "child_friendly"
+        },
+        {
+          "name": "Celebratory Community Hall",
+          "icon": "celebration"
+        },
+        {
+          "name": "Double-Height Reception",
+          "icon": "meeting_room"
+        },
+        {
+          "name": "24/7 Smart CCTV Security",
+          "icon": "shield"
+        },
+        {
+          "name": "High-Speed Dual Elevators",
+          "icon": "elevator"
+        },
+        {
+          "name": "100% Full Generator Backup",
+          "icon": "bolt"
+        }
       ],
       "overviewStats": [
-        { "label": "Total Residences", "value": "32 Exclusive Homes", "icon": "domain" },
-        { "label": "Configuration", "value": "3 & 4 BHK + Servant", "icon": "bed" },
-        { "label": "Super Built-up", "value": "2,439 - 3,550 sq.ft", "icon": "straighten" },
-        { "label": "Clear Ceiling", "value": "11-Ft Volume", "icon": "height" }
+        {
+          "label": "Total Residences",
+          "value": "32 Exclusive Homes",
+          "icon": "domain"
+        },
+        {
+          "label": "Configuration",
+          "value": "3 & 4 BHK + Servant",
+          "icon": "bed"
+        },
+        {
+          "label": "Super Built-up",
+          "value": "2,439 - 3,550 sq.ft",
+          "icon": "straighten"
+        },
+        {
+          "label": "Clear Ceiling",
+          "value": "11-Ft Volume",
+          "icon": "height"
+        }
       ],
       "amenityShowcase": [
         {
@@ -670,12 +901,29 @@
       "maintenancePerMonth": "₹5,600/mo",
       "description": "Winsome Elite sets a new benchmark for gated high-rise sophistication in West Patna. Situated at Pillar No. 226 along Digha Link Road, this landmark project stands out with generous 20-ft-wide internal concrete driveways, an imposing royal entrance gateway, and high-specification architectural finishes. Residences range from spacious 3 BHK homes (2,061 - 2,096 sq.ft) to grand 4 BHK residences (2,660 - 2,791 sq.ft), complemented by refuge floor safety zones and a vibrant clubhouse.",
       "images": [
-        "/images/projects/winsome-elite-page-3.jpg",
-        "/images/projects/winsome-elite-page-2.jpg",
-        "/images/projects/winsome-elite-page-1.jpg",
-        "/images/projects/winsome-elite-page-4.jpg",
-        "/images/projects/winsome-elite-page-5.jpg",
-        "/images/projects/winsome-elite-page-6.jpg"
+        "/images/projects/winsome-elite/aerial-campus-overview.jpg",
+        "/images/projects/winsome-elite/panoramic-balcony-view.jpg",
+        "/images/projects/winsome-elite/living-dining-lounge.jpg",
+        "/images/projects/winsome-elite/swimming-pool-lifestyle.jpg",
+        "/images/projects/winsome-elite/swimming-pool-cabana.jpg",
+        "/images/projects/winsome-elite/garden-gazebo-pavilion.jpg",
+        "/images/projects/winsome-elite/cricket-practice-net.jpg",
+        "/images/projects/winsome-elite/sports-court.jpg",
+        "/images/projects/winsome-elite/basketball-court.jpg",
+        "/images/projects/winsome-elite/yoga-meditation-deck.jpg",
+        "/images/projects/winsome-elite/fitness-studio-gym.jpg",
+        "/images/projects/winsome-elite/jacuzzi-hydrotherapy-spa.jpg",
+        "/images/projects/winsome-elite/kids-play-park.jpg",
+        "/images/projects/winsome-elite/kids-indoor-games.jpg",
+        "/images/projects/winsome-elite/ev-charging-station.jpg",
+        "/images/projects/winsome-elite/jogging-running-track.jpg",
+        "/images/projects/winsome-elite/covered-basement-parking.jpg",
+        "/images/projects/winsome-elite/master-site-plan.jpg",
+        "/images/projects/winsome-elite/floorplan-typical-plate.jpg",
+        "/images/projects/winsome-elite/isometric-3bhk-flat-101.jpg",
+        "/images/projects/winsome-elite/isometric-4bhk-flat-102.jpg",
+        "/images/projects/winsome-elite/isometric-3bhk-flat-103.jpg",
+        "/images/projects/winsome-elite/isometric-4bhk-flat-104.jpg"
       ],
       "features": [
         "20-Ft Wide Internal Driveways & Grand Gateway",
@@ -691,16 +939,52 @@
           "icon": "door_front"
         },
         {
-          "name": "Clubhouse & Hall",
-          "icon": "deck"
+          "name": "Swimming Pool & Sundeck",
+          "icon": "pool"
         },
         {
-          "name": "Fitness Center",
+          "name": "Jacuzzi & Hydrotherapy Spa",
+          "icon": "hot_tub"
+        },
+        {
+          "name": "Turf Cricket Practice Net",
+          "icon": "sports_cricket"
+        },
+        {
+          "name": "Professional Basketball Court",
+          "icon": "sports_basketball"
+        },
+        {
+          "name": "Badminton / Tennis Court",
+          "icon": "sports_tennis"
+        },
+        {
+          "name": "Modern Fitness Center",
           "icon": "fitness_center"
         },
         {
-          "name": "Indoor Games Lounge",
-          "icon": "sports_esports"
+          "name": "Yoga & Meditation Deck",
+          "icon": "self_improvement"
+        },
+        {
+          "name": "Children's Adventure Park",
+          "icon": "child_care"
+        },
+        {
+          "name": "Indoor Kids Gaming Arena",
+          "icon": "toys"
+        },
+        {
+          "name": "Fast EV Charging Station",
+          "icon": "ev_station"
+        },
+        {
+          "name": "Covered Basement Parking",
+          "icon": "local_parking"
+        },
+        {
+          "name": "Landscaped Garden Gazebo",
+          "icon": "deck"
         },
         {
           "name": "Jogging & Walking Track",
@@ -709,14 +993,6 @@
         {
           "name": "High-Speed Elevators",
           "icon": "elevator"
-        },
-        {
-          "name": "Multi-Tier DG Backup",
-          "icon": "power"
-        },
-        {
-          "name": "Landscaped Courtyard",
-          "icon": "nature"
         }
       ],
       "overviewStats": [
@@ -778,7 +1054,127 @@
         "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
       },
       "verified": true,
-      "featured": true
+      "featured": true,
+      "amenityShowcase": [
+        {
+          "title": "Panoramic Ganga River Balcony Horizon",
+          "category": "Skyline",
+          "image": "/images/projects/winsome-elite/panoramic-balcony-view.jpg"
+        },
+        {
+          "title": "Master Gated Campus with 20-Ft Wide Avenues",
+          "category": "Campus",
+          "image": "/images/projects/winsome-elite/aerial-campus-overview.jpg"
+        },
+        {
+          "title": "Designer Living & Formal Dining Lounge",
+          "category": "Interiors",
+          "image": "/images/projects/winsome-elite/living-dining-lounge.jpg"
+        },
+        {
+          "title": "Resort-Grade Swimming Pool & Sundeck",
+          "category": "Aquatics",
+          "image": "/images/projects/winsome-elite/swimming-pool-lifestyle.jpg"
+        },
+        {
+          "title": "Private Poolside Cabana & Sun Loungers",
+          "category": "Aquatics",
+          "image": "/images/projects/winsome-elite/swimming-pool-cabana.jpg"
+        },
+        {
+          "title": "Enclosed Turf Cricket Practice Pitch",
+          "category": "Sports",
+          "image": "/images/projects/winsome-elite/cricket-practice-net.jpg"
+        },
+        {
+          "title": "Professional Basketball Court",
+          "category": "Sports",
+          "image": "/images/projects/winsome-elite/basketball-court.jpg"
+        },
+        {
+          "title": "Outdoor Badminton / Tennis Sports Court",
+          "category": "Sports",
+          "image": "/images/projects/winsome-elite/sports-court.jpg"
+        },
+        {
+          "title": "Open-Air Yoga & Meditation Deck",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-elite/yoga-meditation-deck.jpg"
+        },
+        {
+          "title": "High-Tech Gymnasium & Fitness Studio",
+          "category": "Fitness",
+          "image": "/images/projects/winsome-elite/fitness-studio-gym.jpg"
+        },
+        {
+          "title": "Jacuzzi & Hydrotherapy Wellness Spa",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-elite/jacuzzi-hydrotherapy-spa.jpg"
+        },
+        {
+          "title": "Children's Canopy Play Park & Swings",
+          "category": "Recreation",
+          "image": "/images/projects/winsome-elite/kids-play-park.jpg"
+        },
+        {
+          "title": "Indoor Kids Activity & Bowling Salon",
+          "category": "Recreation",
+          "image": "/images/projects/winsome-elite/kids-indoor-games.jpg"
+        },
+        {
+          "title": "Fast EV Charging Infrastructure",
+          "category": "Eco Tech",
+          "image": "/images/projects/winsome-elite/ev-charging-station.jpg"
+        },
+        {
+          "title": "Synthetic Jogging & Athletic Running Track",
+          "category": "Fitness",
+          "image": "/images/projects/winsome-elite/jogging-running-track.jpg"
+        },
+        {
+          "title": "Landscaped Garden Gazebo & Pergola",
+          "category": "Nature",
+          "image": "/images/projects/winsome-elite/garden-gazebo-pavilion.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Master Ground Site & Circulation Layout",
+          "specs": "20-Ft Wide Avenues • Royal Gateway • 3 Towers & Central Courtyard",
+          "description": "Comprehensive master site plan detailing the imposing entry archway from Digha Link Road, peripheral concrete vehicular loop, clubhouse, sports arena, and central residential towers.",
+          "image": "/images/projects/winsome-elite/master-site-plan.jpg"
+        },
+        {
+          "title": "Typical Tower Floorplate Plan",
+          "specs": "4 Units per Floor • Dual Elevators • Wide Foyer & Light Shafts",
+          "description": "Architectural floor plate illustrating the spacious 4-units-per-floor layout with central circulation core, dual passenger lifts, fire escape stairwells, and complete cross-ventilation.",
+          "image": "/images/projects/winsome-elite/floorplan-typical-plate.jpg"
+        },
+        {
+          "title": "4 BHK Presidential Suite - Flat 104 (3D Cutaway View)",
+          "specs": "Flat 104 • 4 Bed + 4 Bath + Servant • 2,791 sq.ft Saleable",
+          "description": "3D isometric cutaway of Flat 104 featuring dedicated servant quarter with private entry, formal living salon, gourmet kitchen, and expansive wrap-around river-facing balconies.",
+          "image": "/images/projects/winsome-elite/isometric-4bhk-flat-104.jpg"
+        },
+        {
+          "title": "4 BHK Luxury Suite - Flat 102 (3D Cutaway View)",
+          "specs": "Flat 102 • 4 Bed + 3 Bath • 2,660 sq.ft Saleable",
+          "description": "3D isometric cutaway of Flat 102 showcasing four generously proportioned bedrooms, expansive continuous balcony, and Vaastu-compliant master bedroom suite.",
+          "image": "/images/projects/winsome-elite/isometric-4bhk-flat-102.jpg"
+        },
+        {
+          "title": "3 BHK Premium Residence - Flat 101 (3D Cutaway View)",
+          "specs": "Flat 101 • 3 Bed + 3 Bath • 2,096 sq.ft Saleable",
+          "description": "3D isometric layout of Flat 101 featuring dedicated Puja mandir sanctuary, open-plan dining area, contemporary modular kitchen, and double balconies.",
+          "image": "/images/projects/winsome-elite/isometric-3bhk-flat-101.jpg"
+        },
+        {
+          "title": "3 BHK Premium Residence - Flat 103 (3D Cutaway View)",
+          "specs": "Flat 103 • 3 Bed + 3 Bath • 2,061 sq.ft Saleable",
+          "description": "Isometric 3D layout of Flat 103 highlighting seamless entertaining flow between living lounge and dining room, private bedroom wings, and wide scenic balconies.",
+          "image": "/images/projects/winsome-elite/isometric-3bhk-flat-103.jpg"
+        }
+      ]
     },
     {
       "id": "winsome-hari-pearlz",
@@ -813,12 +1209,22 @@
       "maintenancePerMonth": "₹6,100/mo",
       "description": "Winsome Hari Pearlz commands an extraordinary position along the burgeoning JP Ganga Path / Marine Drive corridor. Conceived as a prestigious mixed-use destination, the development features a boutique ground-floor shopping arcade with 10 high-visibility commercial retail spaces, capped by expansive 3 and 4 BHK luxury residences extending up to 3,539 sq.ft. Residents enjoy panoramic river vistas, riverside promenades, and seamless urban connectivity.",
       "images": [
-        "/images/projects/winsome-hari-pearlz-page-2.jpg",
-        "/images/projects/winsome-hari-pearlz-page-5.jpg",
-        "/images/projects/winsome-hari-pearlz-page-1.jpg",
-        "/images/projects/winsome-hari-pearlz-page-3.jpg",
-        "/images/projects/winsome-hari-pearlz-page-4.jpg",
-        "/images/projects/winsome-hari-pearlz-page-6.jpg"
+        "/images/projects/winsome-hari-pearlz/tower-elevation.jpg",
+        "/images/projects/winsome-hari-pearlz/aerial-campus-overview.jpg",
+        "/images/projects/winsome-hari-pearlz/rooftop-sky-lounge.jpg",
+        "/images/projects/winsome-hari-pearlz/kids-play-garden.jpg",
+        "/images/projects/winsome-hari-pearlz/kids-adventure-canopy.jpg",
+        "/images/projects/winsome-hari-pearlz/rooftop-yoga-deck.jpg",
+        "/images/projects/winsome-hari-pearlz/senior-citizen-corner.jpg",
+        "/images/projects/winsome-hari-pearlz/ev-charging-station.jpg",
+        "/images/projects/winsome-hari-pearlz/isometric-4bhk-presidential-cut.jpg",
+        "/images/projects/winsome-hari-pearlz/isometric-4bhk-luxury-cut.jpg",
+        "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit1.jpg",
+        "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit2.jpg",
+        "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit3.jpg",
+        "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit4.jpg",
+        "/images/projects/winsome-hari-pearlz/floorplan-typical-level.jpg",
+        "/images/projects/winsome-hari-pearlz/floorplan-upper-terrace.jpg"
       ],
       "features": [
         "Ground Floor High-Street Arcade (10 Retail Shops)",
@@ -834,27 +1240,43 @@
           "icon": "storefront"
         },
         {
-          "name": "Riverside Promenade Deck",
-          "icon": "water"
-        },
-        {
           "name": "Rooftop Sky Lounge",
           "icon": "deck"
+        },
+        {
+          "name": "Rooftop Yoga Deck",
+          "icon": "self_improvement"
+        },
+        {
+          "name": "Children's Adventure Play",
+          "icon": "child_care"
+        },
+        {
+          "name": "Senior Citizen's Corner",
+          "icon": "elderly"
+        },
+        {
+          "name": "Fast EV Charging Station",
+          "icon": "ev_station"
+        },
+        {
+          "name": "Riverside Promenade Deck",
+          "icon": "water"
         },
         {
           "name": "Modern Fitness Studio",
           "icon": "fitness_center"
         },
         {
-          "name": "Automated Parking",
+          "name": "Automated Basement Parking",
           "icon": "local_parking"
         },
         {
-          "name": "High-Speed Service & Passenger Lifts",
+          "name": "High-Speed Elevators",
           "icon": "elevator"
         },
         {
-          "name": "24/7 Security & CCTV",
+          "name": "24/7 Smart Security & CCTV",
           "icon": "security"
         },
         {
@@ -921,7 +1343,99 @@
         "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
       },
       "verified": true,
-      "featured": true
+      "featured": true,
+      "amenityShowcase": [
+        {
+          "title": "Iconic Tower Facade & Ground Retail Arcade",
+          "category": "Architecture",
+          "image": "/images/projects/winsome-hari-pearlz/tower-elevation.jpg"
+        },
+        {
+          "title": "Podium Garden & Campus Overview",
+          "category": "Campus",
+          "image": "/images/projects/winsome-hari-pearlz/aerial-campus-overview.jpg"
+        },
+        {
+          "title": "Rooftop Sunset Sky Lounge & Evening Terrace",
+          "category": "Skyline",
+          "image": "/images/projects/winsome-hari-pearlz/rooftop-sky-lounge.jpg"
+        },
+        {
+          "title": "Dedicated Children's Adventure Play Zone",
+          "category": "Recreation",
+          "image": "/images/projects/winsome-hari-pearlz/kids-play-garden.jpg"
+        },
+        {
+          "title": "Tensile Canopy Covered Kids Play Park",
+          "category": "Recreation",
+          "image": "/images/projects/winsome-hari-pearlz/kids-adventure-canopy.jpg"
+        },
+        {
+          "title": "Rooftop Horizon Yoga & Meditation Deck",
+          "category": "Wellness",
+          "image": "/images/projects/winsome-hari-pearlz/rooftop-yoga-deck.jpg"
+        },
+        {
+          "title": "Senior Citizens Landscaped Reading Corner",
+          "category": "Nature",
+          "image": "/images/projects/winsome-hari-pearlz/senior-citizen-corner.jpg"
+        },
+        {
+          "title": "High-Speed EV Charging Infrastructure",
+          "category": "Eco Tech",
+          "image": "/images/projects/winsome-hari-pearlz/ev-charging-station.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Typical Residential Floorplate Plan",
+          "specs": "3 & 4 BHK • Low Density Plate • Dual Elevators & Fire Staircase",
+          "description": "Architectural floor plate showing the layout of luxury residential units per floor with wide entrance foyer, elevator lobbies, and optimal light shafts.",
+          "image": "/images/projects/winsome-hari-pearlz/floorplan-typical-level.jpg"
+        },
+        {
+          "title": "Upper Floor & Terrace Architectural Plan",
+          "specs": "Upper Levels • Stepped Balconies & Extended Terraces",
+          "description": "Comprehensive blueprint showing upper terrace layouts with private balconies and open riverfront vistas.",
+          "image": "/images/projects/winsome-hari-pearlz/floorplan-upper-terrace.jpg"
+        },
+        {
+          "title": "4 BHK Presidential Suite (3D Cutaway View)",
+          "specs": "4 Bed + 4 Bath + Servant • 3,539 sq.ft Saleable",
+          "description": "3D isometric cutaway of the presidential suite featuring formal living and dining salons, master retreat with walk-in wardrobe, and panoramic wraparound balcony.",
+          "image": "/images/projects/winsome-hari-pearlz/isometric-4bhk-presidential-cut.jpg"
+        },
+        {
+          "title": "4 BHK Luxury Residence (3D Cutaway View)",
+          "specs": "4 Bed + 3 Bath • Dual Master Suites • Extended Balconies",
+          "description": "Detailed 3D layout showcasing four expansive bedrooms, open gourmet kitchen, and cross-ventilated living areas.",
+          "image": "/images/projects/winsome-hari-pearlz/isometric-4bhk-luxury-cut.jpg"
+        },
+        {
+          "title": "3 BHK Luxury Residence - Unit 1 (3D Cutaway View)",
+          "specs": "3 Bed + 3 Bath • 1,899 sq.ft • Wide Garden Balcony",
+          "description": "Isometric 3D layout of 3 BHK Unit 1 featuring private garden terrace, modular kitchen with utility wash yard, and spacious family lounge.",
+          "image": "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit1.jpg"
+        },
+        {
+          "title": "3 BHK Luxury Residence - Unit 2 (3D Cutaway View)",
+          "specs": "3 Bed + 3 Bath • Efficient Layout & Double Balconies",
+          "description": "Isometric 3D layout of 3 BHK Unit 2 highlighting Vaastu-aligned master bedroom, modern bathrooms, and scenic balcony access.",
+          "image": "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit2.jpg"
+        },
+        {
+          "title": "3 BHK Luxury Residence - Unit 3 (3D Cutaway View)",
+          "specs": "3 Bed + 3 Bath • Dual Balconies & Spacious Living",
+          "description": "Isometric 3D perspective of 3 BHK Unit 3 showcasing integrated living-dining salon, private bedroom suites, and optimal natural light.",
+          "image": "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit3.jpg"
+        },
+        {
+          "title": "3 BHK Luxury Residence - Unit 4 (3D Cutaway View)",
+          "specs": "3 Bed + 3 Bath • Compact Luxury Configuration",
+          "description": "Isometric 3D plan of 3 BHK Unit 4 with streamlined flow between living areas, designer kitchen, and private bedrooms.",
+          "image": "/images/projects/winsome-hari-pearlz/isometric-3bhk-unit4.jpg"
+        }
+      ]
     },
     {
       "id": "durga-77",
@@ -1237,118 +1751,275 @@
     {
       "id": "venus-capital-heights",
       "slug": "venus-capital-heights",
-      "title": "Venus Capital Heights - G+14 Luxury Landmark in Danapur",
-      "subtitle": "High-Rise Grandeur with Resort-Inspired Amenities near AIIMS Patna",
-      "tagline": "Architectural magnificence with sprawling clubhouse and panoramic skyline views",
-      "price": 11800000,
-      "priceDisplay": "₹1.18 Cr",
-      "priceUsd": "$142,000",
-      "location": "Mauza Sandalpur, Danapur / AIIMS Road, Patna, Bihar",
+      "title": "Venus Capital Heights - 16-Acre Royal Estate Designed by Hafeez Contractor",
+      "subtitle": "The Tallest, Largest & Mightiest 11-Tower Gated Landmark in Danapur",
+      "tagline": "16 acres estate with 85% open spaces, 70,000 sq.ft Club Royale, all-weather indoor pool, and triple-height grand lobbies",
+      "price": 14500000,
+      "priceDisplay": "₹1.45 Cr - 2.65 Cr",
+      "priceUsd": "$175,000",
+      "location": "Sandalpur, Usari Road, Danapur, Patna, Bihar",
       "city": "Patna",
       "locality": "Danapur",
-      "address": "Mauza Sandalpur, Near AIIMS Patna, Danapur, Patna 801503",
+      "address": "Sandalpur, Usari Road, Near AIIMS Patna, Danapur, Patna 801105",
       "coordinates": {
         "lat": 25.594,
         "lng": 85.045
       },
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "balconies": 3,
-      "sqft": 2150,
-      "carpetAreaSqft": 1620,
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "balconies": 4,
+      "sqft": 2709,
+      "carpetAreaSqft": 1585,
       "propertyType": "Luxury Apartment",
       "status": "Under Construction",
-      "possessionDate": "March 2027",
-      "facing": "East",
+      "possessionDate": "December 2027",
+      "facing": "North-East",
       "reraId": "BRERAP182028070325300130E00",
       "furnishing": "Semi-Furnished",
-      "parking": "2 Covered Bays",
-      "floor": "11th of 14 Floors",
-      "maintenancePerMonth": "₹4,800/mo",
-      "description": "Venus Capital Heights by Venus Star Construction is a premier high-rise township in Danapur, Patna. Spanning multiple towers rising G+14 storeys, this landmark development redefines modern suburban luxury with vast open landscaped greens, resort-style swimming pool, fully equipped gymnasium, jogging tracks, multi-tier automated security, and rapid access to AIIMS Patna and Danapur Station.",
+      "parking": "2 Covered Reserved Bays + EV Charging",
+      "floor": "Upper Sky Suite (Tower 01 to 11)",
+      "maintenancePerMonth": "₹5,200/mo",
+      "description": "Venus Capital Heights by Venus Star Construction Pvt. Ltd. is a majestic 16-acre master-planned royal estate designed by legendary architect Hafeez Contractor in Sandalpur, Danapur. Recognized as the tallest, largest, and mightiest residential landmark in Bihar & Jharkhand, this sovereign sanctuary features 1 iconic tower and 10 royal towers with 85% open spaces and 8 acres of lush verdant greenery. Residences offer 11 to 12-foot floor-to-floor heights, air-conditioned layouts, and expansive private balconies. The community boasts Bihar's largest 70,000 sq.ft Club Royale with an all-weather temperature-controlled indoor pool, outdoor Olympic swimming pool, bowling alley, pickleball court, karaoke mini-theatre, sunlit yoga hall, triple-height grand lobbies, and a dedicated temple with Chhath Puja Ghat.",
       "images": [
-        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1400&q=85",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85",
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+        "/images/projects/venus-capital-heights/master-architectural-elevation.jpg",
+        "/images/projects/venus-capital-heights/skyward-iconic-tower-view.jpg",
+        "/images/projects/venus-capital-heights/township-scale-estate-overview.jpg",
+        "/images/projects/venus-capital-heights/triple-height-grand-lobby.jpg",
+        "/images/projects/venus-capital-heights/club-royale-facade.jpg",
+        "/images/projects/venus-capital-heights/olympic-resort-swimming-pool.jpg",
+        "/images/projects/venus-capital-heights/all-weather-indoor-pool.jpg",
+        "/images/projects/venus-capital-heights/royal-gymnasium-fitness.jpg",
+        "/images/projects/venus-capital-heights/landscaped-gardens-8-acre-park.jpg",
+        "/images/projects/venus-capital-heights/sunlit-yoga-meditation-hall.jpg",
+        "/images/projects/venus-capital-heights/bowling-alley-pickleball.jpg",
+        "/images/projects/venus-capital-heights/karaoke-mini-theatre.jpg",
+        "/images/projects/venus-capital-heights/luxury-spa-relaxation-zone.jpg",
+        "/images/projects/venus-capital-heights/grand-banquet-restaurant.jpg",
+        "/images/projects/venus-capital-heights/master-living-dining-suite.jpg",
+        "/images/projects/venus-capital-heights/floorplan-tower-11-wing-a.jpg",
+        "/images/projects/venus-capital-heights/floorplan-tower-11-wing-b.jpg",
+        "/images/projects/venus-capital-heights/floorplan-towers-06-07-08-09.jpg",
+        "/images/projects/venus-capital-heights/floorplan-towers-03-04-05.jpg",
+        "/images/projects/venus-capital-heights/floorplan-tower-01.jpg",
+        "/images/projects/venus-capital-heights/location-connectivity-map.jpg",
+        "/images/projects/venus-capital-heights/architect-hafeez-contractor.jpg"
       ],
       "features": [
-        "G+14 High-Rise Towers with Panoramic Views",
-        "Near AIIMS Patna & Danapur Junction",
-        "Resort-Inspired Swimming Pool & Club",
-        "BRERA Approved: BRERAP182028070325300130E00",
-        "Promoter: Venus Star Construction Pvt Ltd",
-        "2 Covered Reserved Parking Bays"
+        "Designed by World-Renowned Architect Hafeez Contractor",
+        "BRERA Registered Mega-Township: BRERAP182028070325300130E00",
+        "16-Acre Royal Estate with 85% Open Spaces & 8 Acres of Greenery",
+        "1 Iconic Central Tower + 10 Royal Towers (Tallest in Bihar & Jharkhand)",
+        "Bihar's Largest 70,000 Sq.Ft Club Royale with All-Weather Indoor Pool",
+        "Triple-Height Air-Conditioned Grand Entrance Reception Lobbies",
+        "Bowling Alley, Pickleball Court, Karaoke Lounge & Private Mini-Theatre",
+        "11 to 12 Feet Floor-to-Floor Ceilings with Double-Glazed Soundproof Glass",
+        "Dedicated Temple Complex & Sacred Chhath Puja Ghat",
+        "Electric Buggy Shuttles (6-Seater per Tower) & EV Fast Charging Infrastructure"
       ],
       "amenities": [
         {
-          "name": "Swimming Pool",
+          "name": "70,000 Sq.Ft Club Royale",
+          "icon": "domain"
+        },
+        {
+          "name": "All-Weather Indoor Pool",
           "icon": "pool"
         },
         {
-          "name": "Grand Clubhouse",
-          "icon": "deck"
+          "name": "Olympic Resort Pool",
+          "icon": "waves"
         },
         {
-          "name": "Gymnasium",
+          "name": "Triple-Height Grand Lobby",
+          "icon": "meeting_room"
+        },
+        {
+          "name": "Bowling Alley & Pickleball",
+          "icon": "sports_tennis"
+        },
+        {
+          "name": "Karaoke & Mini Theatre",
+          "icon": "movie"
+        },
+        {
+          "name": "Royal Gymnasium & Spa",
           "icon": "fitness_center"
         },
         {
-          "name": "Landscaped Gardens",
+          "name": "Sunlit Yoga & Meditation",
+          "icon": "self_improvement"
+        },
+        {
+          "name": "Grand Banquet & Restaurant",
+          "icon": "restaurant"
+        },
+        {
+          "name": "8-Acre Central Park",
           "icon": "park"
         },
         {
-          "name": "Jogging Track",
-          "icon": "directions_walk"
+          "name": "Temple & Chhath Puja Ghat",
+          "icon": "temple_hindu"
         },
         {
-          "name": "EV Fast Charging",
-          "icon": "ev_station"
+          "name": "High-Speed Elevators (Otis/Mitsubishi)",
+          "icon": "elevator"
         },
         {
-          "name": "24/7 Security & CCTV",
-          "icon": "security"
-        },
-        {
-          "name": "100% DG Power Backup",
+          "name": "100% Acoustic DG Backup",
           "icon": "bolt"
+        },
+        {
+          "name": "EV Buggy & Charging Infrastructure",
+          "icon": "ev_station"
+        }
+      ],
+      "amenityShowcase": [
+        {
+          "title": "Master 11-Tower Skyline Architecture",
+          "category": "Master Architecture",
+          "description": "Bihar and Jharkhand's tallest residential master plan conceptualized by Ar. Hafeez Contractor featuring 1 iconic tower and 10 royal towers.",
+          "image": "/images/projects/venus-capital-heights/master-architectural-elevation.jpg"
+        },
+        {
+          "title": "Skyward Iconic Central Tower View",
+          "category": "Skyline Landmark",
+          "description": "Dramatic skyward perspective of the flagship central tower featuring imported aluminum formwork and floor-to-floor heights of 11 to 12 feet.",
+          "image": "/images/projects/venus-capital-heights/skyward-iconic-tower-view.jpg"
+        },
+        {
+          "title": "16-Acre Royal Estate Scale & Greenery",
+          "category": "Estate Planning",
+          "description": "Sprawling 16-acre royal enclave with 85% open spaces and 8 acres of central verdant parks and pedestrian walking promenades.",
+          "image": "/images/projects/venus-capital-heights/township-scale-estate-overview.jpg"
+        },
+        {
+          "title": "Majestic Triple-Height Grand Lobby",
+          "category": "Entrance Experience",
+          "description": "Soaring triple-height air-conditioned reception lobbies adorned with imported Italian marble, designer chandeliers, and concierge desks.",
+          "image": "/images/projects/venus-capital-heights/triple-height-grand-lobby.jpg"
+        },
+        {
+          "title": "Club Royale - 70,000 Sq.Ft Mega Club",
+          "category": "Clubhouse & Leisure",
+          "description": "The largest private residential clubhouse in Eastern India offering state-of-the-art sports, fine dining, recreation, and wellness facilities.",
+          "image": "/images/projects/venus-capital-heights/club-royale-facade.jpg"
+        },
+        {
+          "title": "All-Weather Indoor Swimming Pool",
+          "category": "Aquatic Leisure",
+          "description": "Year-round temperature-controlled indoor swimming pool complemented by heated decks and private changing cabanas.",
+          "image": "/images/projects/venus-capital-heights/all-weather-indoor-pool.jpg"
+        },
+        {
+          "title": "Olympic-Scale Outdoor Resort Pool",
+          "category": "Resort Living",
+          "description": "Expansive outdoor swimming pool featuring sunken seating lounges, tropical palm groves, and dedicated children's splash zones.",
+          "image": "/images/projects/venus-capital-heights/olympic-resort-swimming-pool.jpg"
+        },
+        {
+          "title": "Royal Gymnasium & Fitness Center",
+          "category": "Health & Fitness",
+          "description": "World-class health club equipped with imported cardiovascular and strength machines, personal trainers, and panoramic estate views.",
+          "image": "/images/projects/venus-capital-heights/royal-gymnasium-fitness.jpg"
+        },
+        {
+          "title": "Bowling Alley & Pickleball Courts",
+          "category": "Sports & Recreation",
+          "description": "Dedicated indoor 2-lane bowling alley, regulation pickleball courts, billiard salon, table tennis, and chess rooms.",
+          "image": "/images/projects/venus-capital-heights/bowling-alley-pickleball.jpg"
+        },
+        {
+          "title": "Karaoke Lounge & Private Cinema",
+          "category": "Entertainment",
+          "description": "Acoustically treated private mini-theatre with plush recliner seating and an adjoining private karaoke salon for family gatherings.",
+          "image": "/images/projects/venus-capital-heights/karaoke-mini-theatre.jpg"
+        },
+        {
+          "title": "Sunlit Yoga & Meditation Sanctuary",
+          "category": "Mindfulness",
+          "description": "Tranquil wellness pavilion designed with full-length glazing, natural timber flooring, and peaceful garden vistas.",
+          "image": "/images/projects/venus-capital-heights/sunlit-yoga-meditation-hall.jpg"
+        },
+        {
+          "title": "Palatial Master Living & Dining Suite",
+          "category": "Interior Grandeur",
+          "description": "Expansive living and dining salons engineered with Action Tesa/Pergo wooden floors, Daikin ACs, and expansive glass viewing balconies.",
+          "image": "/images/projects/venus-capital-heights/master-living-dining-suite.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Tower 11 - Wing A Floor Plan (3 BHK + Study + Pooja)",
+          "type": "Tower 11 Wing A",
+          "description": "Luxury high-rise residence layouts: 3 BHK + 3 Toilets + Study Room + Pooja Room ranging from 2,356 to 2,608 sq.ft super area with RERA carpet areas up to 1,585 sq.ft and 381 sq.ft expansive balconies.",
+          "image": "/images/projects/venus-capital-heights/floorplan-tower-11-wing-a.jpg",
+          "specs": "2,356 - 2,608 sq.ft • 3 BHK + 3T + Study + Pooja • Carpet: 1,451 - 1,585 sq.ft • Balconies: 337 - 381 sq.ft"
+        },
+        {
+          "title": "Tower 11 - Wing B Floor Plan (3 BHK + 3T + Study)",
+          "type": "Tower 11 Wing B",
+          "description": "Grand corner residences: 3 BHK + 3 Toilets + Study Room up to 2,709 sq.ft super area with RERA carpet area of 1,584 sq.ft and 353 sq.ft panoramic balconies ensuring double cross-ventilation.",
+          "image": "/images/projects/venus-capital-heights/floorplan-tower-11-wing-b.jpg",
+          "specs": "2,322 - 2,709 sq.ft • 3 BHK + 3T + Study • Carpet: 1,311 - 1,584 sq.ft • Balconies: 350 - 353 sq.ft"
+        },
+        {
+          "title": "Towers 06, 07, 08 & 09 (Odd & Even Floor Plans)",
+          "type": "Towers 06 - 09 Typical",
+          "description": "Master typical floor layouts for central towers 06, 07, 08, and 09, featuring 4 units per floor, dual high-speed Mitsubishi/Otis passenger elevators, fire escape stairs, and central circulation lobbies.",
+          "image": "/images/projects/venus-capital-heights/floorplan-towers-06-07-08-09.jpg",
+          "specs": "Typical 4 Units / Floor • Dual High-Speed Lifts • 11-Ft Ceilings • Continuous Light"
+        },
+        {
+          "title": "Towers 03, 04 & 05 (Odd & Even Floor Plans)",
+          "type": "Towers 03 - 05 Typical",
+          "description": "Tower floor plate for towers 03, 04, and 05, engineered for maximum privacy and cross ventilation, overlooking the 8-acre central landscaped gardens and Olympic pool.",
+          "image": "/images/projects/venus-capital-heights/floorplan-towers-03-04-05.jpg",
+          "specs": "Garden-Facing Suites • 100% Vastu Compliant • Generous Setbacks • Wide Balconies"
+        },
+        {
+          "title": "Danapur / AIIMS / Airport Arterial Connectivity Map",
+          "type": "Strategic Location Map",
+          "description": "Strategic corridor connectivity map highlighting effortless access to AIIMS Patna (4 mins / 1.8 km), Danapur Junction (6 mins / 2.5 km), Patna Airport (15 mins), and Saguna More.",
+          "image": "/images/projects/venus-capital-heights/location-connectivity-map.jpg",
+          "specs": "Sandalpur, Usari Road • 1.8 km AIIMS Patna • 2.5 km Danapur Station"
         }
       ],
       "overviewStats": [
-        {
-          "label": "Tower Scale",
-          "value": "G + 14 Floors",
-          "icon": "apartment"
-        },
         {
           "label": "Developer",
           "value": "Venus Star Construction",
           "icon": "domain"
         },
         {
-          "label": "Configuration",
-          "value": "2, 3 & 4 BHK",
-          "icon": "bed"
+          "label": "Master Architect",
+          "value": "Ar. Hafeez Contractor",
+          "icon": "architecture"
         },
         {
-          "label": "Super Built-up",
-          "value": "1,550 - 2,450 sq.ft",
-          "icon": "straighten"
+          "label": "Estate Scale",
+          "value": "16 Acres (85% Open)",
+          "icon": "nature"
+        },
+        {
+          "label": "Club Royale",
+          "value": "70,000 Sq.Ft Mega Club",
+          "icon": "deck"
         }
       ],
       "neighborhoodInsights": [
         {
-          "title": "AIIMS Patna Medical Center",
+          "title": "AIIMS Patna Medical Campus",
           "distance": "4 mins (1.8 km)",
           "type": "Hospital"
         },
         {
-          "title": "Danapur Railway Station",
+          "title": "Danapur Railway Junction",
           "distance": "6 mins (2.5 km)",
           "type": "Metro"
         },
         {
-          "title": "Patna International Airport",
+          "title": "Patna International Airport (JPN)",
           "distance": "15 mins (7.2 km)",
           "type": "Airport"
         },
@@ -1356,6 +2027,16 @@
           "title": "St. Karen's Secondary School",
           "distance": "7 mins (3.0 km)",
           "type": "School"
+        },
+        {
+          "title": "Saguna More Commercial Hub",
+          "distance": "10 mins (4.2 km)",
+          "type": "Shopping"
+        },
+        {
+          "title": "Patliputra Railway Junction",
+          "distance": "16 mins (8.5 km)",
+          "type": "Metro"
         }
       ],
       "agent": {
@@ -1373,81 +2054,225 @@
     {
       "id": "satvika-rajpati-enclave",
       "slug": "satvika-rajpati-enclave",
-      "title": "Satvika Rajpati Enclave - Elite Gated Residences in Sikandarpur",
-      "subtitle": "Boutique Urban Living Crafted by Renowned Satvika Group",
-      "tagline": "Contemporary architecture, lush green surroundings, and supreme tranquility",
-      "price": 11200000,
-      "priceDisplay": "₹1.12 Cr",
-      "priceUsd": "$135,000",
-      "location": "Sikandarpur, Danapur, Patna, Bihar",
+      "title": "Satvika Rajpati Enclave - Elite Gated Residences in Mithila Colony",
+      "subtitle": "Boutique 2 & 3 BHK Urban Residences Crafted by Satvika Group",
+      "tagline": "Earthquake-resistant architecture, rooftop terrace garden, and rapid Danapur-Digha corridor connectivity",
+      "price": 8850000,
+      "priceDisplay": "₹88.5 L - 1.18 Cr",
+      "priceUsd": "$106,000",
+      "location": "Mithila Colony, Danapur / Digha Corridor, Patna, Bihar",
       "city": "Patna",
       "locality": "Danapur",
-      "address": "Sikandarpur Main Road, Danapur, Patna 801503",
+      "address": "Mithila Colony, Near Patliputra Junction, Danapur-Digha Corridor, Patna 800012",
       "coordinates": {
-        "lat": 25.601,
-        "lng": 85.038
+        "lat": 25.632,
+        "lng": 85.088
       },
       "bedrooms": 3,
       "bathrooms": 3,
-      "balconies": 2,
-      "sqft": 1950,
-      "carpetAreaSqft": 1480,
+      "balconies": 3,
+      "sqft": 1876,
+      "carpetAreaSqft": 1142,
       "propertyType": "Luxury Apartment",
       "status": "Under Construction",
-      "possessionDate": "February 2028",
+      "possessionDate": "December 2026",
       "facing": "North-East",
       "reraId": "BRERAP198828070526260231E00",
       "furnishing": "Semi-Furnished",
-      "parking": "1 Covered Reserved Bay",
-      "floor": "5th of 8 Floors",
-      "maintenancePerMonth": "₹4,200/mo",
-      "description": "Satvika Rajpati Enclave by Satvika Group brings signature craftsmanship and contemporary community living to Sikandarpur, Danapur. Designed with generous setbacks, Vastu-compliant layout orientations, and abundant natural airflow, this residential sanctuary features landscaped podium courtyards, children's play zones, rooftop gazebo lounge, and seamless arterial access to Patna's core expressways.",
+      "parking": "Secure Basement & Ground Covered Bays (38 Total Spaces)",
+      "floor": "G+6 Floors (Typical 6 Units Per Floor)",
+      "maintenancePerMonth": "₹3,800/mo",
+      "description": "Rajpati Enclave by Satvika Infra India Pvt. Ltd. (Satvika Group) is an earthquake-resistant, Vastu-compliant luxury residential development in Mithila Colony along Patna's coveted Danapur-Digha corridor, just 6 minutes from Patliputra Junction. Designed by Ranjan Architect, the project offers thoughtfully planned 2 BHK (1,525 sq.ft) and 3 BHK (1,865 – 1,876 sq.ft) homes featuring up to 3 generous private balconies, landscaped rooftop terrace garden with herbal plantations, ground floor health club gym, executive meeting room, reception lounge, piped kitchen gas, 26 secure basement parking bays, dual elevators by Johnson/Kone/Otis, and comprehensive 3-tier security.",
       "images": [
-        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85",
-        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?auto=format&fit=crop&w=1200&q=80"
+        "/images/projects/satvika-rajpati-enclave/aerial-campus-rooftop.jpg",
+        "/images/projects/satvika-rajpati-enclave/full-front-elevation.jpg",
+        "/images/projects/satvika-rajpati-enclave/signature-facade-elevation.jpg",
+        "/images/projects/satvika-rajpati-enclave/tower-elevation-jacaranda.jpg",
+        "/images/projects/satvika-rajpati-enclave/evening-twilight-facade.jpg",
+        "/images/projects/satvika-rajpati-enclave/skyward-crown-terrace.jpg",
+        "/images/projects/satvika-rajpati-enclave/luxury-master-bedroom.jpg",
+        "/images/projects/satvika-rajpati-enclave/riverview-balcony-lounge.jpg",
+        "/images/projects/satvika-rajpati-enclave/panoramic-balcony-lifestyle.jpg",
+        "/images/projects/satvika-rajpati-enclave/lush-green-garden-lawn.jpg",
+        "/images/projects/satvika-rajpati-enclave/happy-family-lifestyle.jpg",
+        "/images/projects/satvika-rajpati-enclave/multigen-family-living.jpg",
+        "/images/projects/satvika-rajpati-enclave/floorplan-typical-plate.jpg",
+        "/images/projects/satvika-rajpati-enclave/floorplan-parking-ground-basement.jpg",
+        "/images/projects/satvika-rajpati-enclave/floorplan-flats-101-104.jpg",
+        "/images/projects/satvika-rajpati-enclave/floorplan-flats-105-106.jpg",
+        "/images/projects/satvika-rajpati-enclave/location-connectivity-map.jpg"
       ],
       "features": [
-        "Developed by Renowned Satvika Group",
-        "Prime Sikandarpur Danapur Growth Corridor",
-        "100% Vastu-Compliant Spacious Suites",
-        "BRERA Registered: BRERAP198828070526260231E00",
-        "Landscaped Courtyard & Rooftop Gazebo",
-        "Dedicated Covered Reserved Parking"
+        "Developed by Renowned Satvika Infra India Pvt. Ltd.",
+        "BRERA Registered Project: BRERAP198828070526260231E00",
+        "Prime Mithila Colony Location — 5-6 Mins from Patliputra Junction",
+        "2 BHK (1,525 sq.ft) & 3 BHK (1,865 - 1,876 sq.ft) Layouts",
+        "100% Vastu-Friendly Orientations with 2 to 3 Expansive Balconies",
+        "Landscaped Rooftop Terrace Garden with Herbal & Medicinal Plantation",
+        "Ground Level Health Club Gym, Reception Lounge & Meeting Room",
+        "26 Dedicated Basement Bays + 12 Ground Covered Parking Slots",
+        "Dual High-Speed Elevators (Johnson/Kone/Otis) & Dual Staircases",
+        "Piped Kitchen Gas Infrastructure & Centralized Garbage Chute"
       ],
       "amenities": [
         {
-          "name": "Rooftop Gazebo & Deck",
+          "name": "Rooftop Terrace Garden",
           "icon": "deck"
         },
         {
-          "name": "Fitness Center",
+          "name": "Health Club Gym",
           "icon": "fitness_center"
         },
         {
-          "name": "Children Play Park",
-          "icon": "child_care"
-        },
-        {
-          "name": "Community Banquet Hall",
+          "name": "Executive Meeting Room",
           "icon": "groups"
         },
         {
-          "name": "Smart Intercom & CCTV",
-          "icon": "videocam"
+          "name": "Reception & Lounge",
+          "icon": "chair"
         },
         {
-          "name": "High-Speed Elevators",
+          "name": "Herbal & Medicinal Plantation",
+          "icon": "park"
+        },
+        {
+          "name": "Dual Elevators (Johnson/Kone/Otis)",
           "icon": "elevator"
         },
         {
-          "name": "24/7 Power Backup",
+          "name": "Basement & Ground Parking",
+          "icon": "local_parking"
+        },
+        {
+          "name": "Piped Kitchen Gas Line",
+          "icon": "propane_tank"
+        },
+        {
+          "name": "Central Garbage Chute",
+          "icon": "delete_sweep"
+        },
+        {
+          "name": "24/7 Silent DG Power Backup",
           "icon": "bolt"
+        },
+        {
+          "name": "Smart CCTV & Guard Room",
+          "icon": "videocam"
         },
         {
           "name": "Rainwater Harvesting",
           "icon": "water_drop"
+        }
+      ],
+      "amenityShowcase": [
+        {
+          "title": "Signature Architectural Elevation & Gate",
+          "category": "Architecture & Facade",
+          "description": "Grand contemporary architectural facade featuring sleek vertical fins, textured weather-proof paint, and secure manned entrance gates with dual vehicular ramps.",
+          "image": "/images/projects/satvika-rajpati-enclave/full-front-elevation.jpg"
+        },
+        {
+          "title": "Master Campus Aerial Panorama",
+          "category": "Master Planning",
+          "description": "Bird's-eye perspective showcasing the G+6 residential tower nestled within lush residential tranquility of Mithila Colony, Danapur.",
+          "image": "/images/projects/satvika-rajpati-enclave/aerial-campus-rooftop.jpg"
+        },
+        {
+          "title": "Bronze-Spine Signature Facade Detail",
+          "category": "Exterior Design",
+          "description": "Iconic exterior articulation with full-height glazing, bronze tree-spine accents, and deep cantilevered balconies ensuring shade and privacy.",
+          "image": "/images/projects/satvika-rajpati-enclave/signature-facade-elevation.jpg"
+        },
+        {
+          "title": "Jacaranda Tree Flowering Boulevard",
+          "category": "Landscape Architecture",
+          "description": "Picturesque avenue frontage fringed by seasonal jacaranda flowering trees, pedestrian pathways, and manicured green perimeter buffers.",
+          "image": "/images/projects/satvika-rajpati-enclave/tower-elevation-jacaranda.jpg"
+        },
+        {
+          "title": "Illuminated Twilight Architectural Vista",
+          "category": "Evening Ambience",
+          "description": "Dusk illumination with warm ambient lighting across private balconies, common lobbies, and rooftop crown features.",
+          "image": "/images/projects/satvika-rajpati-enclave/evening-twilight-facade.jpg"
+        },
+        {
+          "title": "Skyward Crown Cantilever Terrace",
+          "category": "Rooftop Architecture",
+          "description": "Striking architectural roof pergola and wing cantilever overlooking Patna's open sky and the green northern horizon.",
+          "image": "/images/projects/satvika-rajpati-enclave/skyward-crown-terrace.jpg"
+        },
+        {
+          "title": "Palatial Master Bedroom Suite",
+          "category": "Interior Elegance",
+          "description": "Generous master suites up to 11'0\" x 18'0\" featuring attached designer washrooms, walk-in dressing alcoves, and private balcony sliders.",
+          "image": "/images/projects/satvika-rajpati-enclave/luxury-master-bedroom.jpg"
+        },
+        {
+          "title": "Riverside & Sunset Balcony Lounge",
+          "category": "Balcony Lifestyle",
+          "description": "Expansive 22-foot long private balconies designed for tranquil morning tea, evening sunsets, and natural cross-ventilation.",
+          "image": "/images/projects/satvika-rajpati-enclave/riverview-balcony-lounge.jpg"
+        },
+        {
+          "title": "Family Balcony Vista & Leisure Deck",
+          "category": "Outdoor Living",
+          "description": "Wide, child-safe balcony balustrades providing serene outdoor spaces for family bonding and fresh air circulation.",
+          "image": "/images/projects/satvika-rajpati-enclave/panoramic-balcony-lifestyle.jpg"
+        },
+        {
+          "title": "Lush Green Courtyard & Garden Lawn",
+          "category": "Greenery & Nature",
+          "description": "Lush ground-level landscaping with shade trees, seasonal shrubbery, and paved stone walking promenades.",
+          "image": "/images/projects/satvika-rajpati-enclave/lush-green-garden-lawn.jpg"
+        },
+        {
+          "title": "Contemporary Family Living & Dining",
+          "category": "Living Spaces",
+          "description": "Optimally configured living and dining salons engineered for seamless family gatherings and modern entertaining.",
+          "image": "/images/projects/satvika-rajpati-enclave/happy-family-lifestyle.jpg"
+        },
+        {
+          "title": "Multi-Generational Community Serenity",
+          "category": "Community Living",
+          "description": "Thoughtfully crafted peaceful environment fostering comfort, safety, and joy across all generations of residents.",
+          "image": "/images/projects/satvika-rajpati-enclave/multigen-family-living.jpg"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Typical 1st & 6th Floor Plate (Flats 101 - 106)",
+          "type": "Master Floor Plate",
+          "description": "Master floor plate featuring 6 units per floor (Flats 101, 102, 104, 105 of 3 BHK, and Flats 103, 106 of 2 BHK) serviced by dual central elevators and dual fire escape staircases.",
+          "image": "/images/projects/satvika-rajpati-enclave/floorplan-typical-plate.jpg",
+          "specs": "6 Units / Floor • 1,525 - 1,876 sq.ft • Dual 6'x6' Elevators • Dual Staircases"
+        },
+        {
+          "title": "Basement & Ground Level Parking & Amenity Plan",
+          "type": "Circulation & Amenities",
+          "description": "Comprehensive parking layout showing 26 basement bays, 12 ground bays, dual vehicle ramps, guard room, reception (10'5\"x18'9\"), gym (15'5\"x17'11\"), and meeting room (18'3\"x17'11\").",
+          "image": "/images/projects/satvika-rajpati-enclave/floorplan-parking-ground-basement.jpg",
+          "specs": "38 Total Car Bays • Health Club & Reception Level • 2 Access Ramps"
+        },
+        {
+          "title": "Flats 101, 102 (3 BHK) & 103, 104 (2 & 3 BHK) Layout Cuts",
+          "type": "Unit Architectural Cuts",
+          "description": "Architectural unit cuts: Flat 101 (1,876 sq.ft 3 BHK, 3 balconies), Flat 102 (1,865 sq.ft 3 BHK), Flat 103 (1,525 sq.ft 2 BHK with 22'x5'4\" grand balcony), and Flat 104 (1,865 sq.ft 3 BHK).",
+          "image": "/images/projects/satvika-rajpati-enclave/floorplan-flats-101-104.jpg",
+          "specs": "Flats 101-104 • 1,525 - 1,876 sq.ft • 2 & 3 BHK • Up to 3 Balconies"
+        },
+        {
+          "title": "Flats 105 (3 BHK) & 106 (2 BHK) Unit Layout Cuts",
+          "type": "Unit Architectural Cuts",
+          "description": "Detailed layout cuts: Flat 105 (1,876 sq.ft 3 BHK with 15'6\"x13' drawing hall, 11'x18' master suite, 3 toilets, 3 balconies) and Flat 106 (1,525 sq.ft 2 BHK with 18'3\"x10'6\" master bedroom and 22' balcony).",
+          "image": "/images/projects/satvika-rajpati-enclave/floorplan-flats-105-106.jpg",
+          "specs": "Flats 105 & 106 • 1,525 & 1,876 sq.ft • 2 & 3 BHK • Vastu Compliant"
+        },
+        {
+          "title": "Patna Arterial Connectivity & Metro Transit Map",
+          "type": "Location & Transit Map",
+          "description": "Strategic connectivity map highlighting arterial links to Patliputra Junction (2 km / 5 mins), JP Ganga Path / Marine Drive (5 km / 10 mins), Patna Airport (8 km / 15 mins), and Boring Road (10 km).",
+          "image": "/images/projects/satvika-rajpati-enclave/location-connectivity-map.jpg",
+          "specs": "Mithila Colony, Danapur • 2 km Patliputra Station • 8 km Airport"
         }
       ],
       "overviewStats": [
@@ -1458,40 +2283,50 @@
         },
         {
           "label": "Configuration",
-          "value": "3 & 4 BHK Enclave",
+          "value": "2 & 3 BHK Residences",
           "icon": "bed"
         },
         {
           "label": "Super Built-up",
-          "value": "1,650 - 2,350 sq.ft",
+          "value": "1,525 - 1,876 sq.ft",
           "icon": "straighten"
         },
         {
           "label": "Locality",
-          "value": "Sikandarpur, Danapur",
+          "value": "Mithila Colony, Danapur",
           "icon": "pin_drop"
         }
       ],
       "neighborhoodInsights": [
         {
-          "title": "Danapur Railway Junction",
-          "distance": "5 mins (2.2 km)",
+          "title": "Patliputra Railway Junction",
+          "distance": "5 mins (2.0 km)",
           "type": "Metro"
         },
         {
-          "title": "Saguna More Commercial Hub",
-          "distance": "8 mins (3.5 km)",
+          "title": "Marine Drive / JP Ganga Path",
+          "distance": "10 mins (5.0 km)",
           "type": "Shopping"
         },
         {
+          "title": "Danapur Railway Junction",
+          "distance": "12 mins (4.0 km)",
+          "type": "Metro"
+        },
+        {
+          "title": "Patna International Airport (JPN)",
+          "distance": "15 mins (8.0 km)",
+          "type": "Airport"
+        },
+        {
           "title": "AIIMS Patna",
-          "distance": "9 mins (4.0 km)",
+          "distance": "20 mins (10.0 km)",
           "type": "Hospital"
         },
         {
-          "title": "Patna International Airport",
-          "distance": "16 mins (8.0 km)",
-          "type": "Airport"
+          "title": "Boring Road Commercial Hub",
+          "distance": "15 mins (10.0 km)",
+          "type": "Shopping"
         }
       ],
       "agent": {
@@ -1539,10 +2374,10 @@
       "maintenancePerMonth": "₹4,600/mo",
       "description": "KB Double-Side Boulevard occupies a prized dual-frontage corner parcel on the Danapur-Khagaul corridor. Featuring wide 40-foot double-sided avenue access, the development guarantees panoramic open vistas, superior natural cross-ventilation, and effortless vehicle ingress and egress. Comprising thoughtfully designed 3 & 4 BHK residences with private balconies, rooftop recreational facilities, and comprehensive 3-tier security.",
       "images": [
-        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=85",
-        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=85",
-        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80"
+        "/images/projects/durga-lifestyle/luxury-retail-boulevard.jpg",
+        "/images/projects/winsome-elite/20ft-wide-internal-boulevard.jpg",
+        "/images/projects/winsome-elite/grand-entrance-royal-arch.jpg",
+        "/images/projects/durga-77/terracotta-tower-facade.jpg"
       ],
       "features": [
         "Dual 40-Ft Wide Double-Side Avenue Frontage",
@@ -1649,7 +2484,7 @@
       "title": "Patna Real Estate Boom: The Bailey Road & Danapur Corridor Transformation llll",
       "excerpt": "Analyzing how metro connectivity, AIIMS expansion, and institutional RERA regulations are turning Patna into Bihar premier wealth and luxury residential market.",
       "category": "Patna Corridors",
-      "coverImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "coverImage": "/images/projects/venus-capital-heights/palatial-tower-facade-elevation.jpg",
       "author": {
         "name": "Amit Vikram",
         "role": "Managing Director, Bihar & Eastern Corridor",
@@ -1667,7 +2502,7 @@
       "featured": true,
       "metaTitle": "Patna Real Estate Market Boom 2026 | Realic Property Consultant",
       "metaDescription": "Explore the rapid price appreciation and luxury estate developments along Bailey Road, Danapur, and Patliputra Colony in Patna.",
-      "content": "\n### The New Era of Capital Appreciation in Bihar\n\nPatna, historically characterized by low-rise independent family dwellings and fragmented real estate holdings, is undergoing an unprecedented institutional transformation. Over the past twenty-four months, strategic state capital investments in the Patna Metro Rail project, the Ganga Pathway (Marine Drive), and elevated arterial expressways connecting Saguna More to Danapur Cantonment have redefined the city's residential skyline.\n\n### 1. Bailey Road: The Premier Sky-Penthouse Corridor\nBailey Road has established itself as Patna's equivalent to Bangalore's Indiranagar or Delhi's Golf Course Road. With double-lane flyovers connecting Saguna More directly to the Patna Airport and High Court within eighteen minutes, leading developers are introducing gated vertical communities with private elevators, sky decks, and multi-tier security.\n\n> \"Discerning families in Patna no longer look for standard apartments; they seek private estates in the sky with institutional RERA compliance and guaranteed clear title lineage.\" — *Amit Vikram, Realic Property Consultant*\n\n### 2. The Danapur Expansion & Riverfront Luxury\nDanapur, once considered an outer suburban cantonment, has evolved into the chosen sanctuary for sprawling contemporary villas. With proximity to premier medical hubs like AIIMS Patna and reputed educational institutions like DPS and St. Michael's, land values along the Khagaul-Danapur road have appreciated over 34% annualized.\n\n### 3. Institutional Fiduciary Diligence\nFor buyers, the most critical shift has been the enforcement of Bihar RERA (BR-RERA). In earlier cycles, informal agreements and unverified ancestral land claims posed significant legal risks. At Realic, our 3-Tier Title Lineage Audit guarantees that every property listed has an uninterrupted 30-year clean registry search, municipal tax clearance, and verified non-encumbrance documentation.\n    "
+      "content": "\n### The New Era of Capital Appreciation in Bihar\n\nPatna, historically characterized by low-rise independent family dwellings and fragmented real estate holdings, is undergoing an unprecedented institutional transformation. Over the past twenty-four months, strategic state capital investments in the Patna Metro Rail project, the Ganga Pathway (Marine Drive), and elevated arterial expressways connecting Saguna More to Danapur Cantonment have redefined the city's residential skyline.\n\n### 1. Bailey Road: The Premier Sky-Penthouse Corridor\nBailey Road has established itself as Patna's premier sky-penthouse and presidential township corridor. With double-lane flyovers connecting Saguna More directly to the Patna Airport and High Court within eighteen minutes, leading developers are introducing gated vertical communities with private elevators, sky decks, and multi-tier security.\n\n> \"Discerning families in Patna no longer look for standard apartments; they seek private estates in the sky with institutional RERA compliance and guaranteed clear title lineage.\" — *Amit Vikram, Realic Property Consultant*\n\n### 2. The Danapur Expansion & Riverfront Luxury\nDanapur, once considered an outer suburban cantonment, has evolved into the chosen sanctuary for sprawling contemporary villas. With proximity to premier medical hubs like AIIMS Patna and reputed educational institutions like DPS and St. Michael's, land values along the Khagaul-Danapur road have appreciated over 34% annualized.\n\n### 3. Institutional Fiduciary Diligence\nFor buyers, the most critical shift has been the enforcement of Bihar RERA (BR-RERA). In earlier cycles, informal agreements and unverified ancestral land claims posed significant legal risks. At Realic, our 3-Tier Title Lineage Audit guarantees that every property listed has an uninterrupted 30-year clean registry search, municipal tax clearance, and verified non-encumbrance documentation.\n    "
     },
     {
       "id": "rera-title-diligence-checklist",
@@ -1675,7 +2510,7 @@
       "title": "The 30-Year Title Search: Protecting High-Value Real Estate Investments",
       "excerpt": "A forensic legal guide on verifying encumbrance certificates, mother deeds, and sanction plans before acquiring luxury properties in India.",
       "category": "Legal & RERA",
-      "coverImage": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1200&q=80",
+      "coverImage": "/images/projects/durga-lifestyle/full-tower-elevation-atal-path.jpg",
       "author": {
         "name": "Julian Mercer",
         "role": "Head of Legal & Compliance Counsel",
@@ -1701,7 +2536,7 @@
       "title": "The Modern NRI Playbook: Acquiring Luxury Estates Remotely with Digital Escrow",
       "excerpt": "How diaspora investors in North America, Europe, and the Middle East are executing seamless high-value transactions with zero travel overhead.",
       "category": "NRI Advisory",
-      "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "coverImage": "/images/projects/satvika-rajpati-enclave/full-front-elevation.jpg",
       "author": {
         "name": "Sarah Lin",
         "role": "Partner, Private Client Services",
@@ -1724,28 +2559,28 @@
     {
       "id": "modernist-waterfront-architecture-trends",
       "slug": "modernist-waterfront-architecture-trends",
-      "title": "The Rise of Modernist Waterfront Villas: Bellandur & Whitefield Lakefront Living",
-      "excerpt": "Exploring the architectural philosophy behind panoramic cantilevered glass terraces, infinity edges, and biophilic living in Bangalore Silicon Valley.",
+      "title": "The Rise of Modernist Riverfront High-Rises: JP Ganga Marine Drive Living in Patna",
+      "excerpt": "Exploring the architectural philosophy behind panoramic cantilevered glass terraces, infinity pools, and riverfront living along Patna Ganga Pathway.",
       "category": "Luxury Living",
-      "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "coverImage": "/images/projects/winsome-icon/day-elevation-glass-tower.jpg",
       "author": {
-        "name": "Eleanor Vance",
-        "role": "Founder & Chief Executive Officer",
-        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80"
+        "name": "Amit Vikram",
+        "role": "Managing Director, Bihar & Eastern Corridor",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
       },
       "publishedAt": "July 18, 2026",
       "readTime": "7 min read",
       "tags": [
-        "Bangalore Luxury",
-        "Lakefront Villas",
-        "Architecture",
-        "Prestige Habitat",
-        "Bellandur"
+        "Patna Luxury",
+        "Marine Drive",
+        "Riverfront Towers",
+        "Ganga Horizons",
+        "Winsome Icon"
       ],
       "featured": false,
-      "metaTitle": "Waterfront Modernist Luxury Architecture | Realic",
-      "metaDescription": "Discover how contemporary luxury homes in Bangalore integrate lakefront infinity pools, acoustic acoustic glass, and biophilic open pavilions.",
-      "content": "\n### Living on the Edge of Nature and Urban Innovation\n\nIn a bustling technology capital like Bangalore, the true definition of luxury has moved beyond gold-leaf moldings or generic marble lobbies. Today, luxury is defined by space, light, natural acoustics, and expansive water horizons.\n\n### The Modernist Design Vocabulary\n\n* **Thermal Acoustic Double-Glazed Glass**: Allowing dramatic 12-foot high ceiling-to-floor views of Varthur and Bellandur lakes while insulating indoor air temperature and eliminating urban decibels.\n* **Cantilevered Terraces**: Extending the private living salon outward into the breeze, creating shaded outdoor lounges that function seamlessly in monsoon and summer alike.\n* **Integrated Smart Micro-Grids**: Utilizing rooftop photovoltaic arrays and greywater recycling systems that deliver sustainable luxury with near-zero grid dependency.\n    "
+      "metaTitle": "Ganga Riverfront Luxury Living & Marine Drive Architecture | Realic",
+      "metaDescription": "Discover how contemporary luxury homes along Patna Ganga Marine Drive integrate panoramic river horizons, acoustic glass, and infinity pools.",
+      "content": "\n### Living on the Edge of Nature and Urban Innovation\n\nAlong the transformative JP Ganga Pathway (Marine Drive) in Patna, the definition of luxury has evolved. Today, discerning homeowners demand space, light, acoustic serenity, and panoramic horizons spanning the sacred Ganges.\n\n### The Modernist Riverfront Design Vocabulary\n\n* **Thermal Acoustic Double-Glazed Glass**: Allowing dramatic floor-to-ceiling vistas of the Ganga while insulating indoor air temperature and eliminating urban decibels.\n* **Cantilevered Terraces**: Extending private living salons outward into the river breeze, creating shaded outdoor viewing decks that function seamlessly year-round.\n* **Integrated Rooftop Amenities**: Featuring rooftop infinity-edge pools, sky lounges, and jogging decks engineered atop landmark towers like Winsome Icon and Hari Pearlz.\n    "
     }
   ],
   "inquiries": [

@@ -26,7 +26,7 @@ export default function AdminBlogsPage() {
     title: '',
     slug: '',
     category: 'Market Trends' as BlogArticle['category'],
-    coverImage: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80',
+    coverImage: '/images/projects/venus-capital-heights/palatial-tower-facade-elevation.jpg',
     excerpt: '',
     authorName: 'Amit Vikram',
     authorRole: 'Managing Director, Bihar & Eastern Corridor',
@@ -83,7 +83,7 @@ export default function AdminBlogsPage() {
       title: '',
       slug: '',
       category: 'Market Trends',
-      coverImage: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80',
+      coverImage: '/images/projects/venus-capital-heights/palatial-tower-facade-elevation.jpg',
       excerpt: '',
       authorName: 'Amit Vikram',
       authorRole: 'Managing Director, Bihar & Eastern Corridor',
@@ -632,7 +632,7 @@ export default function AdminBlogsPage() {
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     (e.target as any).src =
-                      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80';
+                      '/images/projects/venus-capital-heights/palatial-tower-facade-elevation.jpg';
                   }}
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
@@ -818,7 +818,7 @@ export default function AdminBlogsPage() {
                 <div className="text-xs text-[#4d5156] line-clamp-2 leading-relaxed">
                   {formData.metaDescription ||
                     formData.excerpt ||
-                    'Comprehensive institutional advisory and luxury market analysis in Patna and Bangalore.'}
+                    'Comprehensive institutional advisory and luxury market analysis in Patna.'}
                 </div>
               </div>
 
@@ -914,7 +914,7 @@ export default function AdminBlogsPage() {
             </span>
           </div>
           <p className="text-xs sm:text-sm text-slate-600 mt-1 font-jakarta">
-            Publish thought leadership, RERA title updates, and Patna/Bangalore market insights.
+            Publish thought leadership, RERA title updates, and Patna luxury market insights.
           </p>
         </div>
 

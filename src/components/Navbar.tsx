@@ -26,9 +26,19 @@ export const Navbar: React.FC = () => {
       active: pathname === '/properties' || pathname?.startsWith('/properties'),
     },
     {
-      label: 'Buy',
-      href: '/properties',
-      active: pathname === '/',
+      label: 'Interior',
+      href: '/interior',
+      active: pathname?.startsWith('/interior'),
+    },
+    {
+      label: 'Construction',
+      href: '/construction',
+      active: pathname?.startsWith('/construction'),
+    },
+    {
+      label: 'Builders',
+      href: '/builder',
+      active: pathname?.startsWith('/builder'),
     },
     {
       label: 'Sell',
@@ -79,12 +89,12 @@ export const Navbar: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation Links */}
-          <div className="hidden lg:flex items-center gap-6 xl:gap-8 h-full">
+          <div className="hidden lg:flex items-center gap-3.5 xl:gap-6 2xl:gap-7 h-full">
             {navLinks.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
-                className={`h-full flex items-center transition-colors duration-200 text-xs xl:text-sm font-semibold tracking-wide ${
+                className={`h-full flex items-center transition-colors duration-200 text-xs xl:text-sm font-semibold tracking-wide whitespace-nowrap ${
                   item.active
                     ? 'text-primary border-b-2 border-primary font-bold'
                     : 'text-neutral-600 hover:text-black font-medium'
@@ -99,14 +109,14 @@ export const Navbar: React.FC = () => {
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             {/* Direct Phone Call Button */}
             <a
-              href="tel:+918045678900"
+              href="tel:+919102599969"
               className="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl border border-neutral-200 bg-neutral-50/80 hover:bg-neutral-100 hover:border-neutral-300 text-neutral-900 text-xs font-bold transition-all shadow-2xs group"
               title="Call Realic Advisory Desk"
             >
               <span className="material-symbols-outlined text-[17px] text-black group-hover:scale-110 transition-transform">
                 call
               </span>
-              <span className="tracking-tight font-montserrat">+91 80 4567 8900</span>
+              <span className="tracking-tight font-montserrat">+91 91025 99969</span>
             </a>
 
             {/* Enquire Now Popup Trigger Button */}
@@ -150,11 +160,11 @@ export const Navbar: React.FC = () => {
 
             <div className="pt-3 mt-2 border-t border-neutral-200 flex flex-col gap-2">
               <a
-                href="tel:+918045678900"
+                href="tel:+919102599969"
                 className="w-full py-2.5 px-3 text-center text-xs font-bold text-neutral-800 bg-neutral-100 rounded-xl transition-colors flex items-center justify-center gap-2 border border-neutral-200"
               >
                 <span className="material-symbols-outlined text-base text-black">call</span>
-                <span>+91 80 4567 8900</span>
+                <span>+91 91025 99969</span>
               </a>
               <button
                 onClick={() => {

@@ -5,7 +5,7 @@ import BlogsClient from './BlogsClient';
 export const metadata: Metadata = {
   title: 'Real Estate Research, Market Trends & Legal Diligence | Realic Property Consultant',
   description:
-    'Authoritative market intelligence, Patna and Bangalore real estate boom analysis, RERA legal due diligence frameworks, and luxury property investment strategies.',
+    'Authoritative market intelligence, Patna luxury real estate boom analysis, RERA legal due diligence frameworks, and high-end property investment strategies.',
   openGraph: {
     title: 'Real Estate Market Intelligence & Legal Diligence | Realic Property Consultant',
     description:

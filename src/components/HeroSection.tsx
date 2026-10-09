@@ -28,7 +28,7 @@ export const HeroSection: React.FC = () => {
         <div
           className="bg-cover bg-right lg:bg-center w-full h-full opacity-60 lg:opacity-75 transition-opacity duration-700"
           style={{
-            backgroundImage: `url('/images/hero-villa.jpg')`,
+            backgroundImage: `url('/images/projects/winsome-icon/day-elevation-glass-tower.jpg')`,
             backgroundPosition: 'right 20% center',
           }}
         />
@@ -78,7 +78,7 @@ export const HeroSection: React.FC = () => {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search by city, neighborhood, or zip code"
+                  placeholder="Search Patna neighborhoods (Bailey Road, Atal Path, Danapur, Digha)..."
                   className="w-full h-14 pl-12 pr-4 rounded-lg border border-border-subtle focus:border-secondary focus:ring-1 focus:ring-secondary outline-none font-body-md text-body-md bg-surface-pure text-primary placeholder:text-neutral-400"
                 />
               </div>

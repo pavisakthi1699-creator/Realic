@@ -5,11 +5,11 @@ import PropertiesClient from './PropertiesClient';
 export const metadata: Metadata = {
   title: 'Realic Property Consultant - Search',
   description:
-    'Search verified luxury residences, sky penthouses, and gated modern villas in Bangalore and premier corridors. Filter by BHK, price, and neighborhood with interactive map search.',
+    'Search verified luxury residences, sky penthouses, and gated high-rise communities in Patna prime corridors. Filter by BHK, price, and neighborhood with interactive map search.',
   openGraph: {
     title: 'Realic Property Consultant - Search',
     description:
-      'Search verified luxury residences, sky penthouses, and gated modern villas in Bangalore with interactive map view and full legal verification.',
+      'Search verified luxury residences, sky penthouses, and gated high-rise communities in Patna with interactive map view and full legal verification.',
     url: 'https://realicproperty.com/properties',
   },
 };

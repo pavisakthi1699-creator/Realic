@@ -60,10 +60,10 @@ export default function PropertyMap({
 
       if (!isMounted || !mapContainerRef.current) return;
 
-      // Default center: Bangalore if available, else first property
+      // Default center: Patna, Bihar if available, else first property
       const defaultCenter: [number, number] = properties.length > 0 && properties[0].coordinates
         ? [properties[0].coordinates.lat, properties[0].coordinates.lng]
-        : [12.9716, 77.5946];
+        : [25.5941, 85.1376];
 
       const initialZoom = singlePropertyMode ? 15 : 12;
 

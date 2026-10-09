@@ -17,7 +17,7 @@ export default function PropertiesClient() {
   const [selectedType, setSelectedType] = useState(initialType);
   const [selectedBhk, setSelectedBhk] = useState<number | 'All'>('All');
   const [priceFilterActive, setPriceFilterActive] = useState<boolean>(false);
-  const [activePropertyId, setActivePropertyId] = useState<string | null>('whitefield-azure');
+  const [activePropertyId, setActivePropertyId] = useState<string | null>('winsome-icon');
   const [shortlisted, setShortlisted] = useState<Record<string, boolean>>({});
   const [showCityDropdown, setShowCityDropdown] = useState(false);
   const [showTypeDropdown, setShowTypeDropdown] = useState(false);
@@ -130,7 +130,7 @@ export default function PropertiesClient() {
 
               {showCityDropdown && (
                 <div className="absolute top-full mt-2 left-0 w-44 bg-white border border-border-subtle rounded-xl shadow-xl z-30 py-2">
-                  {['All', 'Bangalore', 'Patna'].map((city) => (
+                  {['All', 'Patna'].map((city) => (
                     <button
                       key={city}
                       onClick={() => {
@@ -300,7 +300,7 @@ export default function PropertiesClient() {
                     <img
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       alt={prop.title}
-                      src={prop.images[0] || '/images/search-prop-1.jpg'}
+                      src={prop.images[0] || '/images/projects/winsome-icon/day-elevation-glass-tower.jpg'}
                     />
                     {prop.verified && (
                       <div className="absolute top-3 left-3 bg-secondary text-on-secondary px-2 py-1 rounded text-xs font-bold flex items-center gap-1 shadow-sm">
@@ -437,7 +437,7 @@ export default function PropertiesClient() {
           >
             <div className="relative h-32 w-full rounded-xl overflow-hidden mb-2 bg-surface-container">
               <img
-                src={activeProperty.images[0] || '/images/search-prop-1.jpg'}
+                src={activeProperty.images[0] || '/images/projects/winsome-icon/day-elevation-glass-tower.jpg'}
                 alt={activeProperty.title}
                 className="w-full h-full object-cover"
               />
